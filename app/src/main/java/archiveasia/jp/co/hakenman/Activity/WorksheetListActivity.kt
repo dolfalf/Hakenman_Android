@@ -4,19 +4,17 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
-import android.text.InputType
-import android.view.Gravity
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
-import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
 import archiveasia.jp.co.hakenman.R
 import archiveasia.jp.co.hakenman.Adapter.WorksheetListAdapter
 import archiveasia.jp.co.hakenman.CustomLog
 import archiveasia.jp.co.hakenman.Manager.WorksheetManager
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.res.Resources
+import android.view.*
+import android.widget.NumberPicker
+import kotlinx.android.synthetic.main.datepicker_dialog.view.*
+import java.util.*
 
 class WorksheetListActivity : AppCompatActivity() {
 
@@ -81,30 +79,24 @@ class WorksheetListActivity : AppCompatActivity() {
     }
 
     private fun showCreateWorksheetDialog() {
+
+        // TODO: Picker Dialogで修正
+        val dialogView = LayoutInflater.from(this).inflate(R.layout.datepicker_dialog, null)
+        val dayIdentify = Resources.getSystem().getIdentifier("day", "id", "android")
+        dialogView.date_picker.findViewById<NumberPicker>(dayIdentify).visibility = View.GONE
+        dialogView.date_picker.maxDate = Date().time
+
         val alertDialog = AlertDialog.Builder(this)
-        var editTextAge: EditText? = null
 
         with (alertDialog) {
-            setTitle(getString(R.string.create_worksheet_title))
+            setView(dialogView)
+            setTitle("作成する年月を洗濯してください。")
 
-            editTextAge = EditText(context)
-            editTextAge!!.hint="201808(yyyyDD)"
-            editTextAge!!.inputType = InputType.TYPE_CLASS_NUMBER
+            setPositiveButton(getString(archiveasia.jp.co.hakenman.R.string.positive_button)) {
+                dialog, _ ->
+                val yearMonth = getPickerDateToString(dialogView)
 
-            setPositiveButton(getString(R.string.positive_button)) {
-                dialog, whichButton ->
-                val editTextValue = editTextAge!!.text
-                // TODO: validateする他の方法考えてみる
-                if (editTextValue.isNullOrBlank()) {
-                    Toast.makeText(this@WorksheetListActivity, getString(R.string.empty_error_message), Toast.LENGTH_SHORT).show()
-                    showCreateWorksheetDialog()
-                } else if (editTextValue.trim().length != 6) {
-                    Toast.makeText(this@WorksheetListActivity, getString(R.string.invalidate_error_message), Toast.LENGTH_SHORT).show()
-                    showCreateWorksheetDialog()
-                } else {
-                    var yearMonth = editTextAge!!.text.toString()
-                    var worksheet = WorksheetManager.createWorksheet(yearMonth)
-
+                var worksheet = WorksheetManager.createWorksheet(yearMonth)
                     if (WorksheetManager.isAlreadyExistWorksheet(yearMonth)) {
                         showAlertDialog(getString(R.string.update_worksheet_title), getString(R.string.positive_button)) {
                             WorksheetManager.updateWorksheet(worksheet)
@@ -116,20 +108,31 @@ class WorksheetListActivity : AppCompatActivity() {
                         CustomLog.d("勤務表生成 : " + yearMonth)
                         reloadListView()
                     }
-                    dialog.dismiss()
-                }
 
-            }
 
-            setNegativeButton(R.string.negative_button) {
-                dialog, whichButton ->
                 dialog.dismiss()
             }
+
+            setNegativeButton(getString(archiveasia.jp.co.hakenman.R.string.negative_button)) {
+                dialog, _ ->
+                dialog.dismiss()
+            }
+
+            create()
+            show()
+        }
+    }
+
+    private fun getPickerDateToString(view: View): String {
+        val year = view.date_picker.year.toString()
+        val month = view.date_picker.month + 1
+        val finalMonth = if (month < 10) {
+            "0" + month.toString()
+        } else {
+            month.toString()
         }
 
-        val dialog = alertDialog.create()
-        dialog.setView(editTextAge)
-        dialog.show()
+        return year+finalMonth
     }
 
     private fun reloadListView() {
@@ -141,13 +144,6 @@ class WorksheetListActivity : AppCompatActivity() {
         WorksheetManager.loadLocalWorksheet()
 
         var worksheetList = WorksheetManager.getWorksheetList()
-
-        // 勤務表がない場合、中央にメッセージを表示する
-        if (worksheetList.isEmpty()) {
-            worksheet_info_textView.visibility = View.VISIBLE
-        } else {
-            worksheet_info_textView.visibility = View.INVISIBLE
-        }
 
         val adapter = WorksheetListAdapter(this, worksheetList)
 

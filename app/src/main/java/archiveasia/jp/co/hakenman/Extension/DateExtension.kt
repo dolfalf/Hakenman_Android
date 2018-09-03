@@ -6,6 +6,7 @@ import java.util.*
 fun Date.year(): String = SimpleDateFormat("yyyy").format(this)
 
 fun Date.month(): String = SimpleDateFormat("MM").format(this)
+fun Date.day(): String = SimpleDateFormat("dd").format(this)
 
 fun Date.yearMonth(): String = SimpleDateFormat("yyyyMM").format(this)
 

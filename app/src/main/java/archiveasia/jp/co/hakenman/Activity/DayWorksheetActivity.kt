@@ -191,7 +191,7 @@ class DayWorksheetActivity : AppCompatActivity() {
                 minute = calendar.get(Calendar.MINUTE)
             }
             WorkTimeType.BREAK_TIME -> {
-                hour = 0
+                hour = 1
                 minute = 0
             }
         }

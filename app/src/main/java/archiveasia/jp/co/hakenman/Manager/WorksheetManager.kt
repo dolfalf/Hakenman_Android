@@ -35,13 +35,37 @@ object WorksheetManager {
      */
     fun loadLocalWorksheet() {
         var filepath = MyApplication.applicationContext().filesDir.path + JSON_FILE_NAME
+
+        // 今月の勤務表
+        val currentYearMonth = Calendar.getInstance().time.yearMonth()
+        val newWorksheet = createWorksheet(currentYearMonth)
+
         if (File(filepath).exists()) {
             val gson = GsonBuilder().setDateFormat("MMM dd, yyyy hh:mm:ss a").create()
             var worksheetList: MutableList<Worksheet> = gson.fromJson(FileReader(File(filepath)), object : TypeToken<MutableList<Worksheet>>() {}.type)
             this.worksheetList = worksheetList
+
+            // 今月の勤務表がJSONファイルにない場合、生成する
+            if (!isAlreadyExistWorksheet(currentYearMonth)) {
+                addFirstWorksheetToJsonFile(newWorksheet)
+            }
         } else {
             println("No File")
+            // TODO: 今月の勤務表を生成してファイル保存
+            addFirstWorksheetToJsonFile(newWorksheet)
         }
+    }
+
+    fun addFirstWorksheetToJsonFile(worksheet: Worksheet) {
+        worksheetList.add(0, worksheet)
+        val gson = GsonBuilder().setPrettyPrinting().create()
+        val jsonString = gson.toJson(worksheetList)
+
+        var filepath = MyApplication.applicationContext().filesDir.path + JSON_FILE_NAME
+
+        val writer = PrintWriter(filepath)
+        writer.append(jsonString)
+        writer.close()
     }
 
     /**
