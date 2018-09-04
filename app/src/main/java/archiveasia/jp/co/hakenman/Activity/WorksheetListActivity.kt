@@ -122,17 +122,17 @@ class WorksheetListActivity : AppCompatActivity() {
                 val yearMonth = getPickerDateToString(dialogView)
 
                 var worksheet = WorksheetManager.createWorksheet(yearMonth)
-                    if (WorksheetManager.isAlreadyExistWorksheet(yearMonth)) {
-                        showAlertDialog(getString(R.string.update_worksheet_title), getString(R.string.confirm)) {
-                            WorksheetManager.updateWorksheet(worksheet)
-                            CustomLog.d("勤務表生成 : " + yearMonth)
-                            reloadListView()
-                        }
-                    } else {
-                        WorksheetManager.addWorksheetToJsonFile(worksheet)
+                if (WorksheetManager.isAlreadyExistWorksheet(yearMonth)) {
+                    showAlertDialog(getString(R.string.update_worksheet_title), getString(R.string.confirm)) {
+                        WorksheetManager.updateWorksheet(worksheet)
                         CustomLog.d("勤務表生成 : " + yearMonth)
                         reloadListView()
                     }
+                } else {
+                    WorksheetManager.addWorksheetToJsonFile(worksheet)
+                    CustomLog.d("勤務表生成 : " + yearMonth)
+                    reloadListView()
+                }
 
                 dialog.dismiss()
             }
