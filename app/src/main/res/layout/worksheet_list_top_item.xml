@@ -84,7 +84,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="今月の勤務情報"
+        android:text="@string/info_this_month_work"
         android:textColor="@color/colorBlack"
         android:textSize="16sp"
         app:layout_constraintLeft_toRightOf="@id/thisMonth_calendar_constraintLayout"
@@ -95,13 +95,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:layout_marginLeft="12dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginRight="12dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="12dp"
         android:background="@drawable/bottom_border_line"
         app:layout_constraintBottom_toTopOf="@id/thisMonth_day_constraintLayout"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/item_right_arrow"
         app:layout_constraintStart_toEndOf="@+id/thisMonth_calendar_constraintLayout"
         app:layout_constraintTop_toBottomOf="@id/thisMonth_title_textView">
 
@@ -175,5 +175,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/item_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_lightgray_24dp"/>
 
 </android.support.constraint.ConstraintLayout>

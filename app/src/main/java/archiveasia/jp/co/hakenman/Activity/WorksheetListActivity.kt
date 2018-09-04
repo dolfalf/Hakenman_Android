@@ -1,33 +1,61 @@
 package archiveasia.jp.co.hakenman.Activity
 
 import android.content.Intent
+import android.content.res.Configuration
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
-import android.widget.TextView
 import archiveasia.jp.co.hakenman.R
 import archiveasia.jp.co.hakenman.Adapter.WorksheetListAdapter
 import archiveasia.jp.co.hakenman.CustomLog
 import archiveasia.jp.co.hakenman.Manager.WorksheetManager
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_worksheet_list.*
 import android.content.res.Resources
+import android.support.v4.view.GravityCompat
+import android.support.v7.app.ActionBarDrawerToggle
 import android.view.*
 import android.widget.NumberPicker
 import kotlinx.android.synthetic.main.datepicker_dialog.view.*
+import kotlinx.android.synthetic.main.worksheet_listview_main.*
 import java.util.*
 
 class WorksheetListActivity : AppCompatActivity() {
 
+    private lateinit var toggle: ActionBarDrawerToggle
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_worksheet_list)
         adaptListView()
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeButtonEnabled(true)
+
+        toggle = ActionBarDrawerToggle(
+                this, drawer_layout, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+
+        drawer_layout.addDrawerListener(toggle)
 
         // FloatingActionButton リスナー設定
         fab.setOnClickListener { view ->
             showCreateWorksheetDialog()
         }
         title = getString(R.string.main_activity_title)
+
+        nav_view.setNavigationItemSelectedListener {
+            when (it.itemId) {
+                R.id.nav_add_worksheet -> {
+                    showCreateWorksheetDialog()
+                }
+                R.id.nav_setting -> {
+                    val intent = Intent(this, SettingActivity::class.java)
+                    startActivity(intent)
+                }
+            }
+
+            drawer_layout.closeDrawer(GravityCompat.START)
+            true
+        }
 
         CustomLog.d("勤務表一覧画面")
     }
@@ -37,18 +65,20 @@ class WorksheetListActivity : AppCompatActivity() {
         reloadListView()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.setting_menu, menu)
-        return true
+    override fun onPostCreate(savedInstanceState: Bundle?) {
+        super.onPostCreate(savedInstanceState)
+        toggle.syncState()
+    }
+
+
+    override fun onConfigurationChanged(newConfig: Configuration?) {
+        super.onConfigurationChanged(newConfig)
+        toggle.onConfigurationChanged(newConfig)
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when (item!!.itemId) {
-            R.id.action_setting -> {
-                val intent = Intent(this, SettingActivity::class.java)
-                startActivity(intent)
-                return true
-            }
+        if (toggle.onOptionsItemSelected(item)) {
+            return true
         }
         return super.onOptionsItemSelected(item)
     }
@@ -56,13 +86,7 @@ class WorksheetListActivity : AppCompatActivity() {
     private fun showAlertDialog(title: String, btn: String, completion: () -> Unit) {
         val alertDialog = AlertDialog.Builder(this)
         with (alertDialog) {
-
-            val titleView = TextView(context)
-            titleView.text = title
-            titleView.gravity = Gravity.CENTER_HORIZONTAL
-            titleView.textSize = 20F
-            titleView.setTextColor(resources.getColor(R.color.colorBlack))
-            setView(titleView)
+            setTitle(title)
 
             setPositiveButton(btn) {
                 dialog, whichButton ->
@@ -90,7 +114,7 @@ class WorksheetListActivity : AppCompatActivity() {
 
         with (alertDialog) {
             setView(dialogView)
-            setTitle("作成する年月を洗濯してください。")
+            setTitle(getString(R.string.select_yearmonth_message))
 
             setPositiveButton(getString(archiveasia.jp.co.hakenman.R.string.positive_button)) {
                 dialog, _ ->
@@ -108,7 +132,6 @@ class WorksheetListActivity : AppCompatActivity() {
                         CustomLog.d("勤務表生成 : " + yearMonth)
                         reloadListView()
                     }
-
 
                 dialog.dismiss()
             }

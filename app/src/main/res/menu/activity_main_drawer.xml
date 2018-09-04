@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/manage_worksheet">
+        <menu>
+            <item
+                android:id="@+id/nav_add_worksheet"
+                android:icon="@drawable/ic_add_white_24dp"
+                android:title="@string/add_worksheet_item" />
+        </menu>
+    </item>
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/setting_item" />
+        </menu>
+    </item>
+
+</menu>

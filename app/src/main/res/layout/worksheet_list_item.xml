@@ -52,8 +52,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:background="@drawable/bottom_border_line"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/item_right_arrow"
         app:layout_constraintStart_toEndOf="@+id/worksheet_list_constraintLayout"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -92,12 +94,11 @@
         android:id="@+id/worksheet_item_day_constraintLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:background="@drawable/bottom_border_line"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/worksheet_list_constraintLayout"
-        app:layout_constraintTop_toBottomOf="@id/worksheet_item_hour_constraintLayout"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/worksheet_item_hour_constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/worksheet_item_hour_constraintLayout"
+        app:layout_constraintTop_toBottomOf="@id/worksheet_item_hour_constraintLayout">
 
         <TextView
             android:id="@+id/workDay_textView"
@@ -129,5 +130,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/item_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_lightgray_24dp"/>
 
 </android.support.constraint.ConstraintLayout>

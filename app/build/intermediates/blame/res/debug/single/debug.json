@@ -20,12 +20,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -44,12 +44,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -60,12 +60,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
@@ -116,20 +116,20 @@
         "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/4b19d590321e84552f4114f0cbb4e9fe/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_mtrl_snackbar_background.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/drawable/mtrl_snackbar_background.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/4b19d590321e84552f4114f0cbb4e9fe/res/layout/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc01.aar/da41de24fa29cb3e8260570d592c51d0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
@@ -140,20 +140,20 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/animator-v21/design_appbar_state_list_animator.xml"
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_worksheet_border_line.xml.flat",
         "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/drawable/worksheet_border_line.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -276,12 +276,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -292,12 +292,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
@@ -326,6 +326,10 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_worksheet_listview_main.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/layout/worksheet_listview_main.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -400,12 +404,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -428,12 +432,12 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
-        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
-    },
-    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
+        "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
@@ -794,6 +798,10 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc01.aar/da41de24fa29cb3e8260570d592c51d0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
@@ -1516,6 +1524,10 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_activity_worksheet_list.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/layout/activity_worksheet_list.xml"
+    },
+    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
@@ -1576,6 +1588,10 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc01.aar/92d70a0a5323b85de18d832d2e4fc5fe/res/color/mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_right_lightgray_24dp.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/drawable/ic_keyboard_arrow_right_lightgray_24dp.xml"
+    },
+    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable/abc_ic_search_api_material.xml"
     },
@@ -1610,10 +1626,6 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1658,6 +1670,10 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_abc_cascading_menu_item_layout.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_ic_settings_black_24dp.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/drawable/ic_settings_black_24dp.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1870,10 +1886,6 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/anim/abc_tooltip_exit.xml"
-    },
-    {
-        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/menu_setting_menu.xml.flat",
-        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/menu/setting_menu.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_light.xml.flat",
