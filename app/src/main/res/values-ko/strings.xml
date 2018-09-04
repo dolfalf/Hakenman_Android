@@ -8,8 +8,10 @@
     <string name="update_worksheet_title">"이미 존재하는 근무표입니다.\n덮어쓰시겠습니까?"</string>
     <string name="delete_worksheet_title">근무표를 삭제하시겠습니까?</string>
     <string name="select_yearmonth_message">생성할 근무표의\n날짜를 선택해주세요.</string>
-    <string name="delete_button">삭제</string>
-    <string name="setting_button">설정</string>
+    <string name="delete">삭제</string>
+    <string name="setting">설정</string>
+    <string name="navigation_drawer_open">drawer를 연다</string>
+    <string name="navigation_drawer_close">drawer를 닫는다</string>
 
     <!-- MonthWorksheet Activity -->
     <string name="month_work_activity_title">%s년%s월 근무표</string>
@@ -22,11 +24,8 @@
     <string name="set_beginTime_title">출근시간 등록</string>
     <string name="set_endTime_title">퇴근시간 등록</string>
     <string name="set_breakTime_title">휴게시간 등록</string>
-    <string name="positive_button">확인</string>
-    <string name="negative_button">취소</string>
-
-    <!-- Setting Activity -->
-    <string name="setting_activity_title">설정</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
 
     <!-- EmailSetting Activity -->
     <string name="email_setting_activity_title">메일 정보 수정</string>
@@ -43,8 +42,6 @@
     <string name="break_time_column">휴게</string>
     <string name="work_time_column">근무시간</string>
     <string name="note_column">비고</string>
-    <string name="navigation_drawer_open">drawer를 연다</string>
-    <string name="navigation_drawer_close">drawer를 닫는다</string>
 
     <!-- Day　Worksheet Layout -->
     <string name="workday_setting_header">근태관리</string>
@@ -67,6 +64,13 @@
     <string name="email_empty_message">등록해주세요</string>
     <string name="email_to_title">수신인</string>
 
+    <!--Bottom Sheet Dialog-->
+    <string name="set_today_begin_time_message">현재시각으로 출근시간을 등록하시겠습니까?</string>
+    <string name="set_today_end_time_message">현재시각으로 퇴근시간을 등록하시겠습니까?</string>
+    <string name="select">선택</string>
+    <string name="begin_time_now">현재시각으로 출근</string>
+    <string name="end_time_now">현재시각으로 퇴근</string>
+
     <!--Menu Values-->
     <string name="setting_menu_title">Setting</string>
     <string name="send_email_menu_title">Send Email</string>
@@ -75,7 +79,6 @@
 
     <!--Drawer Item-->
     <string name="add_worksheet_item">이전의 근무표를 생성</string>
-    <string name="setting_item">설정</string>
     <string name="support">서포트</string>
     <string name="manage_worksheet">근무표 관리</string>
 

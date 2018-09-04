@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/bottom_sheet_console"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_border_line"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/bottom_sheet_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/bottom_sheet_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/set_today_begin_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/begin_time_now"
+            android:background="@drawable/bottom_border_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bottom_sheet_header" />
+
+        <Button
+            android:id="@+id/set_today_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/end_time_now"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/set_today_begin_time" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/bottom_sheet_close_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cancel"
+        android:background="@drawable/rectangle_border_line"
+        app:layout_constraintTop_toBottomOf="@id/bottom_sheet_console"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -15,6 +15,7 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.*
 import android.widget.NumberPicker
+import archiveasia.jp.co.hakenman.Dialog.BottomSheetDialog
 import kotlinx.android.synthetic.main.datepicker_dialog.view.*
 import kotlinx.android.synthetic.main.worksheet_listview_main.*
 import java.util.*
@@ -22,6 +23,7 @@ import java.util.*
 class WorksheetListActivity : AppCompatActivity() {
 
     private lateinit var toggle: ActionBarDrawerToggle
+    private var bottomSheetDialog = BottomSheetDialog()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +40,7 @@ class WorksheetListActivity : AppCompatActivity() {
 
         // FloatingActionButton リスナー設定
         fab.setOnClickListener { view ->
-            showCreateWorksheetDialog()
+            bottomSheetDialog.show(supportFragmentManager, bottomSheetDialog.tag)
         }
         title = getString(R.string.main_activity_title)
 
@@ -70,7 +72,6 @@ class WorksheetListActivity : AppCompatActivity() {
         toggle.syncState()
     }
 
-
     override fun onConfigurationChanged(newConfig: Configuration?) {
         super.onConfigurationChanged(newConfig)
         toggle.onConfigurationChanged(newConfig)
@@ -93,7 +94,7 @@ class WorksheetListActivity : AppCompatActivity() {
                 completion()
             }
 
-            setNegativeButton(getString(R.string.negative_button)) {
+            setNegativeButton(getString(R.string.cancel)) {
                 dialog, whichButton ->
                 dialog.dismiss()
             }
@@ -116,13 +117,13 @@ class WorksheetListActivity : AppCompatActivity() {
             setView(dialogView)
             setTitle(getString(R.string.select_yearmonth_message))
 
-            setPositiveButton(getString(archiveasia.jp.co.hakenman.R.string.positive_button)) {
+            setPositiveButton(getString(archiveasia.jp.co.hakenman.R.string.confirm)) {
                 dialog, _ ->
                 val yearMonth = getPickerDateToString(dialogView)
 
                 var worksheet = WorksheetManager.createWorksheet(yearMonth)
                     if (WorksheetManager.isAlreadyExistWorksheet(yearMonth)) {
-                        showAlertDialog(getString(R.string.update_worksheet_title), getString(R.string.positive_button)) {
+                        showAlertDialog(getString(R.string.update_worksheet_title), getString(R.string.confirm)) {
                             WorksheetManager.updateWorksheet(worksheet)
                             CustomLog.d("勤務表生成 : " + yearMonth)
                             reloadListView()
@@ -136,7 +137,7 @@ class WorksheetListActivity : AppCompatActivity() {
                 dialog.dismiss()
             }
 
-            setNegativeButton(getString(archiveasia.jp.co.hakenman.R.string.negative_button)) {
+            setNegativeButton(getString(archiveasia.jp.co.hakenman.R.string.cancel)) {
                 dialog, _ ->
                 dialog.dismiss()
             }
@@ -177,7 +178,7 @@ class WorksheetListActivity : AppCompatActivity() {
         }
 
         work_listView.setOnItemLongClickListener { parent, view, position, id ->
-            showAlertDialog(getString(R.string.delete_worksheet_title), getString(R.string.delete_button)) {
+            showAlertDialog(getString(R.string.delete_worksheet_title), getString(R.string.delete)) {
                 adapter.remove(position)
                 reloadListView()
             }

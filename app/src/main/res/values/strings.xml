@@ -8,8 +8,8 @@
     <string name="update_worksheet_title">"すでに存在している勤務表です。\n上書きしますか？"</string>
     <string name="delete_worksheet_title">勤務表を削除しますか？</string>
     <string name="select_yearmonth_message">作成する勤務表の\n年月を選択してください。</string>
-    <string name="delete_button">削除</string>
-    <string name="setting_button">設定</string>
+    <string name="delete">削除</string>
+    <string name="setting">設定</string>
     <string name="navigation_drawer_open">drawerを開く</string>
     <string name="navigation_drawer_close">drawerを閉じる</string>
 
@@ -24,11 +24,8 @@
     <string name="set_beginTime_title">出勤時間登録</string>
     <string name="set_endTime_title">退勤時間登録</string>
     <string name="set_breakTime_title">休憩時間登録</string>
-    <string name="positive_button">確認</string>
-    <string name="negative_button">キャンセル</string>
-
-    <!-- Setting Activity -->
-    <string name="setting_activity_title">設定</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">キャンセル</string>
 
     <!-- EmailSetting Activity -->
     <string name="email_setting_activity_title">メール情報修正</string>
@@ -67,6 +64,13 @@
     <string name="email_empty_message">登録してください。</string>
     <string name="email_to_title">宛先</string>
 
+    <!--Bottom Sheet Dialog-->
+    <string name="set_today_begin_time_message">現在時間で出勤時間を登録しますか？</string>
+    <string name="set_today_end_time_message">現在時間で退勤時間を登録しますか？</string>
+    <string name="select">選択</string>
+    <string name="begin_time_now">現在時間で出勤</string>
+    <string name="end_time_now">現在時間で退勤</string>
+
     <!--Menu Values-->
     <string name="setting_menu_title">Setting</string>
     <string name="send_email_menu_title">Send Email</string>
@@ -75,7 +79,6 @@
 
     <!--Drawer Item-->
     <string name="add_worksheet_item">以前の勤務表生成</string>
-    <string name="setting_item">設定</string>
     <string name="support">サポート</string>
     <string name="manage_worksheet">勤務表管理</string>
 

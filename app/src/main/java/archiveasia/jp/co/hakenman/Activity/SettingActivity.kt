@@ -27,7 +27,7 @@ class SettingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_setting)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        title = getString(R.string.setting_activity_title)
+        title = getString(R.string.setting)
 
         defaultInit()
 
@@ -104,14 +104,14 @@ class SettingActivity : AppCompatActivity() {
             setView(dialogView)
             setTitle(title)
 
-            setPositiveButton(getString(R.string.positive_button)) {
+            setPositiveButton(getString(R.string.confirm)) {
                 dialog, _ ->
                 textView.text = getPickerTime(dialogView).hourMinute()
 
                 dialog.dismiss()
             }
 
-            setNegativeButton(getString(R.string.negative_button)) {
+            setNegativeButton(getString(R.string.cancel)) {
                 dialog, _ ->
                 dialog.dismiss()
             }

@@ -220,7 +220,7 @@ class DayWorksheetActivity : AppCompatActivity() {
             setView(dialogView)
             setTitle(title)
 
-            setPositiveButton(getString(R.string.positive_button)) {
+            setPositiveButton(getString(R.string.confirm)) {
                 dialog, _ ->
                 textView.text = getPickerTime(dialogView).hourMinute()
 
@@ -246,7 +246,7 @@ class DayWorksheetActivity : AppCompatActivity() {
                 dialog.dismiss()
             }
 
-            setNegativeButton(getString(R.string.negative_button)) {
+            setNegativeButton(getString(R.string.cancel)) {
                 dialog, _ ->
                 dialog.dismiss()
             }

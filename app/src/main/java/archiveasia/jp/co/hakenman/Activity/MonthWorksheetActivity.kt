@@ -120,12 +120,12 @@ class MonthWorkActivity : AppCompatActivity() {
             titleView.setTextColor(resources.getColor(R.color.colorBlack))
             setView(titleView)
 
-            setPositiveButton(getString(R.string.setting_button)) {
+            setPositiveButton(getString(R.string.setting)) {
                 dialog, whichButton ->
                 completion()
             }
 
-            setNegativeButton(getString(R.string.negative_button)) {
+            setNegativeButton(getString(R.string.cancel)) {
                 dialog, whichButton ->
                 dialog.dismiss()
             }

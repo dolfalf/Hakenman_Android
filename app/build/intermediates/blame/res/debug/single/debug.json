@@ -1456,6 +1456,10 @@
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_bottom_sheet_header.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/drawable/bottom_sheet_header.xml"
+    },
+    {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/drawable/abc_edit_text_material.xml"
     },
@@ -1538,6 +1542,10 @@
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
         "source": "/Users/jeonsangjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc01.aar/e54bcc7fd1bcabeda3abd96c0a17263c/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/layout_bottom_sheet_layout.xml.flat",
+        "source": "/Users/jeonsangjun/Documents/Hakenman_Android/app/src/main/res/layout/bottom_sheet_layout.xml"
     },
     {
         "merged": "/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
