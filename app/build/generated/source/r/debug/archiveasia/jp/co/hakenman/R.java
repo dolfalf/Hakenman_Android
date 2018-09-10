@@ -707,21 +707,38 @@ public final class R {
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>icon_only</td><td>2</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * <tr><td>wide</td><td>1</td><td></td></tr>
+     * </table>
      */
-    public static final int buttonStyle=0x7f030056;
+    public static final int buttonSize=0x7f030056;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f030057;
+    public static final int buttonStyle=0x7f030057;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int buttonStyleSmall=0x7f030058;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f030058;
+    public static final int buttonTint=0x7f030059;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -737,13 +754,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f030059;
+    public static final int buttonTintMode=0x7f03005a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int cardBackgroundColor=0x7f03005a;
+    public static final int cardBackgroundColor=0x7f03005b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -751,7 +768,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardCornerRadius=0x7f03005b;
+    public static final int cardCornerRadius=0x7f03005c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -759,7 +776,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardElevation=0x7f03005c;
+    public static final int cardElevation=0x7f03005d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -767,73 +784,73 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardMaxElevation=0x7f03005d;
+    public static final int cardMaxElevation=0x7f03005e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardPreventCornerOverlap=0x7f03005e;
+    public static final int cardPreventCornerOverlap=0x7f03005f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardUseCompatPadding=0x7f03005f;
+    public static final int cardUseCompatPadding=0x7f030060;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int cardViewStyle=0x7f030060;
+    public static final int cardViewStyle=0x7f030061;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chainUseRtl=0x7f030061;
+    public static final int chainUseRtl=0x7f030062;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f030062;
+    public static final int checkboxStyle=0x7f030063;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedChip=0x7f030063;
+    public static final int checkedChip=0x7f030064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedIcon=0x7f030064;
+    public static final int checkedIcon=0x7f030065;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int checkedIconEnabled=0x7f030065;
+    public static final int checkedIconEnabled=0x7f030066;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int checkedIconVisible=0x7f030066;
+    public static final int checkedIconVisible=0x7f030067;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f030067;
+    public static final int checkedTextViewStyle=0x7f030068;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipBackgroundColor=0x7f030068;
+    public static final int chipBackgroundColor=0x7f030069;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -841,7 +858,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipCornerRadius=0x7f030069;
+    public static final int chipCornerRadius=0x7f03006a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -849,26 +866,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipEndPadding=0x7f03006a;
+    public static final int chipEndPadding=0x7f03006b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipGroupStyle=0x7f03006b;
+    public static final int chipGroupStyle=0x7f03006c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipIcon=0x7f03006c;
+    public static final int chipIcon=0x7f03006d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chipIconEnabled=0x7f03006d;
+    public static final int chipIconEnabled=0x7f03006e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -876,18 +893,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipIconSize=0x7f03006e;
+    public static final int chipIconSize=0x7f03006f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipIconTint=0x7f03006f;
+    public static final int chipIconTint=0x7f030070;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chipIconVisible=0x7f030070;
+    public static final int chipIconVisible=0x7f030071;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -895,7 +912,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipMinHeight=0x7f030071;
+    public static final int chipMinHeight=0x7f030072;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -903,7 +920,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacing=0x7f030072;
+    public static final int chipSpacing=0x7f030073;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -911,7 +928,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacingHorizontal=0x7f030073;
+    public static final int chipSpacingHorizontal=0x7f030074;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -919,14 +936,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacingVertical=0x7f030074;
+    public static final int chipSpacingVertical=0x7f030075;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipStandaloneStyle=0x7f030075;
+    public static final int chipStandaloneStyle=0x7f030076;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -934,13 +951,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipStartPadding=0x7f030076;
+    public static final int chipStartPadding=0x7f030077;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipStrokeColor=0x7f030077;
+    public static final int chipStrokeColor=0x7f030078;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -948,26 +965,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipStrokeWidth=0x7f030078;
+    public static final int chipStrokeWidth=0x7f030079;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipStyle=0x7f030079;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int closeIcon=0x7f03007a;
+    public static final int chipStyle=0x7f03007a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int closeIconEnabled=0x7f03007b;
+    public static final int circleCrop=0x7f03007b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int closeIcon=0x7f03007c;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int closeIconEnabled=0x7f03007d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -975,7 +997,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconEndPadding=0x7f03007c;
+    public static final int closeIconEndPadding=0x7f03007e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -983,7 +1005,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconSize=0x7f03007d;
+    public static final int closeIconSize=0x7f03007f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -991,37 +1013,37 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconStartPadding=0x7f03007e;
+    public static final int closeIconStartPadding=0x7f030080;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int closeIconTint=0x7f03007f;
+    public static final int closeIconTint=0x7f030081;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int closeIconVisible=0x7f030080;
+    public static final int closeIconVisible=0x7f030082;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f030081;
+    public static final int closeItemLayout=0x7f030083;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f030082;
+    public static final int collapseContentDescription=0x7f030084;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f030083;
+    public static final int collapseIcon=0x7f030085;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1041,56 +1063,56 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int collapsedTitleGravity=0x7f030084;
+    public static final int collapsedTitleGravity=0x7f030086;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapsedTitleTextAppearance=0x7f030085;
+    public static final int collapsedTitleTextAppearance=0x7f030087;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f030086;
+    public static final int color=0x7f030088;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f030087;
+    public static final int colorAccent=0x7f030089;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f030088;
+    public static final int colorBackgroundFloating=0x7f03008a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f030089;
+    public static final int colorButtonNormal=0x7f03008b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f03008a;
+    public static final int colorControlActivated=0x7f03008c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f03008b;
+    public static final int colorControlHighlight=0x7f03008d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f03008c;
+    public static final int colorControlNormal=0x7f03008e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1100,62 +1122,79 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f03008d;
+    public static final int colorError=0x7f03008f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f03008e;
+    public static final int colorPrimary=0x7f030090;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f03008f;
+    public static final int colorPrimaryDark=0x7f030091;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>2</td><td></td></tr>
+     * <tr><td>dark</td><td>0</td><td></td></tr>
+     * <tr><td>light</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int colorScheme=0x7f030092;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSecondary=0x7f030090;
+    public static final int colorSecondary=0x7f030093;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f030091;
+    public static final int colorSwitchThumbNormal=0x7f030094;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f030092;
+    public static final int commitIcon=0x7f030095;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f030093;
+    public static final int constraintSet=0x7f030096;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int constraint_referenced_ids=0x7f030094;
+    public static final int constraint_referenced_ids=0x7f030097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int content=0x7f030095;
+    public static final int content=0x7f030098;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f030096;
+    public static final int contentDescription=0x7f030099;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1163,7 +1202,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f030097;
+    public static final int contentInsetEnd=0x7f03009a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1171,7 +1210,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f030098;
+    public static final int contentInsetEndWithActions=0x7f03009b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1179,7 +1218,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f030099;
+    public static final int contentInsetLeft=0x7f03009c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1187,7 +1226,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f03009a;
+    public static final int contentInsetRight=0x7f03009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1195,7 +1234,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f03009b;
+    public static final int contentInsetStart=0x7f03009e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1203,7 +1242,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f03009c;
+    public static final int contentInsetStartWithNavigation=0x7f03009f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1211,7 +1250,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPadding=0x7f03009d;
+    public static final int contentPadding=0x7f0300a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1219,7 +1258,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingBottom=0x7f03009e;
+    public static final int contentPaddingBottom=0x7f0300a1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1227,7 +1266,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingLeft=0x7f03009f;
+    public static final int contentPaddingLeft=0x7f0300a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1235,7 +1274,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingRight=0x7f0300a0;
+    public static final int contentPaddingRight=0x7f0300a3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1243,27 +1282,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingTop=0x7f0300a1;
+    public static final int contentPaddingTop=0x7f0300a4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f0300a2;
+    public static final int contentScrim=0x7f0300a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f0300a3;
+    public static final int controlBackground=0x7f0300a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int coordinatorLayoutStyle=0x7f0300a4;
+    public static final int coordinatorLayoutStyle=0x7f0300a7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1271,42 +1310,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cornerRadius=0x7f0300a5;
+    public static final int cornerRadius=0x7f0300a8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f0300a6;
+    public static final int counterEnabled=0x7f0300a9;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f0300a7;
+    public static final int counterMaxLength=0x7f0300aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f0300a8;
+    public static final int counterOverflowTextAppearance=0x7f0300ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f0300a9;
+    public static final int counterTextAppearance=0x7f0300ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f0300aa;
+    public static final int customNavigationLayout=0x7f0300ad;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f0300ab;
+    public static final int defaultQueryHint=0x7f0300ae;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1314,7 +1353,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogCornerRadius=0x7f0300ac;
+    public static final int dialogCornerRadius=0x7f0300af;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1322,14 +1361,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f0300ad;
+    public static final int dialogPreferredPadding=0x7f0300b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f0300ae;
+    public static final int dialogTheme=0x7f0300b1;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1346,21 +1385,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f0300af;
+    public static final int displayOptions=0x7f0300b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f0300b0;
+    public static final int divider=0x7f0300b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f0300b1;
+    public static final int dividerHorizontal=0x7f0300b4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1368,14 +1407,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f0300b2;
+    public static final int dividerPadding=0x7f0300b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f0300b3;
+    public static final int dividerVertical=0x7f0300b6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1383,21 +1422,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f0300b4;
+    public static final int drawableSize=0x7f0300b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f0300b5;
+    public static final int drawerArrowStyle=0x7f0300b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f0300b6;
+    public static final int dropDownListViewStyle=0x7f0300b9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1405,14 +1444,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f0300b7;
+    public static final int dropdownListPreferredItemHeight=0x7f0300ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f0300b8;
+    public static final int editTextBackground=0x7f0300bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1422,14 +1461,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f0300b9;
+    public static final int editTextColor=0x7f0300bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f0300ba;
+    public static final int editTextStyle=0x7f0300bd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1437,7 +1476,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f0300bb;
+    public static final int elevation=0x7f0300be;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1449,41 +1488,41 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f0300bc;
+    public static final int emptyVisibility=0x7f0300bf;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceMaterialTheme=0x7f0300bd;
+    public static final int enforceMaterialTheme=0x7f0300c0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceTextAppearance=0x7f0300be;
+    public static final int enforceTextAppearance=0x7f0300c1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f0300bf;
+    public static final int errorEnabled=0x7f0300c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f0300c0;
+    public static final int errorTextAppearance=0x7f0300c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f0300c1;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0300c4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f0300c2;
+    public static final int expanded=0x7f0300c5;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1503,7 +1542,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f0300c3;
+    public static final int expandedTitleGravity=0x7f0300c6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1511,7 +1550,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f0300c4;
+    public static final int expandedTitleMargin=0x7f0300c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1519,7 +1558,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f0300c5;
+    public static final int expandedTitleMarginBottom=0x7f0300c8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1527,7 +1566,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f0300c6;
+    public static final int expandedTitleMarginEnd=0x7f0300c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1535,7 +1574,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f0300c7;
+    public static final int expandedTitleMarginStart=0x7f0300ca;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1543,14 +1582,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f0300c8;
+    public static final int expandedTitleMarginTop=0x7f0300cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f0300c9;
+    public static final int expandedTitleTextAppearance=0x7f0300cc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1562,7 +1601,7 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int fabAlignmentMode=0x7f0300ca;
+    public static final int fabAlignmentMode=0x7f0300cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1570,7 +1609,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleMargin=0x7f0300cb;
+    public static final int fabCradleMargin=0x7f0300ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1578,7 +1617,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleRoundedCornerRadius=0x7f0300cc;
+    public static final int fabCradleRoundedCornerRadius=0x7f0300cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1586,7 +1625,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleVerticalOffset=0x7f0300cd;
+    public static final int fabCradleVerticalOffset=0x7f0300d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1594,7 +1633,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCustomSize=0x7f0300ce;
+    public static final int fabCustomSize=0x7f0300d1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1607,40 +1646,40 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f0300cf;
+    public static final int fabSize=0x7f0300d2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f0300d0;
+    public static final int fastScrollEnabled=0x7f0300d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d1;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d2;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f0300d3;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0300d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f0300d4;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0300d7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1648,7 +1687,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int firstBaselineToTopHeight=0x7f0300d5;
+    public static final int firstBaselineToTopHeight=0x7f0300d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1673,31 +1712,31 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int floatingActionButtonStyle=0x7f0300d6;
+    public static final int floatingActionButtonStyle=0x7f0300d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f0300d7;
+    public static final int font=0x7f0300da;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f0300d8;
+    public static final int fontFamily=0x7f0300db;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f0300d9;
+    public static final int fontProviderAuthority=0x7f0300dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f0300da;
+    public static final int fontProviderCerts=0x7f0300dd;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1709,7 +1748,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f0300db;
+    public static final int fontProviderFetchStrategy=0x7f0300de;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1721,17 +1760,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f0300dc;
+    public static final int fontProviderFetchTimeout=0x7f0300df;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f0300dd;
+    public static final int fontProviderPackage=0x7f0300e0;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f0300de;
+    public static final int fontProviderQuery=0x7f0300e1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1743,21 +1782,21 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0300df;
+    public static final int fontStyle=0x7f0300e2;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontVariationSettings=0x7f0300e0;
+    public static final int fontVariationSettings=0x7f0300e3;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0300e1;
+    public static final int fontWeight=0x7f0300e4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f0300e2;
+    public static final int foregroundInsidePadding=0x7f0300e5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1765,21 +1804,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0300e3;
+    public static final int gapBetweenBars=0x7f0300e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0300e4;
+    public static final int goIcon=0x7f0300e7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f0300e5;
+    public static final int headerLayout=0x7f0300e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1787,72 +1826,72 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300e6;
+    public static final int height=0x7f0300e9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int helperText=0x7f0300e7;
+    public static final int helperText=0x7f0300ea;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int helperTextEnabled=0x7f0300e8;
+    public static final int helperTextEnabled=0x7f0300eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int helperTextTextAppearance=0x7f0300e9;
+    public static final int helperTextTextAppearance=0x7f0300ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hideMotionSpec=0x7f0300ea;
+    public static final int hideMotionSpec=0x7f0300ed;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300eb;
+    public static final int hideOnContentScroll=0x7f0300ee;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnScroll=0x7f0300ec;
+    public static final int hideOnScroll=0x7f0300ef;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0300ed;
+    public static final int hintAnimationEnabled=0x7f0300f0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0300ee;
+    public static final int hintEnabled=0x7f0300f1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0300ef;
+    public static final int hintTextAppearance=0x7f0300f2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300f0;
+    public static final int homeAsUpIndicator=0x7f0300f3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300f1;
+    public static final int homeLayout=0x7f0300f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1860,14 +1899,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int hoveredFocusedTranslationZ=0x7f0300f2;
+    public static final int hoveredFocusedTranslationZ=0x7f0300f5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300f3;
+    public static final int icon=0x7f0300f6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1875,7 +1914,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconEndPadding=0x7f0300f4;
+    public static final int iconEndPadding=0x7f0300f7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1887,7 +1926,7 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int iconGravity=0x7f0300f5;
+    public static final int iconGravity=0x7f0300f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1895,7 +1934,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconPadding=0x7f0300f6;
+    public static final int iconPadding=0x7f0300f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1903,7 +1942,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconSize=0x7f0300f7;
+    public static final int iconSize=0x7f0300fa;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1911,13 +1950,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconStartPadding=0x7f0300f8;
+    public static final int iconStartPadding=0x7f0300fb;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0300f9;
+    public static final int iconTint=0x7f0300fc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1933,31 +1972,48 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0300fa;
+    public static final int iconTintMode=0x7f0300fd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300fb;
+    public static final int iconifiedByDefault=0x7f0300fe;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int imageAspectRatio=0x7f0300ff;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>adjust_height</td><td>2</td><td></td></tr>
+     * <tr><td>adjust_width</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int imageAspectRatioAdjust=0x7f030100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300fc;
+    public static final int imageButtonStyle=0x7f030101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300fd;
+    public static final int indeterminateProgressStyle=0x7f030102;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300fe;
+    public static final int initialActivityCount=0x7f030103;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1967,19 +2023,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0300ff;
+    public static final int insetForeground=0x7f030104;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f030100;
+    public static final int isLightTheme=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f030101;
+    public static final int itemBackground=0x7f030106;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1987,12 +2043,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemHorizontalPadding=0x7f030102;
+    public static final int itemHorizontalPadding=0x7f030107;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int itemHorizontalTranslationEnabled=0x7f030103;
+    public static final int itemHorizontalTranslationEnabled=0x7f030108;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2000,7 +2056,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconPadding=0x7f030104;
+    public static final int itemIconPadding=0x7f030109;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2008,13 +2064,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconSize=0x7f030105;
+    public static final int itemIconSize=0x7f03010a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f030106;
+    public static final int itemIconTint=0x7f03010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2022,7 +2078,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f030107;
+    public static final int itemPadding=0x7f03010c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2030,41 +2086,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemSpacing=0x7f030108;
+    public static final int itemSpacing=0x7f03010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f030109;
+    public static final int itemTextAppearance=0x7f03010e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceActive=0x7f03010a;
+    public static final int itemTextAppearanceActive=0x7f03010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceInactive=0x7f03010b;
+    public static final int itemTextAppearanceInactive=0x7f030110;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f03010c;
+    public static final int itemTextColor=0x7f030111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f03010d;
+    public static final int keylines=0x7f030112;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2078,7 +2134,7 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int labelVisibilityMode=0x7f03010e;
+    public static final int labelVisibilityMode=0x7f030113;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2086,26 +2142,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lastBaselineToBottomHeight=0x7f03010f;
+    public static final int lastBaselineToBottomHeight=0x7f030114;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f030110;
+    public static final int layout=0x7f030115;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f030111;
+    public static final int layoutManager=0x7f030116;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f030112;
+    public static final int layout_anchor=0x7f030117;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2129,12 +2185,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f030113;
+    public static final int layout_anchorGravity=0x7f030118;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f030114;
+    public static final int layout_behavior=0x7f030119;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2147,25 +2203,25 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f030115;
+    public static final int layout_collapseMode=0x7f03011a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f030116;
+    public static final int layout_collapseParallaxMultiplier=0x7f03011b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f030117;
+    public static final int layout_constrainedHeight=0x7f03011c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f030118;
+    public static final int layout_constrainedWidth=0x7f03011d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f030119;
+    public static final int layout_constraintBaseline_creator=0x7f03011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2180,11 +2236,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f03011a;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f03011f;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f03011b;
+    public static final int layout_constraintBottom_creator=0x7f030120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2199,7 +2255,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f03011c;
+    public static final int layout_constraintBottom_toBottomOf=0x7f030121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2214,18 +2270,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f03011d;
+    public static final int layout_constraintBottom_toTopOf=0x7f030122;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f03011e;
+    public static final int layout_constraintCircle=0x7f030123;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f03011f;
+    public static final int layout_constraintCircleAngle=0x7f030124;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2233,12 +2289,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f030120;
+    public static final int layout_constraintCircleRadius=0x7f030125;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f030121;
+    public static final int layout_constraintDimensionRatio=0x7f030126;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2253,7 +2309,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f030122;
+    public static final int layout_constraintEnd_toEndOf=0x7f030127;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2268,7 +2324,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f030123;
+    public static final int layout_constraintEnd_toStartOf=0x7f030128;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2276,7 +2332,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f030124;
+    public static final int layout_constraintGuide_begin=0x7f030129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2284,11 +2340,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f030125;
+    public static final int layout_constraintGuide_end=0x7f03012a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f030126;
+    public static final int layout_constraintGuide_percent=0x7f03012b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2301,7 +2357,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f030127;
+    public static final int layout_constraintHeight_default=0x7f03012c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2317,7 +2373,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f030128;
+    public static final int layout_constraintHeight_max=0x7f03012d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2333,15 +2389,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f030129;
+    public static final int layout_constraintHeight_min=0x7f03012e;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f03012a;
+    public static final int layout_constraintHeight_percent=0x7f03012f;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f03012b;
+    public static final int layout_constraintHorizontal_bias=0x7f030130;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2354,15 +2410,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f03012c;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f030131;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f03012d;
+    public static final int layout_constraintHorizontal_weight=0x7f030132;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f03012e;
+    public static final int layout_constraintLeft_creator=0x7f030133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2377,7 +2433,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f03012f;
+    public static final int layout_constraintLeft_toLeftOf=0x7f030134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2392,11 +2448,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f030130;
+    public static final int layout_constraintLeft_toRightOf=0x7f030135;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f030131;
+    public static final int layout_constraintRight_creator=0x7f030136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2411,7 +2467,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f030132;
+    public static final int layout_constraintRight_toLeftOf=0x7f030137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2426,7 +2482,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f030133;
+    public static final int layout_constraintRight_toRightOf=0x7f030138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2441,7 +2497,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f030134;
+    public static final int layout_constraintStart_toEndOf=0x7f030139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2456,11 +2512,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f030135;
+    public static final int layout_constraintStart_toStartOf=0x7f03013a;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f030136;
+    public static final int layout_constraintTop_creator=0x7f03013b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2475,7 +2531,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f030137;
+    public static final int layout_constraintTop_toBottomOf=0x7f03013c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2490,11 +2546,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f030138;
+    public static final int layout_constraintTop_toTopOf=0x7f03013d;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f030139;
+    public static final int layout_constraintVertical_bias=0x7f03013e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2507,11 +2563,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f03013a;
+    public static final int layout_constraintVertical_chainStyle=0x7f03013f;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f03013b;
+    public static final int layout_constraintVertical_weight=0x7f030140;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2524,7 +2580,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f03013c;
+    public static final int layout_constraintWidth_default=0x7f030141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2540,7 +2596,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f03013d;
+    public static final int layout_constraintWidth_max=0x7f030142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2556,11 +2612,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f03013e;
+    public static final int layout_constraintWidth_min=0x7f030143;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f03013f;
+    public static final int layout_constraintWidth_percent=0x7f030144;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2578,7 +2634,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f030140;
+    public static final int layout_dodgeInsetEdges=0x7f030145;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2586,7 +2642,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f030141;
+    public static final int layout_editor_absoluteX=0x7f030146;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2594,7 +2650,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f030142;
+    public static final int layout_editor_absoluteY=0x7f030147;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2602,7 +2658,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f030143;
+    public static final int layout_goneMarginBottom=0x7f030148;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2610,7 +2666,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f030144;
+    public static final int layout_goneMarginEnd=0x7f030149;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2618,7 +2674,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f030145;
+    public static final int layout_goneMarginLeft=0x7f03014a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2626,7 +2682,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f030146;
+    public static final int layout_goneMarginRight=0x7f03014b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2634,7 +2690,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f030147;
+    public static final int layout_goneMarginStart=0x7f03014c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2642,7 +2698,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f030148;
+    public static final int layout_goneMarginTop=0x7f03014d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2659,11 +2715,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f030149;
+    public static final int layout_insetEdge=0x7f03014e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f03014a;
+    public static final int layout_keyline=0x7f03014f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2674,12 +2730,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f03014b;
+    public static final int layout_optimizationLevel=0x7f030150;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2695,19 +2752,19 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f03014c;
+    public static final int layout_scrollFlags=0x7f030151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f03014d;
+    public static final int layout_scrollInterpolator=0x7f030152;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liftOnScroll=0x7f03014e;
+    public static final int liftOnScroll=0x7f030153;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2715,7 +2772,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineHeight=0x7f03014f;
+    public static final int lineHeight=0x7f030154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2723,49 +2780,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineSpacing=0x7f030150;
+    public static final int lineSpacing=0x7f030155;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f030151;
+    public static final int listChoiceBackgroundIndicator=0x7f030156;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f030152;
+    public static final int listDividerAlertDialog=0x7f030157;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f030153;
+    public static final int listItemLayout=0x7f030158;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f030154;
+    public static final int listLayout=0x7f030159;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f030155;
+    public static final int listMenuViewStyle=0x7f03015a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f030156;
+    public static final int listPopupWindowStyle=0x7f03015b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2773,7 +2830,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f030157;
+    public static final int listPreferredItemHeight=0x7f03015c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2781,7 +2838,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030158;
+    public static final int listPreferredItemHeightLarge=0x7f03015d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2789,7 +2846,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030159;
+    public static final int listPreferredItemHeightSmall=0x7f03015e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2797,7 +2854,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f03015a;
+    public static final int listPreferredItemPaddingLeft=0x7f03015f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2805,33 +2862,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f03015b;
+    public static final int listPreferredItemPaddingRight=0x7f030160;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f03015c;
+    public static final int logo=0x7f030161;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f03015d;
+    public static final int logoDescription=0x7f030162;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialButtonStyle=0x7f03015e;
+    public static final int materialButtonStyle=0x7f030163;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialCardViewStyle=0x7f03015f;
+    public static final int materialCardViewStyle=0x7f030164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2839,7 +2896,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f030160;
+    public static final int maxActionInlineWidth=0x7f030165;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2847,7 +2904,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f030161;
+    public static final int maxButtonHeight=0x7f030166;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2855,19 +2912,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxImageSize=0x7f030162;
+    public static final int maxImageSize=0x7f030167;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f030163;
+    public static final int measureWithLargestChild=0x7f030168;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f030164;
+    public static final int menu=0x7f030169;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2875,26 +2932,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int minTextSize=0x7f030165;
+    public static final int minTextSize=0x7f03016a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f030166;
+    public static final int multiChoiceItemLayout=0x7f03016b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f030167;
+    public static final int navigationContentDescription=0x7f03016c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f030168;
+    public static final int navigationIcon=0x7f03016d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2907,14 +2964,14 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f030169;
+    public static final int navigationMode=0x7f03016e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationViewStyle=0x7f03016a;
+    public static final int navigationViewStyle=0x7f03016f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2930,12 +2987,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f03016b;
+    public static final int numericModifiers=0x7f030170;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f03016c;
+    public static final int overlapAnchor=0x7f030171;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2943,7 +3000,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f03016d;
+    public static final int paddingBottomNoButtons=0x7f030172;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2951,7 +3008,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f03016e;
+    public static final int paddingEnd=0x7f030173;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2959,7 +3016,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f03016f;
+    public static final int paddingStart=0x7f030174;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2967,21 +3024,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f030170;
+    public static final int paddingTopNoTitle=0x7f030175;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f030171;
+    public static final int panelBackground=0x7f030176;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f030172;
+    public static final int panelMenuListTheme=0x7f030177;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2989,30 +3046,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f030173;
+    public static final int panelMenuListWidth=0x7f030178;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f030174;
+    public static final int passwordToggleContentDescription=0x7f030179;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f030175;
+    public static final int passwordToggleDrawable=0x7f03017a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f030176;
+    public static final int passwordToggleEnabled=0x7f03017b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f030177;
+    public static final int passwordToggleTint=0x7f03017c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3027,37 +3084,37 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f030178;
+    public static final int passwordToggleTintMode=0x7f03017d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f030179;
+    public static final int popupMenuStyle=0x7f03017e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f03017a;
+    public static final int popupTheme=0x7f03017f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f03017b;
+    public static final int popupWindowStyle=0x7f030180;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int precision=0x7f03017c;
+    public static final int precision=0x7f030181;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f03017d;
+    public static final int preserveIconSpacing=0x7f030182;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3065,7 +3122,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f03017e;
+    public static final int pressedTranslationZ=0x7f030183;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3073,69 +3130,78 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f03017f;
+    public static final int progressBarPadding=0x7f030184;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f030180;
+    public static final int progressBarStyle=0x7f030185;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f030181;
+    public static final int queryBackground=0x7f030186;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f030182;
+    public static final int queryHint=0x7f030187;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f030183;
+    public static final int radioButtonStyle=0x7f030188;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f030184;
+    public static final int ratingBarStyle=0x7f030189;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f030185;
+    public static final int ratingBarStyleIndicator=0x7f03018a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f030186;
+    public static final int ratingBarStyleSmall=0x7f03018b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f030187;
+    public static final int reverseLayout=0x7f03018c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f030188;
+    public static final int rippleColor=0x7f03018d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int scopeUris=0x7f03018e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f030189;
+    public static final int scrimAnimationDuration=0x7f03018f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3145,7 +3211,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int scrimBackground=0x7f03018a;
+    public static final int scrimBackground=0x7f030190;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3153,49 +3219,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f03018b;
+    public static final int scrimVisibleHeightTrigger=0x7f030191;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f03018c;
+    public static final int searchHintIcon=0x7f030192;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f03018d;
+    public static final int searchIcon=0x7f030193;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f03018e;
+    public static final int searchViewStyle=0x7f030194;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f03018f;
+    public static final int seekBarStyle=0x7f030195;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f030190;
+    public static final int selectableItemBackground=0x7f030196;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f030191;
+    public static final int selectableItemBackgroundBorderless=0x7f030197;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3210,7 +3276,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030192;
+    public static final int showAsAction=0x7f030198;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3224,125 +3290,125 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030193;
+    public static final int showDividers=0x7f030199;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int showMotionSpec=0x7f030194;
+    public static final int showMotionSpec=0x7f03019a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f030195;
+    public static final int showText=0x7f03019b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f030196;
+    public static final int showTitle=0x7f03019c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f030197;
+    public static final int singleChoiceItemLayout=0x7f03019d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleLine=0x7f030198;
+    public static final int singleLine=0x7f03019e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleSelection=0x7f030199;
+    public static final int singleSelection=0x7f03019f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int sizeToFit=0x7f03019a;
+    public static final int sizeToFit=0x7f0301a0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarButtonStyle=0x7f03019b;
+    public static final int snackbarButtonStyle=0x7f0301a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarStyle=0x7f03019c;
+    public static final int snackbarStyle=0x7f0301a2;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f03019d;
+    public static final int spanCount=0x7f0301a3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f03019e;
+    public static final int spinBars=0x7f0301a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f03019f;
+    public static final int spinnerDropDownItemStyle=0x7f0301a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0301a0;
+    public static final int spinnerStyle=0x7f0301a6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0301a1;
+    public static final int splitTrack=0x7f0301a7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0301a2;
+    public static final int srcCompat=0x7f0301a8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0301a3;
+    public static final int stackFromEnd=0x7f0301a9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0301a4;
+    public static final int state_above_anchor=0x7f0301aa;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f0301a5;
+    public static final int state_collapsed=0x7f0301ab;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f0301a6;
+    public static final int state_collapsible=0x7f0301ac;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_liftable=0x7f0301a7;
+    public static final int state_liftable=0x7f0301ad;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_lifted=0x7f0301a8;
+    public static final int state_lifted=0x7f0301ae;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3352,19 +3418,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f0301a9;
+    public static final int statusBarBackground=0x7f0301af;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f0301aa;
+    public static final int statusBarScrim=0x7f0301b0;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int strokeColor=0x7f0301ab;
+    public static final int strokeColor=0x7f0301b1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3372,53 +3438,53 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int strokeWidth=0x7f0301ac;
+    public static final int strokeWidth=0x7f0301b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0301ad;
+    public static final int subMenuArrow=0x7f0301b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0301ae;
+    public static final int submitBackground=0x7f0301b4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0301af;
+    public static final int subtitle=0x7f0301b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0301b0;
+    public static final int subtitleTextAppearance=0x7f0301b6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0301b1;
+    public static final int subtitleTextColor=0x7f0301b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0301b2;
+    public static final int subtitleTextStyle=0x7f0301b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0301b3;
+    public static final int suggestionRowLayout=0x7f0301b9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3426,7 +3492,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0301b4;
+    public static final int switchMinWidth=0x7f0301ba;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3434,28 +3500,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0301b5;
+    public static final int switchPadding=0x7f0301bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0301b6;
+    public static final int switchStyle=0x7f0301bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0301b7;
+    public static final int switchTextAppearance=0x7f0301bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f0301b8;
+    public static final int tabBackground=0x7f0301be;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3463,7 +3529,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f0301b9;
+    public static final int tabContentStart=0x7f0301bf;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3475,13 +3541,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f0301ba;
+    public static final int tabGravity=0x7f0301c0;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIconTint=0x7f0301bb;
+    public static final int tabIconTint=0x7f0301c1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3497,29 +3563,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tabIconTintMode=0x7f0301bc;
+    public static final int tabIconTintMode=0x7f0301c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabIndicator=0x7f0301bd;
+    public static final int tabIndicator=0x7f0301c3;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int tabIndicatorAnimationDuration=0x7f0301be;
+    public static final int tabIndicatorAnimationDuration=0x7f0301c4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f0301bf;
+    public static final int tabIndicatorColor=0x7f0301c5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabIndicatorFullWidth=0x7f0301c0;
+    public static final int tabIndicatorFullWidth=0x7f0301c6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3533,7 +3599,7 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int tabIndicatorGravity=0x7f0301c1;
+    public static final int tabIndicatorGravity=0x7f0301c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3541,12 +3607,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f0301c2;
+    public static final int tabIndicatorHeight=0x7f0301c8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabInlineLabel=0x7f0301c3;
+    public static final int tabInlineLabel=0x7f0301c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3554,7 +3620,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f0301c4;
+    public static final int tabMaxWidth=0x7f0301ca;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3562,7 +3628,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f0301c5;
+    public static final int tabMinWidth=0x7f0301cb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3574,7 +3640,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f0301c6;
+    public static final int tabMode=0x7f0301cc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3582,7 +3648,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f0301c7;
+    public static final int tabPadding=0x7f0301cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3590,7 +3656,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f0301c8;
+    public static final int tabPaddingBottom=0x7f0301ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3598,7 +3664,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f0301c9;
+    public static final int tabPaddingEnd=0x7f0301cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3606,7 +3672,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f0301ca;
+    public static final int tabPaddingStart=0x7f0301d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3614,44 +3680,44 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f0301cb;
+    public static final int tabPaddingTop=0x7f0301d1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabRippleColor=0x7f0301cc;
+    public static final int tabRippleColor=0x7f0301d2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f0301cd;
+    public static final int tabSelectedTextColor=0x7f0301d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabStyle=0x7f0301ce;
+    public static final int tabStyle=0x7f0301d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f0301cf;
+    public static final int tabTextAppearance=0x7f0301d5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f0301d0;
+    public static final int tabTextColor=0x7f0301d6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabUnboundedRipple=0x7f0301d1;
+    public static final int tabUnboundedRipple=0x7f0301d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3660,164 +3726,154 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0301d2;
+    public static final int textAllCaps=0x7f0301d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody1=0x7f0301d3;
+    public static final int textAppearanceBody1=0x7f0301d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody2=0x7f0301d4;
+    public static final int textAppearanceBody2=0x7f0301da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceButton=0x7f0301d5;
+    public static final int textAppearanceButton=0x7f0301db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceCaption=0x7f0301d6;
+    public static final int textAppearanceCaption=0x7f0301dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline1=0x7f0301d7;
+    public static final int textAppearanceHeadline1=0x7f0301dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline2=0x7f0301d8;
+    public static final int textAppearanceHeadline2=0x7f0301de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline3=0x7f0301d9;
+    public static final int textAppearanceHeadline3=0x7f0301df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline4=0x7f0301da;
+    public static final int textAppearanceHeadline4=0x7f0301e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline5=0x7f0301db;
+    public static final int textAppearanceHeadline5=0x7f0301e1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline6=0x7f0301dc;
+    public static final int textAppearanceHeadline6=0x7f0301e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0301dd;
+    public static final int textAppearanceLargePopupMenu=0x7f0301e3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0301de;
+    public static final int textAppearanceListItem=0x7f0301e4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0301df;
+    public static final int textAppearanceListItemSecondary=0x7f0301e5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0301e0;
+    public static final int textAppearanceListItemSmall=0x7f0301e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceOverline=0x7f0301e1;
+    public static final int textAppearanceOverline=0x7f0301e7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0301e2;
+    public static final int textAppearancePopupMenuHeader=0x7f0301e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0301e3;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0301e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0301e4;
+    public static final int textAppearanceSearchResultTitle=0x7f0301ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0301e5;
+    public static final int textAppearanceSmallPopupMenu=0x7f0301eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle1=0x7f0301e6;
+    public static final int textAppearanceSubtitle1=0x7f0301ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle2=0x7f0301e7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0301e8;
+    public static final int textAppearanceSubtitle2=0x7f0301ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3827,7 +3883,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0301e9;
+    public static final int textColorAlertDialogListItem=0x7f0301ee;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0301ef;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3835,14 +3901,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textEndPadding=0x7f0301ea;
+    public static final int textEndPadding=0x7f0301f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textInputStyle=0x7f0301eb;
+    public static final int textInputStyle=0x7f0301f1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3850,14 +3916,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textStartPadding=0x7f0301ec;
+    public static final int textStartPadding=0x7f0301f2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0301ed;
+    public static final int theme=0x7f0301f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3865,7 +3931,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0301ee;
+    public static final int thickness=0x7f0301f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3873,13 +3939,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0301ef;
+    public static final int thumbTextPadding=0x7f0301f5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0301f0;
+    public static final int thumbTint=0x7f0301f6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3895,20 +3961,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0301f1;
+    public static final int thumbTintMode=0x7f0301f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0301f2;
+    public static final int tickMark=0x7f0301f8;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0301f3;
+    public static final int tickMarkTint=0x7f0301f9;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3924,13 +3990,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0301f4;
+    public static final int tickMarkTintMode=0x7f0301fa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f0301f5;
+    public static final int tint=0x7f0301fb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3946,17 +4012,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f0301f6;
+    public static final int tintMode=0x7f0301fc;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0301f7;
+    public static final int title=0x7f0301fd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f0301f8;
+    public static final int titleEnabled=0x7f0301fe;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3964,7 +4030,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0301f9;
+    public static final int titleMargin=0x7f0301ff;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3972,7 +4038,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0301fa;
+    public static final int titleMarginBottom=0x7f030200;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3980,7 +4046,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0301fb;
+    public static final int titleMarginEnd=0x7f030201;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3988,7 +4054,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0301fc;
+    public static final int titleMarginStart=0x7f030202;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3996,7 +4062,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0301fd;
+    public static final int titleMarginTop=0x7f030203;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4004,48 +4070,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0301fe;
+    public static final int titleMargins=0x7f030204;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0301ff;
+    public static final int titleTextAppearance=0x7f030205;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f030200;
+    public static final int titleTextColor=0x7f030206;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f030201;
+    public static final int titleTextStyle=0x7f030207;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f030202;
+    public static final int toolbarId=0x7f030208;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030203;
+    public static final int toolbarNavigationButtonStyle=0x7f030209;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030204;
+    public static final int toolbarStyle=0x7f03020a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -4055,32 +4121,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f030205;
+    public static final int tooltipForegroundColor=0x7f03020b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030206;
+    public static final int tooltipFrameBackground=0x7f03020c;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f030207;
+    public static final int tooltipText=0x7f03020d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030208;
+    public static final int track=0x7f03020e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f030209;
+    public static final int trackTint=0x7f03020f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -4096,43 +4162,43 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f03020a;
+    public static final int trackTintMode=0x7f030210;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f03020b;
+    public static final int ttcIndex=0x7f030211;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f03020c;
+    public static final int useCompatPadding=0x7f030212;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f03020d;
+    public static final int viewInflaterClass=0x7f030213;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f03020e;
+    public static final int voiceIcon=0x7f030214;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f03020f;
+    public static final int windowActionBar=0x7f030215;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f030210;
+    public static final int windowActionBarOverlay=0x7f030216;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f030211;
+    public static final int windowActionModeOverlay=0x7f030217;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4144,7 +4210,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030212;
+    public static final int windowFixedHeightMajor=0x7f030218;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4156,7 +4222,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030213;
+    public static final int windowFixedHeightMinor=0x7f030219;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4168,7 +4234,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030214;
+    public static final int windowFixedWidthMajor=0x7f03021a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4180,7 +4246,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f030215;
+    public static final int windowFixedWidthMinor=0x7f03021b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4192,7 +4258,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030216;
+    public static final int windowMinWidthMajor=0x7f03021c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4204,12 +4270,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030217;
+    public static final int windowMinWidthMinor=0x7f03021d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030218;
+    public static final int windowNoTitle=0x7f03021e;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -4268,93 +4334,104 @@ public final class R {
     public static final int colorPrimary=0x7f05002f;
     public static final int colorPrimaryDark=0x7f050030;
     public static final int colorWhite=0x7f050031;
-    public static final int design_bottom_navigation_shadow_color=0x7f050032;
-    public static final int design_default_color_primary=0x7f050033;
-    public static final int design_default_color_primary_dark=0x7f050034;
-    public static final int design_error=0x7f050035;
-    public static final int design_fab_shadow_end_color=0x7f050036;
-    public static final int design_fab_shadow_mid_color=0x7f050037;
-    public static final int design_fab_shadow_start_color=0x7f050038;
-    public static final int design_fab_stroke_end_inner_color=0x7f050039;
-    public static final int design_fab_stroke_end_outer_color=0x7f05003a;
-    public static final int design_fab_stroke_top_inner_color=0x7f05003b;
-    public static final int design_fab_stroke_top_outer_color=0x7f05003c;
-    public static final int design_snackbar_background_color=0x7f05003d;
-    public static final int design_tint_password_toggle=0x7f05003e;
-    public static final int dim_foreground_disabled_material_dark=0x7f05003f;
-    public static final int dim_foreground_disabled_material_light=0x7f050040;
-    public static final int dim_foreground_material_dark=0x7f050041;
-    public static final int dim_foreground_material_light=0x7f050042;
-    public static final int error_color_material_dark=0x7f050043;
-    public static final int error_color_material_light=0x7f050044;
-    public static final int foreground_material_dark=0x7f050045;
-    public static final int foreground_material_light=0x7f050046;
-    public static final int highlighted_text_material_dark=0x7f050047;
-    public static final int highlighted_text_material_light=0x7f050048;
-    public static final int mainColor=0x7f050049;
-    public static final int material_blue_grey_800=0x7f05004a;
-    public static final int material_blue_grey_900=0x7f05004b;
-    public static final int material_blue_grey_950=0x7f05004c;
-    public static final int material_deep_teal_200=0x7f05004d;
-    public static final int material_deep_teal_500=0x7f05004e;
-    public static final int material_grey_100=0x7f05004f;
-    public static final int material_grey_300=0x7f050050;
-    public static final int material_grey_50=0x7f050051;
-    public static final int material_grey_600=0x7f050052;
-    public static final int material_grey_800=0x7f050053;
-    public static final int material_grey_850=0x7f050054;
-    public static final int material_grey_900=0x7f050055;
-    public static final int mtrl_bottom_nav_colored_item_tint=0x7f050056;
-    public static final int mtrl_bottom_nav_item_tint=0x7f050057;
-    public static final int mtrl_btn_bg_color_disabled=0x7f050058;
-    public static final int mtrl_btn_bg_color_selector=0x7f050059;
-    public static final int mtrl_btn_ripple_color=0x7f05005a;
-    public static final int mtrl_btn_stroke_color_selector=0x7f05005b;
-    public static final int mtrl_btn_text_btn_ripple_color=0x7f05005c;
-    public static final int mtrl_btn_text_color_disabled=0x7f05005d;
-    public static final int mtrl_btn_text_color_selector=0x7f05005e;
-    public static final int mtrl_btn_transparent_bg_color=0x7f05005f;
-    public static final int mtrl_chip_background_color=0x7f050060;
-    public static final int mtrl_chip_close_icon_tint=0x7f050061;
-    public static final int mtrl_chip_ripple_color=0x7f050062;
-    public static final int mtrl_chip_text_color=0x7f050063;
-    public static final int mtrl_fab_ripple_color=0x7f050064;
-    public static final int mtrl_scrim_color=0x7f050065;
-    public static final int mtrl_tabs_colored_ripple_color=0x7f050066;
-    public static final int mtrl_tabs_icon_color_selector=0x7f050067;
-    public static final int mtrl_tabs_icon_color_selector_colored=0x7f050068;
-    public static final int mtrl_tabs_legacy_text_color_selector=0x7f050069;
-    public static final int mtrl_tabs_ripple_color=0x7f05006a;
-    public static final int mtrl_text_btn_text_color_selector=0x7f05006b;
-    public static final int mtrl_textinput_default_box_stroke_color=0x7f05006c;
-    public static final int mtrl_textinput_disabled_color=0x7f05006d;
-    public static final int mtrl_textinput_filled_box_default_background_color=0x7f05006e;
-    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f05006f;
-    public static final int notification_action_color_filter=0x7f050070;
-    public static final int notification_icon_bg_color=0x7f050071;
-    public static final int notification_material_background_media_default_color=0x7f050072;
-    public static final int primary_dark_material_dark=0x7f050073;
-    public static final int primary_dark_material_light=0x7f050074;
-    public static final int primary_material_dark=0x7f050075;
-    public static final int primary_material_light=0x7f050076;
-    public static final int primary_text_default_material_dark=0x7f050077;
-    public static final int primary_text_default_material_light=0x7f050078;
-    public static final int primary_text_disabled_material_dark=0x7f050079;
-    public static final int primary_text_disabled_material_light=0x7f05007a;
-    public static final int ripple_material_dark=0x7f05007b;
-    public static final int ripple_material_light=0x7f05007c;
-    public static final int secondary_text_default_material_dark=0x7f05007d;
-    public static final int secondary_text_default_material_light=0x7f05007e;
-    public static final int secondary_text_disabled_material_dark=0x7f05007f;
-    public static final int secondary_text_disabled_material_light=0x7f050080;
-    public static final int switch_thumb_disabled_material_dark=0x7f050081;
-    public static final int switch_thumb_disabled_material_light=0x7f050082;
-    public static final int switch_thumb_material_dark=0x7f050083;
-    public static final int switch_thumb_material_light=0x7f050084;
-    public static final int switch_thumb_normal_material_dark=0x7f050085;
-    public static final int switch_thumb_normal_material_light=0x7f050086;
-    public static final int tooltip_background_dark=0x7f050087;
-    public static final int tooltip_background_light=0x7f050088;
+    public static final int common_google_signin_btn_text_dark=0x7f050032;
+    public static final int common_google_signin_btn_text_dark_default=0x7f050033;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f050034;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f050035;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f050036;
+    public static final int common_google_signin_btn_text_light=0x7f050037;
+    public static final int common_google_signin_btn_text_light_default=0x7f050038;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f050039;
+    public static final int common_google_signin_btn_text_light_focused=0x7f05003a;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f05003b;
+    public static final int common_google_signin_btn_tint=0x7f05003c;
+    public static final int design_bottom_navigation_shadow_color=0x7f05003d;
+    public static final int design_default_color_primary=0x7f05003e;
+    public static final int design_default_color_primary_dark=0x7f05003f;
+    public static final int design_error=0x7f050040;
+    public static final int design_fab_shadow_end_color=0x7f050041;
+    public static final int design_fab_shadow_mid_color=0x7f050042;
+    public static final int design_fab_shadow_start_color=0x7f050043;
+    public static final int design_fab_stroke_end_inner_color=0x7f050044;
+    public static final int design_fab_stroke_end_outer_color=0x7f050045;
+    public static final int design_fab_stroke_top_inner_color=0x7f050046;
+    public static final int design_fab_stroke_top_outer_color=0x7f050047;
+    public static final int design_snackbar_background_color=0x7f050048;
+    public static final int design_tint_password_toggle=0x7f050049;
+    public static final int dim_foreground_disabled_material_dark=0x7f05004a;
+    public static final int dim_foreground_disabled_material_light=0x7f05004b;
+    public static final int dim_foreground_material_dark=0x7f05004c;
+    public static final int dim_foreground_material_light=0x7f05004d;
+    public static final int error_color_material_dark=0x7f05004e;
+    public static final int error_color_material_light=0x7f05004f;
+    public static final int foreground_material_dark=0x7f050050;
+    public static final int foreground_material_light=0x7f050051;
+    public static final int highlighted_text_material_dark=0x7f050052;
+    public static final int highlighted_text_material_light=0x7f050053;
+    public static final int mainColor=0x7f050054;
+    public static final int material_blue_grey_800=0x7f050055;
+    public static final int material_blue_grey_900=0x7f050056;
+    public static final int material_blue_grey_950=0x7f050057;
+    public static final int material_deep_teal_200=0x7f050058;
+    public static final int material_deep_teal_500=0x7f050059;
+    public static final int material_grey_100=0x7f05005a;
+    public static final int material_grey_300=0x7f05005b;
+    public static final int material_grey_50=0x7f05005c;
+    public static final int material_grey_600=0x7f05005d;
+    public static final int material_grey_800=0x7f05005e;
+    public static final int material_grey_850=0x7f05005f;
+    public static final int material_grey_900=0x7f050060;
+    public static final int mtrl_bottom_nav_colored_item_tint=0x7f050061;
+    public static final int mtrl_bottom_nav_item_tint=0x7f050062;
+    public static final int mtrl_btn_bg_color_disabled=0x7f050063;
+    public static final int mtrl_btn_bg_color_selector=0x7f050064;
+    public static final int mtrl_btn_ripple_color=0x7f050065;
+    public static final int mtrl_btn_stroke_color_selector=0x7f050066;
+    public static final int mtrl_btn_text_btn_ripple_color=0x7f050067;
+    public static final int mtrl_btn_text_color_disabled=0x7f050068;
+    public static final int mtrl_btn_text_color_selector=0x7f050069;
+    public static final int mtrl_btn_transparent_bg_color=0x7f05006a;
+    public static final int mtrl_chip_background_color=0x7f05006b;
+    public static final int mtrl_chip_close_icon_tint=0x7f05006c;
+    public static final int mtrl_chip_ripple_color=0x7f05006d;
+    public static final int mtrl_chip_text_color=0x7f05006e;
+    public static final int mtrl_fab_ripple_color=0x7f05006f;
+    public static final int mtrl_scrim_color=0x7f050070;
+    public static final int mtrl_tabs_colored_ripple_color=0x7f050071;
+    public static final int mtrl_tabs_icon_color_selector=0x7f050072;
+    public static final int mtrl_tabs_icon_color_selector_colored=0x7f050073;
+    public static final int mtrl_tabs_legacy_text_color_selector=0x7f050074;
+    public static final int mtrl_tabs_ripple_color=0x7f050075;
+    public static final int mtrl_text_btn_text_color_selector=0x7f050076;
+    public static final int mtrl_textinput_default_box_stroke_color=0x7f050077;
+    public static final int mtrl_textinput_disabled_color=0x7f050078;
+    public static final int mtrl_textinput_filled_box_default_background_color=0x7f050079;
+    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f05007a;
+    public static final int notification_action_color_filter=0x7f05007b;
+    public static final int notification_icon_bg_color=0x7f05007c;
+    public static final int notification_material_background_media_default_color=0x7f05007d;
+    public static final int primary_dark_material_dark=0x7f05007e;
+    public static final int primary_dark_material_light=0x7f05007f;
+    public static final int primary_material_dark=0x7f050080;
+    public static final int primary_material_light=0x7f050081;
+    public static final int primary_text_default_material_dark=0x7f050082;
+    public static final int primary_text_default_material_light=0x7f050083;
+    public static final int primary_text_disabled_material_dark=0x7f050084;
+    public static final int primary_text_disabled_material_light=0x7f050085;
+    public static final int ripple_material_dark=0x7f050086;
+    public static final int ripple_material_light=0x7f050087;
+    public static final int secondary_text_default_material_dark=0x7f050088;
+    public static final int secondary_text_default_material_light=0x7f050089;
+    public static final int secondary_text_disabled_material_dark=0x7f05008a;
+    public static final int secondary_text_disabled_material_light=0x7f05008b;
+    public static final int switch_thumb_disabled_material_dark=0x7f05008c;
+    public static final int switch_thumb_disabled_material_light=0x7f05008d;
+    public static final int switch_thumb_material_dark=0x7f05008e;
+    public static final int switch_thumb_material_light=0x7f05008f;
+    public static final int switch_thumb_normal_material_dark=0x7f050090;
+    public static final int switch_thumb_normal_material_light=0x7f050091;
+    public static final int tooltip_background_dark=0x7f050092;
+    public static final int tooltip_background_light=0x7f050093;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -4686,43 +4763,64 @@ public final class R {
     public static final int avd_show_password=0x7f07005c;
     public static final int bottom_border_line=0x7f07005d;
     public static final int bottom_sheet_header=0x7f07005e;
-    public static final int design_bottom_navigation_item_background=0x7f07005f;
-    public static final int design_fab_background=0x7f070060;
-    public static final int design_ic_visibility=0x7f070061;
-    public static final int design_ic_visibility_off=0x7f070062;
-    public static final int design_password_eye=0x7f070063;
-    public static final int design_snackbar_background=0x7f070064;
-    public static final int ic_add_white_24dp=0x7f070065;
-    public static final int ic_keyboard_arrow_right_lightgray_24dp=0x7f070066;
-    public static final int ic_launcher_background=0x7f070067;
-    public static final int ic_launcher_foreground=0x7f070068;
-    public static final int ic_mail_outline_white_24dp=0x7f070069;
-    public static final int ic_more_vert_black_24dp=0x7f07006a;
-    public static final int ic_mtrl_chip_checked_black=0x7f07006b;
-    public static final int ic_mtrl_chip_checked_circle=0x7f07006c;
-    public static final int ic_mtrl_chip_close_circle=0x7f07006d;
-    public static final int ic_settings_black_24dp=0x7f07006e;
-    public static final int mtrl_snackbar_background=0x7f07006f;
-    public static final int mtrl_tabs_default_indicator=0x7f070070;
-    public static final int navigation_empty_icon=0x7f070071;
-    public static final int notification_action_background=0x7f070072;
-    public static final int notification_bg=0x7f070073;
-    public static final int notification_bg_low=0x7f070074;
-    public static final int notification_bg_low_normal=0x7f070075;
-    public static final int notification_bg_low_pressed=0x7f070076;
-    public static final int notification_bg_normal=0x7f070077;
-    public static final int notification_bg_normal_pressed=0x7f070078;
-    public static final int notification_icon_background=0x7f070079;
-    public static final int notification_template_icon_bg=0x7f07007a;
-    public static final int notification_template_icon_low_bg=0x7f07007b;
-    public static final int notification_tile_bg=0x7f07007c;
-    public static final int notify_panel_notification_icon_bg=0x7f07007d;
-    public static final int rectangle_border_line=0x7f07007e;
-    public static final int spashbg=0x7f07007f;
-    public static final int thismonth_year_textview_border_line=0x7f070080;
-    public static final int tooltip_frame_dark=0x7f070081;
-    public static final int tooltip_frame_light=0x7f070082;
-    public static final int worksheet_border_line=0x7f070083;
+    public static final int common_full_open_on_phone=0x7f07005f;
+    public static final int common_google_signin_btn_icon_dark=0x7f070060;
+    public static final int common_google_signin_btn_icon_dark_focused=0x7f070061;
+    public static final int common_google_signin_btn_icon_dark_normal=0x7f070062;
+    public static final int common_google_signin_btn_icon_dark_normal_background=0x7f070063;
+    public static final int common_google_signin_btn_icon_disabled=0x7f070064;
+    public static final int common_google_signin_btn_icon_light=0x7f070065;
+    public static final int common_google_signin_btn_icon_light_focused=0x7f070066;
+    public static final int common_google_signin_btn_icon_light_normal=0x7f070067;
+    public static final int common_google_signin_btn_icon_light_normal_background=0x7f070068;
+    public static final int common_google_signin_btn_text_dark=0x7f070069;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f07006a;
+    public static final int common_google_signin_btn_text_dark_normal=0x7f07006b;
+    public static final int common_google_signin_btn_text_dark_normal_background=0x7f07006c;
+    public static final int common_google_signin_btn_text_disabled=0x7f07006d;
+    public static final int common_google_signin_btn_text_light=0x7f07006e;
+    public static final int common_google_signin_btn_text_light_focused=0x7f07006f;
+    public static final int common_google_signin_btn_text_light_normal=0x7f070070;
+    public static final int common_google_signin_btn_text_light_normal_background=0x7f070071;
+    public static final int design_bottom_navigation_item_background=0x7f070072;
+    public static final int design_fab_background=0x7f070073;
+    public static final int design_ic_visibility=0x7f070074;
+    public static final int design_ic_visibility_off=0x7f070075;
+    public static final int design_password_eye=0x7f070076;
+    public static final int design_snackbar_background=0x7f070077;
+    public static final int googleg_disabled_color_18=0x7f070078;
+    public static final int googleg_standard_color_18=0x7f070079;
+    public static final int ic_add_white_24dp=0x7f07007a;
+    public static final int ic_keyboard_arrow_right_lightgray_24dp=0x7f07007b;
+    public static final int ic_launcher_background=0x7f07007c;
+    public static final int ic_launcher_foreground=0x7f07007d;
+    public static final int ic_mail_outline_white_24dp=0x7f07007e;
+    public static final int ic_more_vert_black_24dp=0x7f07007f;
+    public static final int ic_mtrl_chip_checked_black=0x7f070080;
+    public static final int ic_mtrl_chip_checked_circle=0x7f070081;
+    public static final int ic_mtrl_chip_close_circle=0x7f070082;
+    public static final int ic_settings_black_24dp=0x7f070083;
+    public static final int mtrl_snackbar_background=0x7f070084;
+    public static final int mtrl_tabs_default_indicator=0x7f070085;
+    public static final int navigation_empty_icon=0x7f070086;
+    public static final int notification_action_background=0x7f070087;
+    public static final int notification_bg=0x7f070088;
+    public static final int notification_bg_low=0x7f070089;
+    public static final int notification_bg_low_normal=0x7f07008a;
+    public static final int notification_bg_low_pressed=0x7f07008b;
+    public static final int notification_bg_normal=0x7f07008c;
+    public static final int notification_bg_normal_pressed=0x7f07008d;
+    public static final int notification_icon_background=0x7f07008e;
+    public static final int notification_template_icon_bg=0x7f07008f;
+    public static final int notification_template_icon_low_bg=0x7f070090;
+    public static final int notification_tile_bg=0x7f070091;
+    public static final int notify_panel_notification_icon_bg=0x7f070092;
+    public static final int rectangle_border_line=0x7f070093;
+    public static final int spashbg=0x7f070094;
+    public static final int thismonth_year_textview_border_line=0x7f070095;
+    public static final int tooltip_frame_dark=0x7f070096;
+    public static final int tooltip_frame_light=0x7f070097;
+    public static final int worksheet_border_line=0x7f070098;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -4754,270 +4852,277 @@ public final class R {
     public static final int actions=0x7f08001a;
     public static final int activity_chooser_view_content=0x7f08001b;
     public static final int add=0x7f08001c;
-    public static final int alertTitle=0x7f08001d;
-    public static final int all=0x7f08001e;
-    public static final int always=0x7f08001f;
-    public static final int app_info_header_textView=0x7f080020;
-    public static final int async=0x7f080021;
-    public static final int auto=0x7f080022;
-    public static final int barrier=0x7f080023;
-    public static final int beginTime_view=0x7f080024;
-    public static final int beginWork_textView=0x7f080025;
-    public static final int beginning=0x7f080026;
-    public static final int blocking=0x7f080027;
-    public static final int bottom=0x7f080028;
-    public static final int bottom_sheet_close_button=0x7f080029;
-    public static final int bottom_sheet_console=0x7f08002a;
-    public static final int bottom_sheet_header=0x7f08002b;
-    public static final int breakTime_textView=0x7f08002c;
-    public static final int breakTime_view=0x7f08002d;
-    public static final int button15=0x7f08002e;
-    public static final int button30=0x7f08002f;
-    public static final int buttonPanel=0x7f080030;
-    public static final int cancel_action=0x7f080031;
-    public static final int center=0x7f080032;
-    public static final int center_horizontal=0x7f080033;
-    public static final int center_vertical=0x7f080034;
-    public static final int chains=0x7f080035;
-    public static final int checkbox=0x7f080036;
-    public static final int chronometer=0x7f080037;
-    public static final int clip_horizontal=0x7f080038;
-    public static final int clip_vertical=0x7f080039;
-    public static final int collapseActionView=0x7f08003a;
-    public static final int container=0x7f08003b;
-    public static final int content=0x7f08003c;
-    public static final int contentPanel=0x7f08003d;
-    public static final int coordinator=0x7f08003e;
-    public static final int custom=0x7f08003f;
-    public static final int customPanel=0x7f080040;
-    public static final int date_picker=0x7f080041;
-    public static final int day_begin_textView=0x7f080042;
-    public static final int day_break_textView=0x7f080043;
-    public static final int day_break_time_textView=0x7f080044;
-    public static final int day_constraintLayout=0x7f080045;
-    public static final int day_end_textView=0x7f080046;
-    public static final int day_end_time_textView=0x7f080047;
-    public static final int day_start_time_textView=0x7f080048;
-    public static final int day_textView=0x7f080049;
-    public static final int day_total_textView=0x7f08004a;
-    public static final int day_total_time_textView=0x7f08004b;
-    public static final int decor_content_parent=0x7f08004c;
-    public static final int defalut_beginTime_ConstraintLayout=0x7f08004d;
-    public static final int defalut_beginTime_view=0x7f08004e;
-    public static final int defalut_endTime_ConstraintLayout=0x7f08004f;
-    public static final int defalut_endTime_view=0x7f080050;
-    public static final int default_activity_button=0x7f080051;
-    public static final int default_beginTime_textView=0x7f080052;
-    public static final int default_endTime_textView=0x7f080053;
-    public static final int design_bottom_sheet=0x7f080054;
-    public static final int design_menu_item_action_area=0x7f080055;
-    public static final int design_menu_item_action_area_stub=0x7f080056;
-    public static final int design_menu_item_text=0x7f080057;
-    public static final int design_navigation_view=0x7f080058;
-    public static final int dimensions=0x7f080059;
-    public static final int direct=0x7f08005a;
-    public static final int disableHome=0x7f08005b;
-    public static final int drawer_layout=0x7f08005c;
-    public static final int edit_query=0x7f08005d;
-    public static final int email_setting_header_textView=0x7f08005e;
-    public static final int email_to_ConstraintLayout=0x7f08005f;
-    public static final int email_to_editText=0x7f080060;
-    public static final int end=0x7f080061;
-    public static final int endTime_view=0x7f080062;
-    public static final int endWork_textView=0x7f080063;
-    public static final int end_padder=0x7f080064;
-    public static final int enterAlways=0x7f080065;
-    public static final int enterAlwaysCollapsed=0x7f080066;
-    public static final int exitUntilCollapsed=0x7f080067;
-    public static final int expand_activities_button=0x7f080068;
-    public static final int expanded_menu=0x7f080069;
-    public static final int fab=0x7f08006a;
-    public static final int fill=0x7f08006b;
-    public static final int fill_horizontal=0x7f08006c;
-    public static final int fill_vertical=0x7f08006d;
-    public static final int filled=0x7f08006e;
-    public static final int fixed=0x7f08006f;
-    public static final int forever=0x7f080070;
-    public static final int ghost_view=0x7f080071;
-    public static final int gone=0x7f080072;
-    public static final int group_divider=0x7f080073;
-    public static final int header_LinearLayout=0x7f080074;
-    public static final int header_break_textView=0x7f080075;
-    public static final int header_day_textView=0x7f080076;
-    public static final int header_endWork_textView=0x7f080077;
-    public static final int header_note_textView=0x7f080078;
-    public static final int header_week_textView=0x7f080079;
-    public static final int header_workFlag_textView=0x7f08007a;
-    public static final int header_workTime_textView=0x7f08007b;
-    public static final int home=0x7f08007c;
-    public static final int homeAsUp=0x7f08007d;
-    public static final int icon=0x7f08007e;
-    public static final int icon_group=0x7f08007f;
-    public static final int ifRoom=0x7f080080;
-    public static final int image=0x7f080081;
-    public static final int info=0x7f080082;
-    public static final int interval_radio_group=0x7f080083;
-    public static final int invisible=0x7f080084;
-    public static final int isWork_switch=0x7f080085;
-    public static final int italic=0x7f080086;
-    public static final int item_right_arrow=0x7f080087;
-    public static final int item_touch_helper_previous_elevation=0x7f080088;
-    public static final int labeled=0x7f080089;
-    public static final int largeLabel=0x7f08008a;
-    public static final int left=0x7f08008b;
-    public static final int line1=0x7f08008c;
-    public static final int line3=0x7f08008d;
-    public static final int listMode=0x7f08008e;
-    public static final int list_item=0x7f08008f;
-    public static final int masked=0x7f080090;
-    public static final int media_actions=0x7f080091;
-    public static final int message=0x7f080092;
-    public static final int middle=0x7f080093;
-    public static final int mini=0x7f080094;
-    public static final int month_textView=0x7f080095;
-    public static final int mtrl_child_content_container=0x7f080096;
-    public static final int mtrl_internal_children_alpha_tag=0x7f080097;
-    public static final int multiply=0x7f080098;
-    public static final int nav_add_worksheet=0x7f080099;
-    public static final int nav_setting=0x7f08009a;
-    public static final int nav_view=0x7f08009b;
-    public static final int navigation_header_container=0x7f08009c;
-    public static final int never=0x7f08009d;
-    public static final int none=0x7f08009e;
-    public static final int normal=0x7f08009f;
-    public static final int note_editText=0x7f0800a0;
-    public static final int note_setting_header=0x7f0800a1;
-    public static final int note_textView=0x7f0800a2;
-    public static final int notification_background=0x7f0800a3;
-    public static final int notification_main_column=0x7f0800a4;
-    public static final int notification_main_column_container=0x7f0800a5;
-    public static final int outline=0x7f0800a6;
-    public static final int packed=0x7f0800a7;
-    public static final int parallax=0x7f0800a8;
-    public static final int parent=0x7f0800a9;
-    public static final int parentPanel=0x7f0800aa;
-    public static final int parent_matrix=0x7f0800ab;
-    public static final int percent=0x7f0800ac;
-    public static final int pin=0x7f0800ad;
-    public static final int progress_circular=0x7f0800ae;
-    public static final int progress_horizontal=0x7f0800af;
-    public static final int radio=0x7f0800b0;
-    public static final int right=0x7f0800b1;
-    public static final int right_icon=0x7f0800b2;
-    public static final int right_side=0x7f0800b3;
-    public static final int save_image_matrix=0x7f0800b4;
-    public static final int save_non_transition_alpha=0x7f0800b5;
-    public static final int save_scale_type=0x7f0800b6;
-    public static final int screen=0x7f0800b7;
-    public static final int scroll=0x7f0800b8;
-    public static final int scrollIndicatorDown=0x7f0800b9;
-    public static final int scrollIndicatorUp=0x7f0800ba;
-    public static final int scrollView=0x7f0800bb;
-    public static final int scrollable=0x7f0800bc;
-    public static final int search_badge=0x7f0800bd;
-    public static final int search_bar=0x7f0800be;
-    public static final int search_button=0x7f0800bf;
-    public static final int search_close_btn=0x7f0800c0;
-    public static final int search_edit_frame=0x7f0800c1;
-    public static final int search_go_btn=0x7f0800c2;
-    public static final int search_mag_icon=0x7f0800c3;
-    public static final int search_plate=0x7f0800c4;
-    public static final int search_src_text=0x7f0800c5;
-    public static final int search_voice_btn=0x7f0800c6;
-    public static final int select_dialog_listview=0x7f0800c7;
-    public static final int selected=0x7f0800c8;
-    public static final int send_csv=0x7f0800c9;
-    public static final int send_markdown=0x7f0800ca;
-    public static final int set_today_begin_time=0x7f0800cb;
-    public static final int set_today_end_time=0x7f0800cc;
-    public static final int shortcut=0x7f0800cd;
-    public static final int showCustom=0x7f0800ce;
-    public static final int showHome=0x7f0800cf;
-    public static final int showTitle=0x7f0800d0;
-    public static final int smallLabel=0x7f0800d1;
-    public static final int snackbar_action=0x7f0800d2;
-    public static final int snackbar_text=0x7f0800d3;
-    public static final int snap=0x7f0800d4;
-    public static final int snapMargins=0x7f0800d5;
-    public static final int spacer=0x7f0800d6;
-    public static final int split_action_bar=0x7f0800d7;
-    public static final int spread=0x7f0800d8;
-    public static final int spread_inside=0x7f0800d9;
-    public static final int src_atop=0x7f0800da;
-    public static final int src_in=0x7f0800db;
-    public static final int src_over=0x7f0800dc;
-    public static final int standard=0x7f0800dd;
-    public static final int start=0x7f0800de;
-    public static final int status_bar_latest_event_content=0x7f0800df;
-    public static final int stretch=0x7f0800e0;
-    public static final int submenuarrow=0x7f0800e1;
-    public static final int submit_area=0x7f0800e2;
-    public static final int tabMode=0x7f0800e3;
-    public static final int tag_transition_group=0x7f0800e4;
-    public static final int tag_unhandled_key_event_manager=0x7f0800e5;
-    public static final int tag_unhandled_key_listeners=0x7f0800e6;
-    public static final int text=0x7f0800e7;
-    public static final int text2=0x7f0800e8;
-    public static final int textSpacerNoButtons=0x7f0800e9;
-    public static final int textSpacerNoTitle=0x7f0800ea;
-    public static final int textStart=0x7f0800eb;
-    public static final int textView=0x7f0800ec;
-    public static final int text_input_password_toggle=0x7f0800ed;
-    public static final int textinput_counter=0x7f0800ee;
-    public static final int textinput_error=0x7f0800ef;
-    public static final int textinput_helper_text=0x7f0800f0;
-    public static final int thisMonth_ConstraintLayout=0x7f0800f1;
-    public static final int thisMonth_calendar_constraintLayout=0x7f0800f2;
-    public static final int thisMonth_day_constraintLayout=0x7f0800f3;
-    public static final int thisMonth_day_textView=0x7f0800f4;
-    public static final int thisMonth_hour_constraintLayout=0x7f0800f5;
-    public static final int thisMonth_month_textView=0x7f0800f6;
-    public static final int thisMonth_slash_textView=0x7f0800f7;
-    public static final int thisMonth_title_textView=0x7f0800f8;
-    public static final int thisMonth_total_day_textView=0x7f0800f9;
-    public static final int thisMonth_total_day_title_textView=0x7f0800fa;
-    public static final int thisMonth_total_hour_textView=0x7f0800fb;
-    public static final int thisMonth_total_hour_title_textView=0x7f0800fc;
-    public static final int thisMonth_year_textView=0x7f0800fd;
-    public static final int time=0x7f0800fe;
-    public static final int time_picker=0x7f0800ff;
-    public static final int title=0x7f080100;
-    public static final int titleDividerNoCustom=0x7f080101;
-    public static final int title_template=0x7f080102;
-    public static final int top=0x7f080103;
-    public static final int topPanel=0x7f080104;
-    public static final int top_list_item=0x7f080105;
-    public static final int touch_outside=0x7f080106;
-    public static final int transition_current_scene=0x7f080107;
-    public static final int transition_layout_save=0x7f080108;
-    public static final int transition_position=0x7f080109;
-    public static final int transition_scene_layoutid_cache=0x7f08010a;
-    public static final int transition_transform=0x7f08010b;
-    public static final int uniform=0x7f08010c;
-    public static final int unlabeled=0x7f08010d;
-    public static final int up=0x7f08010e;
-    public static final int useLogo=0x7f08010f;
-    public static final int version_textView=0x7f080110;
-    public static final int view_offset_helper=0x7f080111;
-    public static final int visible=0x7f080112;
-    public static final int week_textView=0x7f080113;
-    public static final int withText=0x7f080114;
-    public static final int workDay_textView=0x7f080115;
-    public static final int workDay_title_textView=0x7f080116;
-    public static final int workFlag_textView=0x7f080117;
-    public static final int workHour_textView=0x7f080118;
-    public static final int workHour_title_textView=0x7f080119;
-    public static final int workTime_textView=0x7f08011a;
-    public static final int work_listView=0x7f08011b;
-    public static final int worksheet_form_view=0x7f08011c;
-    public static final int worksheet_item_day_constraintLayout=0x7f08011d;
-    public static final int worksheet_item_hour_constraintLayout=0x7f08011e;
-    public static final int worksheet_listView=0x7f08011f;
-    public static final int worksheet_list_constraintLayout=0x7f080120;
-    public static final int worksheet_setting_header_textView=0x7f080121;
-    public static final int wrap=0x7f080122;
-    public static final int wrap_content=0x7f080123;
-    public static final int year_textView=0x7f080124;
+    public static final int adjust_height=0x7f08001d;
+    public static final int adjust_width=0x7f08001e;
+    public static final int alertTitle=0x7f08001f;
+    public static final int all=0x7f080020;
+    public static final int always=0x7f080021;
+    public static final int app_info_header_textView=0x7f080022;
+    public static final int async=0x7f080023;
+    public static final int auto=0x7f080024;
+    public static final int barrier=0x7f080025;
+    public static final int beginTime_view=0x7f080026;
+    public static final int beginWork_textView=0x7f080027;
+    public static final int beginning=0x7f080028;
+    public static final int blocking=0x7f080029;
+    public static final int bottom=0x7f08002a;
+    public static final int bottom_sheet_close_button=0x7f08002b;
+    public static final int bottom_sheet_console=0x7f08002c;
+    public static final int bottom_sheet_header=0x7f08002d;
+    public static final int breakTime_textView=0x7f08002e;
+    public static final int breakTime_view=0x7f08002f;
+    public static final int button15=0x7f080030;
+    public static final int button30=0x7f080031;
+    public static final int buttonPanel=0x7f080032;
+    public static final int cancel_action=0x7f080033;
+    public static final int center=0x7f080034;
+    public static final int center_horizontal=0x7f080035;
+    public static final int center_vertical=0x7f080036;
+    public static final int chains=0x7f080037;
+    public static final int checkbox=0x7f080038;
+    public static final int chronometer=0x7f080039;
+    public static final int clip_horizontal=0x7f08003a;
+    public static final int clip_vertical=0x7f08003b;
+    public static final int collapseActionView=0x7f08003c;
+    public static final int container=0x7f08003d;
+    public static final int content=0x7f08003e;
+    public static final int contentPanel=0x7f08003f;
+    public static final int coordinator=0x7f080040;
+    public static final int custom=0x7f080041;
+    public static final int customPanel=0x7f080042;
+    public static final int dark=0x7f080043;
+    public static final int date_picker=0x7f080044;
+    public static final int day_begin_textView=0x7f080045;
+    public static final int day_break_textView=0x7f080046;
+    public static final int day_break_time_textView=0x7f080047;
+    public static final int day_constraintLayout=0x7f080048;
+    public static final int day_end_textView=0x7f080049;
+    public static final int day_end_time_textView=0x7f08004a;
+    public static final int day_start_time_textView=0x7f08004b;
+    public static final int day_textView=0x7f08004c;
+    public static final int day_total_textView=0x7f08004d;
+    public static final int day_total_time_textView=0x7f08004e;
+    public static final int decor_content_parent=0x7f08004f;
+    public static final int defalut_beginTime_ConstraintLayout=0x7f080050;
+    public static final int defalut_beginTime_view=0x7f080051;
+    public static final int defalut_endTime_ConstraintLayout=0x7f080052;
+    public static final int defalut_endTime_view=0x7f080053;
+    public static final int default_activity_button=0x7f080054;
+    public static final int default_beginTime_textView=0x7f080055;
+    public static final int default_endTime_textView=0x7f080056;
+    public static final int design_bottom_sheet=0x7f080057;
+    public static final int design_menu_item_action_area=0x7f080058;
+    public static final int design_menu_item_action_area_stub=0x7f080059;
+    public static final int design_menu_item_text=0x7f08005a;
+    public static final int design_navigation_view=0x7f08005b;
+    public static final int dimensions=0x7f08005c;
+    public static final int direct=0x7f08005d;
+    public static final int disableHome=0x7f08005e;
+    public static final int drawer_layout=0x7f08005f;
+    public static final int edit_query=0x7f080060;
+    public static final int email_setting_header_textView=0x7f080061;
+    public static final int email_to_ConstraintLayout=0x7f080062;
+    public static final int email_to_editText=0x7f080063;
+    public static final int end=0x7f080064;
+    public static final int endTime_view=0x7f080065;
+    public static final int endWork_textView=0x7f080066;
+    public static final int end_padder=0x7f080067;
+    public static final int enterAlways=0x7f080068;
+    public static final int enterAlwaysCollapsed=0x7f080069;
+    public static final int exitUntilCollapsed=0x7f08006a;
+    public static final int expand_activities_button=0x7f08006b;
+    public static final int expanded_menu=0x7f08006c;
+    public static final int fab=0x7f08006d;
+    public static final int fill=0x7f08006e;
+    public static final int fill_horizontal=0x7f08006f;
+    public static final int fill_vertical=0x7f080070;
+    public static final int filled=0x7f080071;
+    public static final int fixed=0x7f080072;
+    public static final int forever=0x7f080073;
+    public static final int ghost_view=0x7f080074;
+    public static final int gone=0x7f080075;
+    public static final int group_divider=0x7f080076;
+    public static final int groups=0x7f080077;
+    public static final int header_LinearLayout=0x7f080078;
+    public static final int header_break_textView=0x7f080079;
+    public static final int header_day_textView=0x7f08007a;
+    public static final int header_endWork_textView=0x7f08007b;
+    public static final int header_note_textView=0x7f08007c;
+    public static final int header_week_textView=0x7f08007d;
+    public static final int header_workFlag_textView=0x7f08007e;
+    public static final int header_workTime_textView=0x7f08007f;
+    public static final int home=0x7f080080;
+    public static final int homeAsUp=0x7f080081;
+    public static final int icon=0x7f080082;
+    public static final int icon_group=0x7f080083;
+    public static final int icon_only=0x7f080084;
+    public static final int ifRoom=0x7f080085;
+    public static final int image=0x7f080086;
+    public static final int info=0x7f080087;
+    public static final int interval_radio_group=0x7f080088;
+    public static final int invisible=0x7f080089;
+    public static final int isWork_switch=0x7f08008a;
+    public static final int italic=0x7f08008b;
+    public static final int item_right_arrow=0x7f08008c;
+    public static final int item_touch_helper_previous_elevation=0x7f08008d;
+    public static final int labeled=0x7f08008e;
+    public static final int largeLabel=0x7f08008f;
+    public static final int left=0x7f080090;
+    public static final int light=0x7f080091;
+    public static final int line1=0x7f080092;
+    public static final int line3=0x7f080093;
+    public static final int listMode=0x7f080094;
+    public static final int list_item=0x7f080095;
+    public static final int masked=0x7f080096;
+    public static final int media_actions=0x7f080097;
+    public static final int message=0x7f080098;
+    public static final int middle=0x7f080099;
+    public static final int mini=0x7f08009a;
+    public static final int month_textView=0x7f08009b;
+    public static final int mtrl_child_content_container=0x7f08009c;
+    public static final int mtrl_internal_children_alpha_tag=0x7f08009d;
+    public static final int multiply=0x7f08009e;
+    public static final int nav_add_worksheet=0x7f08009f;
+    public static final int nav_setting=0x7f0800a0;
+    public static final int nav_view=0x7f0800a1;
+    public static final int navigation_header_container=0x7f0800a2;
+    public static final int never=0x7f0800a3;
+    public static final int none=0x7f0800a4;
+    public static final int normal=0x7f0800a5;
+    public static final int note_editText=0x7f0800a6;
+    public static final int note_setting_header=0x7f0800a7;
+    public static final int note_textView=0x7f0800a8;
+    public static final int notification_background=0x7f0800a9;
+    public static final int notification_main_column=0x7f0800aa;
+    public static final int notification_main_column_container=0x7f0800ab;
+    public static final int outline=0x7f0800ac;
+    public static final int packed=0x7f0800ad;
+    public static final int parallax=0x7f0800ae;
+    public static final int parent=0x7f0800af;
+    public static final int parentPanel=0x7f0800b0;
+    public static final int parent_matrix=0x7f0800b1;
+    public static final int percent=0x7f0800b2;
+    public static final int pin=0x7f0800b3;
+    public static final int progress_circular=0x7f0800b4;
+    public static final int progress_horizontal=0x7f0800b5;
+    public static final int radio=0x7f0800b6;
+    public static final int right=0x7f0800b7;
+    public static final int right_icon=0x7f0800b8;
+    public static final int right_side=0x7f0800b9;
+    public static final int save_image_matrix=0x7f0800ba;
+    public static final int save_non_transition_alpha=0x7f0800bb;
+    public static final int save_scale_type=0x7f0800bc;
+    public static final int screen=0x7f0800bd;
+    public static final int scroll=0x7f0800be;
+    public static final int scrollIndicatorDown=0x7f0800bf;
+    public static final int scrollIndicatorUp=0x7f0800c0;
+    public static final int scrollView=0x7f0800c1;
+    public static final int scrollable=0x7f0800c2;
+    public static final int search_badge=0x7f0800c3;
+    public static final int search_bar=0x7f0800c4;
+    public static final int search_button=0x7f0800c5;
+    public static final int search_close_btn=0x7f0800c6;
+    public static final int search_edit_frame=0x7f0800c7;
+    public static final int search_go_btn=0x7f0800c8;
+    public static final int search_mag_icon=0x7f0800c9;
+    public static final int search_plate=0x7f0800ca;
+    public static final int search_src_text=0x7f0800cb;
+    public static final int search_voice_btn=0x7f0800cc;
+    public static final int select_dialog_listview=0x7f0800cd;
+    public static final int selected=0x7f0800ce;
+    public static final int send_csv=0x7f0800cf;
+    public static final int send_markdown=0x7f0800d0;
+    public static final int set_today_begin_time=0x7f0800d1;
+    public static final int set_today_end_time=0x7f0800d2;
+    public static final int shortcut=0x7f0800d3;
+    public static final int showCustom=0x7f0800d4;
+    public static final int showHome=0x7f0800d5;
+    public static final int showTitle=0x7f0800d6;
+    public static final int smallLabel=0x7f0800d7;
+    public static final int snackbar_action=0x7f0800d8;
+    public static final int snackbar_text=0x7f0800d9;
+    public static final int snap=0x7f0800da;
+    public static final int snapMargins=0x7f0800db;
+    public static final int spacer=0x7f0800dc;
+    public static final int split_action_bar=0x7f0800dd;
+    public static final int spread=0x7f0800de;
+    public static final int spread_inside=0x7f0800df;
+    public static final int src_atop=0x7f0800e0;
+    public static final int src_in=0x7f0800e1;
+    public static final int src_over=0x7f0800e2;
+    public static final int standard=0x7f0800e3;
+    public static final int start=0x7f0800e4;
+    public static final int status_bar_latest_event_content=0x7f0800e5;
+    public static final int stretch=0x7f0800e6;
+    public static final int submenuarrow=0x7f0800e7;
+    public static final int submit_area=0x7f0800e8;
+    public static final int tabMode=0x7f0800e9;
+    public static final int tag_transition_group=0x7f0800ea;
+    public static final int tag_unhandled_key_event_manager=0x7f0800eb;
+    public static final int tag_unhandled_key_listeners=0x7f0800ec;
+    public static final int text=0x7f0800ed;
+    public static final int text2=0x7f0800ee;
+    public static final int textSpacerNoButtons=0x7f0800ef;
+    public static final int textSpacerNoTitle=0x7f0800f0;
+    public static final int textStart=0x7f0800f1;
+    public static final int textView=0x7f0800f2;
+    public static final int text_input_password_toggle=0x7f0800f3;
+    public static final int textinput_counter=0x7f0800f4;
+    public static final int textinput_error=0x7f0800f5;
+    public static final int textinput_helper_text=0x7f0800f6;
+    public static final int thisMonth_ConstraintLayout=0x7f0800f7;
+    public static final int thisMonth_calendar_constraintLayout=0x7f0800f8;
+    public static final int thisMonth_day_constraintLayout=0x7f0800f9;
+    public static final int thisMonth_day_textView=0x7f0800fa;
+    public static final int thisMonth_hour_constraintLayout=0x7f0800fb;
+    public static final int thisMonth_month_textView=0x7f0800fc;
+    public static final int thisMonth_slash_textView=0x7f0800fd;
+    public static final int thisMonth_title_textView=0x7f0800fe;
+    public static final int thisMonth_total_day_textView=0x7f0800ff;
+    public static final int thisMonth_total_day_title_textView=0x7f080100;
+    public static final int thisMonth_total_hour_textView=0x7f080101;
+    public static final int thisMonth_total_hour_title_textView=0x7f080102;
+    public static final int thisMonth_year_textView=0x7f080103;
+    public static final int time=0x7f080104;
+    public static final int time_picker=0x7f080105;
+    public static final int title=0x7f080106;
+    public static final int titleDividerNoCustom=0x7f080107;
+    public static final int title_template=0x7f080108;
+    public static final int top=0x7f080109;
+    public static final int topPanel=0x7f08010a;
+    public static final int top_list_item=0x7f08010b;
+    public static final int touch_outside=0x7f08010c;
+    public static final int transition_current_scene=0x7f08010d;
+    public static final int transition_layout_save=0x7f08010e;
+    public static final int transition_position=0x7f08010f;
+    public static final int transition_scene_layoutid_cache=0x7f080110;
+    public static final int transition_transform=0x7f080111;
+    public static final int uniform=0x7f080112;
+    public static final int unlabeled=0x7f080113;
+    public static final int up=0x7f080114;
+    public static final int useLogo=0x7f080115;
+    public static final int version_textView=0x7f080116;
+    public static final int view_offset_helper=0x7f080117;
+    public static final int visible=0x7f080118;
+    public static final int week_textView=0x7f080119;
+    public static final int wide=0x7f08011a;
+    public static final int withText=0x7f08011b;
+    public static final int workDay_textView=0x7f08011c;
+    public static final int workDay_title_textView=0x7f08011d;
+    public static final int workFlag_textView=0x7f08011e;
+    public static final int workHour_textView=0x7f08011f;
+    public static final int workHour_title_textView=0x7f080120;
+    public static final int workTime_textView=0x7f080121;
+    public static final int work_listView=0x7f080122;
+    public static final int worksheet_form_view=0x7f080123;
+    public static final int worksheet_item_day_constraintLayout=0x7f080124;
+    public static final int worksheet_item_hour_constraintLayout=0x7f080125;
+    public static final int worksheet_listView=0x7f080126;
+    public static final int worksheet_list_constraintLayout=0x7f080127;
+    public static final int worksheet_setting_header_textView=0x7f080128;
+    public static final int wrap=0x7f080129;
+    public static final int wrap_content=0x7f08012a;
+    public static final int year_textView=0x7f08012b;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5028,13 +5133,14 @@ public final class R {
     public static final int config_tooltipAnimTime=0x7f090005;
     public static final int design_snackbar_text_max_lines=0x7f090006;
     public static final int design_tab_indicator_anim_duration_ms=0x7f090007;
-    public static final int hide_password_duration=0x7f090008;
-    public static final int mtrl_btn_anim_delay_ms=0x7f090009;
-    public static final int mtrl_btn_anim_duration_ms=0x7f09000a;
-    public static final int mtrl_chip_anim_duration=0x7f09000b;
-    public static final int mtrl_tab_indicator_anim_duration_ms=0x7f09000c;
-    public static final int show_password_duration=0x7f09000d;
-    public static final int status_bar_notification_info_maxnum=0x7f09000e;
+    public static final int google_play_services_version=0x7f090008;
+    public static final int hide_password_duration=0x7f090009;
+    public static final int mtrl_btn_anim_delay_ms=0x7f09000a;
+    public static final int mtrl_btn_anim_duration_ms=0x7f09000b;
+    public static final int mtrl_chip_anim_duration=0x7f09000c;
+    public static final int mtrl_tab_indicator_anim_duration_ms=0x7f09000d;
+    public static final int show_password_duration=0x7f09000e;
+    public static final int status_bar_notification_info_maxnum=0x7f09000f;
   }
   public static final class interpolator {
     public static final int mtrl_fast_out_linear_in=0x7f0a0000;
@@ -5180,70 +5286,97 @@ public final class R {
     public static final int cancel=0x7f0e002f;
     public static final int character_counter_content_description=0x7f0e0030;
     public static final int character_counter_pattern=0x7f0e0031;
-    public static final int confirm=0x7f0e0032;
-    public static final int create_worksheet_title=0x7f0e0033;
-    public static final int csv_menu_title=0x7f0e0034;
-    public static final int day_column=0x7f0e0035;
-    public static final int day_work_activity_title=0x7f0e0036;
-    public static final int delete=0x7f0e0037;
-    public static final int delete_worksheet_title=0x7f0e0038;
-    public static final int email_empty_message=0x7f0e0039;
-    public static final int email_info_header=0x7f0e003a;
-    public static final int email_setting_activity_title=0x7f0e003b;
-    public static final int email_setting_title=0x7f0e003c;
-    public static final int email_subject=0x7f0e003d;
-    public static final int email_to_title=0x7f0e003e;
-    public static final int end_time_column=0x7f0e003f;
-    public static final int end_time_now=0x7f0e0040;
-    public static final int fab_transformation_scrim_behavior=0x7f0e0041;
-    public static final int fab_transformation_sheet_behavior=0x7f0e0042;
-    public static final int go_email_setting_title=0x7f0e0043;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e0044;
-    public static final int info_this_month_work=0x7f0e0045;
-    public static final int interval_time_title=0x7f0e0046;
-    public static final int main_activity_title=0x7f0e0047;
-    public static final int manage_worksheet=0x7f0e0048;
-    public static final int markdown_menu_title=0x7f0e0049;
-    public static final int month_work_activity_title=0x7f0e004a;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e004b;
-    public static final int navigation_drawer_close=0x7f0e004c;
-    public static final int navigation_drawer_open=0x7f0e004d;
-    public static final int note_column=0x7f0e004e;
-    public static final int note_setting_header=0x7f0e004f;
-    public static final int password_toggle_content_description=0x7f0e0050;
-    public static final int path_password_eye=0x7f0e0051;
-    public static final int path_password_eye_mask_strike_through=0x7f0e0052;
-    public static final int path_password_eye_mask_visible=0x7f0e0053;
-    public static final int path_password_strike_through=0x7f0e0054;
-    public static final int request_set_address_message=0x7f0e0055;
-    public static final int search_menu_title=0x7f0e0056;
-    public static final int select=0x7f0e0057;
-    public static final int select_yearmonth_message=0x7f0e0058;
-    public static final int send_email_menu_title=0x7f0e0059;
-    public static final int send_email_type=0x7f0e005a;
-    public static final int set_beginTime_title=0x7f0e005b;
-    public static final int set_breakTime_title=0x7f0e005c;
-    public static final int set_endTime_title=0x7f0e005d;
-    public static final int set_today_begin_time_message=0x7f0e005e;
-    public static final int set_today_end_time_message=0x7f0e005f;
-    public static final int setting=0x7f0e0060;
-    public static final int setting_menu_title=0x7f0e0061;
-    public static final int status_bar_notification_info_overflow=0x7f0e0062;
-    public static final int support=0x7f0e0063;
-    public static final int update_worksheet_title=0x7f0e0064;
-    public static final int version=0x7f0e0065;
-    public static final int week_column=0x7f0e0066;
-    public static final int work_flag_column=0x7f0e0067;
-    public static final int work_time_column=0x7f0e0068;
-    public static final int workday_setting_header=0x7f0e0069;
-    public static final int workday_switch_title=0x7f0e006a;
-    public static final int worksheet_info_message=0x7f0e006b;
-    public static final int worksheet_setting_header=0x7f0e006c;
-    public static final int worktime_begin_title=0x7f0e006d;
-    public static final int worktime_break_title=0x7f0e006e;
-    public static final int worktime_end_title=0x7f0e006f;
-    public static final int worktime_setting_header=0x7f0e0070;
-    public static final int worktime_total_title=0x7f0e0071;
+    public static final int com_crashlytics_android_build_id=0x7f0e0032;
+    public static final int common_google_play_services_enable_button=0x7f0e0033;
+    public static final int common_google_play_services_enable_text=0x7f0e0034;
+    public static final int common_google_play_services_enable_title=0x7f0e0035;
+    public static final int common_google_play_services_install_button=0x7f0e0036;
+    public static final int common_google_play_services_install_text=0x7f0e0037;
+    public static final int common_google_play_services_install_title=0x7f0e0038;
+    public static final int common_google_play_services_notification_channel_name=0x7f0e0039;
+    public static final int common_google_play_services_notification_ticker=0x7f0e003a;
+    public static final int common_google_play_services_unknown_issue=0x7f0e003b;
+    public static final int common_google_play_services_unsupported_text=0x7f0e003c;
+    public static final int common_google_play_services_update_button=0x7f0e003d;
+    public static final int common_google_play_services_update_text=0x7f0e003e;
+    public static final int common_google_play_services_update_title=0x7f0e003f;
+    public static final int common_google_play_services_updating_text=0x7f0e0040;
+    public static final int common_google_play_services_wear_update_text=0x7f0e0041;
+    public static final int common_open_on_phone=0x7f0e0042;
+    public static final int common_signin_button_text=0x7f0e0043;
+    public static final int common_signin_button_text_long=0x7f0e0044;
+    public static final int confirm=0x7f0e0045;
+    public static final int create_worksheet_title=0x7f0e0046;
+    public static final int csv_menu_title=0x7f0e0047;
+    public static final int day_column=0x7f0e0048;
+    public static final int day_work_activity_title=0x7f0e0049;
+    public static final int default_web_client_id=0x7f0e004a;
+    public static final int delete=0x7f0e004b;
+    public static final int delete_worksheet_title=0x7f0e004c;
+    public static final int email_empty_message=0x7f0e004d;
+    public static final int email_info_header=0x7f0e004e;
+    public static final int email_setting_activity_title=0x7f0e004f;
+    public static final int email_setting_title=0x7f0e0050;
+    public static final int email_subject=0x7f0e0051;
+    public static final int email_to_title=0x7f0e0052;
+    public static final int end_time_column=0x7f0e0053;
+    public static final int end_time_now=0x7f0e0054;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0055;
+    public static final int fab_transformation_sheet_behavior=0x7f0e0056;
+    public static final int firebase_database_url=0x7f0e0057;
+    public static final int gcm_defaultSenderId=0x7f0e0058;
+    public static final int go_email_setting_title=0x7f0e0059;
+    public static final int google_api_key=0x7f0e005a;
+    public static final int google_app_id=0x7f0e005b;
+    public static final int google_crash_reporting_api_key=0x7f0e005c;
+    public static final int google_storage_bucket=0x7f0e005d;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e005e;
+    public static final int info_this_month_work=0x7f0e005f;
+    public static final int interval_time_title=0x7f0e0060;
+    public static final int main_activity_title=0x7f0e0061;
+    public static final int manage_worksheet=0x7f0e0062;
+    public static final int markdown_menu_title=0x7f0e0063;
+    public static final int month_work_activity_title=0x7f0e0064;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0065;
+    public static final int navigation_drawer_close=0x7f0e0066;
+    public static final int navigation_drawer_open=0x7f0e0067;
+    public static final int note_column=0x7f0e0068;
+    public static final int note_setting_header=0x7f0e0069;
+    public static final int password_toggle_content_description=0x7f0e006a;
+    public static final int path_password_eye=0x7f0e006b;
+    public static final int path_password_eye_mask_strike_through=0x7f0e006c;
+    public static final int path_password_eye_mask_visible=0x7f0e006d;
+    public static final int path_password_strike_through=0x7f0e006e;
+    public static final int project_id=0x7f0e006f;
+    public static final int request_set_address_message=0x7f0e0070;
+    public static final int search_menu_title=0x7f0e0071;
+    public static final int select=0x7f0e0072;
+    public static final int select_yearmonth_message=0x7f0e0073;
+    public static final int send_email_menu_title=0x7f0e0074;
+    public static final int send_email_type=0x7f0e0075;
+    public static final int set_beginTime_title=0x7f0e0076;
+    public static final int set_breakTime_title=0x7f0e0077;
+    public static final int set_endTime_title=0x7f0e0078;
+    public static final int set_today_begin_time_message=0x7f0e0079;
+    public static final int set_today_end_time_message=0x7f0e007a;
+    public static final int setting=0x7f0e007b;
+    public static final int setting_menu_title=0x7f0e007c;
+    public static final int status_bar_notification_info_overflow=0x7f0e007d;
+    public static final int support=0x7f0e007e;
+    public static final int update_worksheet_title=0x7f0e007f;
+    public static final int version=0x7f0e0080;
+    public static final int week_column=0x7f0e0081;
+    public static final int work_flag_column=0x7f0e0082;
+    public static final int work_time_column=0x7f0e0083;
+    public static final int workday_setting_header=0x7f0e0084;
+    public static final int workday_switch_title=0x7f0e0085;
+    public static final int worksheet_info_message=0x7f0e0086;
+    public static final int worksheet_setting_header=0x7f0e0087;
+    public static final int worktime_begin_title=0x7f0e0088;
+    public static final int worktime_break_title=0x7f0e0089;
+    public static final int worktime_end_title=0x7f0e008a;
+    public static final int worktime_setting_header=0x7f0e008b;
+    public static final int worktime_total_title=0x7f0e008c;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -5757,35 +5890,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background archiveasia.jp.co.hakenman.debug:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit archiveasia.jp.co.hakenman.debug:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked archiveasia.jp.co.hakenman.debug:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd archiveasia.jp.co.hakenman.debug:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions archiveasia.jp.co.hakenman.debug:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft archiveasia.jp.co.hakenman.debug:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight archiveasia.jp.co.hakenman.debug:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart archiveasia.jp.co.hakenman.debug:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation archiveasia.jp.co.hakenman.debug:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout archiveasia.jp.co.hakenman.debug:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions archiveasia.jp.co.hakenman.debug:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider archiveasia.jp.co.hakenman.debug:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height archiveasia.jp.co.hakenman.debug:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll archiveasia.jp.co.hakenman.debug:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator archiveasia.jp.co.hakenman.debug:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout archiveasia.jp.co.hakenman.debug:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon archiveasia.jp.co.hakenman.debug:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle archiveasia.jp.co.hakenman.debug:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding archiveasia.jp.co.hakenman.debug:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo archiveasia.jp.co.hakenman.debug:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode archiveasia.jp.co.hakenman.debug:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme archiveasia.jp.co.hakenman.debug:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding archiveasia.jp.co.hakenman.debug:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle archiveasia.jp.co.hakenman.debug:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle archiveasia.jp.co.hakenman.debug:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle archiveasia.jp.co.hakenman.debug:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title archiveasia.jp.co.hakenman.debug:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle archiveasia.jp.co.hakenman.debug:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background archiveasia.jp.co.hakenman:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit archiveasia.jp.co.hakenman:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked archiveasia.jp.co.hakenman:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd archiveasia.jp.co.hakenman:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions archiveasia.jp.co.hakenman:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft archiveasia.jp.co.hakenman:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight archiveasia.jp.co.hakenman:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart archiveasia.jp.co.hakenman:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation archiveasia.jp.co.hakenman:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout archiveasia.jp.co.hakenman:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions archiveasia.jp.co.hakenman:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider archiveasia.jp.co.hakenman:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height archiveasia.jp.co.hakenman:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll archiveasia.jp.co.hakenman:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator archiveasia.jp.co.hakenman:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout archiveasia.jp.co.hakenman:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon archiveasia.jp.co.hakenman:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle archiveasia.jp.co.hakenman:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding archiveasia.jp.co.hakenman:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo archiveasia.jp.co.hakenman:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode archiveasia.jp.co.hakenman:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme archiveasia.jp.co.hakenman:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding archiveasia.jp.co.hakenman:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle archiveasia.jp.co.hakenman:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle archiveasia.jp.co.hakenman:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle archiveasia.jp.co.hakenman:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title archiveasia.jp.co.hakenman:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle archiveasia.jp.co.hakenman:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -5818,17 +5951,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f030031, 0x7f030032, 0x7f030033, 0x7f030097, 
-        0x7f030098, 0x7f030099, 0x7f03009a, 0x7f03009b, 
-        0x7f03009c, 0x7f0300aa, 0x7f0300af, 0x7f0300b0, 
-        0x7f0300bb, 0x7f0300e6, 0x7f0300eb, 0x7f0300f0, 
-        0x7f0300f1, 0x7f0300f3, 0x7f0300fd, 0x7f030107, 
-        0x7f03015c, 0x7f030169, 0x7f03017a, 0x7f03017f, 
-        0x7f030180, 0x7f0301af, 0x7f0301b2, 0x7f0301f7, 
-        0x7f030201
+        0x7f030031, 0x7f030032, 0x7f030033, 0x7f03009a, 
+        0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 
+        0x7f03009f, 0x7f0300ad, 0x7f0300b2, 0x7f0300b3, 
+        0x7f0300be, 0x7f0300e9, 0x7f0300ee, 0x7f0300f3, 
+        0x7f0300f4, 0x7f0300f6, 0x7f030102, 0x7f03010c, 
+        0x7f030161, 0x7f03016e, 0x7f03017f, 0x7f030184, 
+        0x7f030185, 0x7f0301b5, 0x7f0301b8, 0x7f0301fd, 
+        0x7f030207
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#background}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5836,11 +5969,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:background
+     * @attr name archiveasia.jp.co.hakenman:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5851,11 +5984,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundSplit
+     * @attr name archiveasia.jp.co.hakenman:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5866,11 +5999,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundStacked
+     * @attr name archiveasia.jp.co.hakenman:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5879,11 +6012,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetEnd
+     * @attr name archiveasia.jp.co.hakenman:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5892,11 +6025,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetEndWithActions
+     * @attr name archiveasia.jp.co.hakenman:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5905,11 +6038,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetLeft
+     * @attr name archiveasia.jp.co.hakenman:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5918,11 +6051,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetRight
+     * @attr name archiveasia.jp.co.hakenman:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5931,11 +6064,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetStart
+     * @attr name archiveasia.jp.co.hakenman:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5944,11 +6077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetStartWithNavigation
+     * @attr name archiveasia.jp.co.hakenman:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5956,11 +6089,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:customNavigationLayout
+     * @attr name archiveasia.jp.co.hakenman:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5978,11 +6111,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:displayOptions
+     * @attr name archiveasia.jp.co.hakenman:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#divider}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5990,11 +6123,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:divider
+     * @attr name archiveasia.jp.co.hakenman:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6003,11 +6136,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#height}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6016,21 +6149,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:height
+     * @attr name archiveasia.jp.co.hakenman:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hideOnContentScroll
+     * @attr name archiveasia.jp.co.hakenman:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6038,11 +6171,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:homeAsUpIndicator
+     * @attr name archiveasia.jp.co.hakenman:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6050,11 +6183,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:homeLayout
+     * @attr name archiveasia.jp.co.hakenman:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#icon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6062,11 +6195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:icon
+     * @attr name archiveasia.jp.co.hakenman:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6074,11 +6207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:indeterminateProgressStyle
+     * @attr name archiveasia.jp.co.hakenman:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6087,11 +6220,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemPadding
+     * @attr name archiveasia.jp.co.hakenman:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#logo}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6099,11 +6232,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:logo
+     * @attr name archiveasia.jp.co.hakenman:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6117,11 +6250,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:navigationMode
+     * @attr name archiveasia.jp.co.hakenman:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6129,11 +6262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:popupTheme
+     * @attr name archiveasia.jp.co.hakenman:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6142,11 +6275,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:progressBarPadding
+     * @attr name archiveasia.jp.co.hakenman:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6154,21 +6287,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:progressBarStyle
+     * @attr name archiveasia.jp.co.hakenman:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitle
+     * @attr name archiveasia.jp.co.hakenman:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6176,21 +6309,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitleTextStyle
+     * @attr name archiveasia.jp.co.hakenman:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#title}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:title
+     * @attr name archiveasia.jp.co.hakenman:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6198,7 +6331,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleTextStyle
+     * @attr name archiveasia.jp.co.hakenman:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6280,12 +6413,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background archiveasia.jp.co.hakenman.debug:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit archiveasia.jp.co.hakenman.debug:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout archiveasia.jp.co.hakenman.debug:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height archiveasia.jp.co.hakenman.debug:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle archiveasia.jp.co.hakenman.debug:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle archiveasia.jp.co.hakenman.debug:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background archiveasia.jp.co.hakenman:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit archiveasia.jp.co.hakenman:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout archiveasia.jp.co.hakenman:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height archiveasia.jp.co.hakenman:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle archiveasia.jp.co.hakenman:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle archiveasia.jp.co.hakenman:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6295,11 +6428,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f030031, 0x7f030032, 0x7f030081, 0x7f0300e6, 
-        0x7f0301b2, 0x7f030201
+        0x7f030031, 0x7f030032, 0x7f030083, 0x7f0300e9, 
+        0x7f0301b8, 0x7f030207
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#background}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6307,11 +6440,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:background
+     * @attr name archiveasia.jp.co.hakenman:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6322,11 +6455,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundSplit
+     * @attr name archiveasia.jp.co.hakenman:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6334,11 +6467,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeItemLayout
+     * @attr name archiveasia.jp.co.hakenman:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#height}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6347,11 +6480,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:height
+     * @attr name archiveasia.jp.co.hakenman:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6359,11 +6492,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitleTextStyle
+     * @attr name archiveasia.jp.co.hakenman:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6371,7 +6504,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleTextStyle
+     * @attr name archiveasia.jp.co.hakenman:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6381,17 +6514,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable archiveasia.jp.co.hakenman.debug:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount archiveasia.jp.co.hakenman.debug:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable archiveasia.jp.co.hakenman:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount archiveasia.jp.co.hakenman:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f0300c1, 0x7f0300fe
+        0x7f0300c4, 0x7f030103
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6399,17 +6532,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandActivityOverflowButtonDrawable
+     * @attr name archiveasia.jp.co.hakenman:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:initialActivityCount
+     * @attr name archiveasia.jp.co.hakenman:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6420,13 +6553,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen archiveasia.jp.co.hakenman.debug:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout archiveasia.jp.co.hakenman.debug:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout archiveasia.jp.co.hakenman.debug:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout archiveasia.jp.co.hakenman.debug:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout archiveasia.jp.co.hakenman.debug:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle archiveasia.jp.co.hakenman.debug:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout archiveasia.jp.co.hakenman.debug:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen archiveasia.jp.co.hakenman:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout archiveasia.jp.co.hakenman:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout archiveasia.jp.co.hakenman:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout archiveasia.jp.co.hakenman:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout archiveasia.jp.co.hakenman:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle archiveasia.jp.co.hakenman:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout archiveasia.jp.co.hakenman:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6438,8 +6571,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f030054, 0x7f030055, 0x7f030153, 
-        0x7f030154, 0x7f030166, 0x7f030196, 0x7f030197
+        0x010100f2, 0x7f030054, 0x7f030055, 0x7f030158, 
+        0x7f030159, 0x7f03016b, 0x7f03019c, 0x7f03019d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -6454,7 +6587,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6463,11 +6596,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonIconDimen
+     * @attr name archiveasia.jp.co.hakenman:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6475,11 +6608,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonPanelSideLayout
+     * @attr name archiveasia.jp.co.hakenman:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6487,11 +6620,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listItemLayout
+     * @attr name archiveasia.jp.co.hakenman:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6499,11 +6632,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listLayout
+     * @attr name archiveasia.jp.co.hakenman:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6511,21 +6644,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:multiChoiceItemLayout
+     * @attr name archiveasia.jp.co.hakenman:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showTitle
+     * @attr name archiveasia.jp.co.hakenman:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6533,7 +6666,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:singleChoiceItemLayout
+     * @attr name archiveasia.jp.co.hakenman:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -6735,9 +6868,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded archiveasia.jp.co.hakenman.debug:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll archiveasia.jp.co.hakenman.debug:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded archiveasia.jp.co.hakenman:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll archiveasia.jp.co.hakenman:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -6747,8 +6880,8 @@ public final class R {
      * @see #AppBarLayout_liftOnScroll
      */
     public static final int[] AppBarLayout={
-        0x010100d4, 0x0101048f, 0x01010540, 0x7f0300bb, 
-        0x7f0300c2, 0x7f03014e
+        0x010100d4, 0x0101048f, 0x01010540, 0x7f0300be, 
+        0x7f0300c5, 0x7f030153
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6786,7 +6919,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6795,27 +6928,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expanded
+     * @attr name archiveasia.jp.co.hakenman:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:liftOnScroll
+     * @attr name archiveasia.jp.co.hakenman:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -6825,10 +6958,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed archiveasia.jp.co.hakenman.debug:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible archiveasia.jp.co.hakenman.debug:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable archiveasia.jp.co.hakenman.debug:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted archiveasia.jp.co.hakenman.debug:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed archiveasia.jp.co.hakenman:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible archiveasia.jp.co.hakenman:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable archiveasia.jp.co.hakenman:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted archiveasia.jp.co.hakenman:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -6836,46 +6969,46 @@ public final class R {
      * @see #AppBarLayoutStates_state_lifted
      */
     public static final int[] AppBarLayoutStates={
-        0x7f0301a5, 0x7f0301a6, 0x7f0301a7, 0x7f0301a8
+        0x7f0301ab, 0x7f0301ac, 0x7f0301ad, 0x7f0301ae
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:state_collapsed
+     * @attr name archiveasia.jp.co.hakenman:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:state_collapsible
+     * @attr name archiveasia.jp.co.hakenman:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:state_liftable
+     * @attr name archiveasia.jp.co.hakenman:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:state_lifted
+     * @attr name archiveasia.jp.co.hakenman:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -6885,17 +7018,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags archiveasia.jp.co.hakenman.debug:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator archiveasia.jp.co.hakenman.debug:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags archiveasia.jp.co.hakenman:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator archiveasia.jp.co.hakenman:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-        0x7f03014c, 0x7f03014d
+        0x7f030151, 0x7f030152
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6912,11 +7045,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_scrollFlags
+     * @attr name archiveasia.jp.co.hakenman:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6924,7 +7057,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_scrollInterpolator
+     * @attr name archiveasia.jp.co.hakenman:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -6935,9 +7068,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat archiveasia.jp.co.hakenman.debug:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint archiveasia.jp.co.hakenman.debug:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode archiveasia.jp.co.hakenman.debug:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat archiveasia.jp.co.hakenman:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint archiveasia.jp.co.hakenman:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode archiveasia.jp.co.hakenman:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -6945,7 +7078,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0301a2, 0x7f0301f5, 0x7f0301f6
+        0x01010119, 0x7f0301a8, 0x7f0301fb, 0x7f0301fc
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -6963,7 +7096,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6971,22 +7104,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:srcCompat
+     * @attr name archiveasia.jp.co.hakenman:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tint
+     * @attr name archiveasia.jp.co.hakenman:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7003,7 +7136,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tintMode
+     * @attr name archiveasia.jp.co.hakenman:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -7014,9 +7147,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark archiveasia.jp.co.hakenman.debug:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint archiveasia.jp.co.hakenman.debug:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode archiveasia.jp.co.hakenman.debug:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark archiveasia.jp.co.hakenman:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint archiveasia.jp.co.hakenman:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode archiveasia.jp.co.hakenman:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -7024,7 +7157,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0301f2, 0x7f0301f3, 0x7f0301f4
+        0x01010142, 0x7f0301f8, 0x7f0301f9, 0x7f0301fa
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -7039,7 +7172,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7047,22 +7180,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tickMark
+     * @attr name archiveasia.jp.co.hakenman:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tickMarkTint
+     * @attr name archiveasia.jp.co.hakenman:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7079,7 +7212,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tickMarkTintMode
+     * @attr name archiveasia.jp.co.hakenman:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -7219,16 +7352,16 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize archiveasia.jp.co.hakenman.debug:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize archiveasia.jp.co.hakenman.debug:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes archiveasia.jp.co.hakenman.debug:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity archiveasia.jp.co.hakenman.debug:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType archiveasia.jp.co.hakenman.debug:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight archiveasia.jp.co.hakenman.debug:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily archiveasia.jp.co.hakenman.debug:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight archiveasia.jp.co.hakenman.debug:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight archiveasia.jp.co.hakenman.debug:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps archiveasia.jp.co.hakenman.debug:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize archiveasia.jp.co.hakenman:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize archiveasia.jp.co.hakenman:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes archiveasia.jp.co.hakenman:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity archiveasia.jp.co.hakenman:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType archiveasia.jp.co.hakenman:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight archiveasia.jp.co.hakenman:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily archiveasia.jp.co.hakenman:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight archiveasia.jp.co.hakenman:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight archiveasia.jp.co.hakenman:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps archiveasia.jp.co.hakenman:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7244,8 +7377,8 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
         0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-        0x7f03002f, 0x7f030030, 0x7f0300d5, 0x7f0300d8, 
-        0x7f03010f, 0x7f03014f, 0x7f0301d2
+        0x7f03002f, 0x7f030030, 0x7f0300d8, 0x7f0300db, 
+        0x7f030114, 0x7f030154, 0x7f0301d8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -7260,7 +7393,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7269,11 +7402,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoSizeMaxTextSize
+     * @attr name archiveasia.jp.co.hakenman:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7282,11 +7415,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoSizeMinTextSize
+     * @attr name archiveasia.jp.co.hakenman:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7294,11 +7427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoSizePresetSizes
+     * @attr name archiveasia.jp.co.hakenman:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7307,11 +7440,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoSizeStepGranularity
+     * @attr name archiveasia.jp.co.hakenman:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7324,11 +7457,11 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoSizeTextType
+     * @attr name archiveasia.jp.co.hakenman:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7337,21 +7470,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:firstBaselineToTopHeight
+     * @attr name archiveasia.jp.co.hakenman:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontFamily
+     * @attr name archiveasia.jp.co.hakenman:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7360,11 +7493,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:lastBaselineToBottomHeight
+     * @attr name archiveasia.jp.co.hakenman:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7373,11 +7506,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:lineHeight
+     * @attr name archiveasia.jp.co.hakenman:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7387,7 +7520,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAllCaps
+     * @attr name archiveasia.jp.co.hakenman:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -7399,125 +7532,125 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider archiveasia.jp.co.hakenman.debug:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground archiveasia.jp.co.hakenman.debug:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme archiveasia.jp.co.hakenman.debug:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize archiveasia.jp.co.hakenman.debug:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle archiveasia.jp.co.hakenman.debug:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle archiveasia.jp.co.hakenman.debug:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle archiveasia.jp.co.hakenman.debug:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle archiveasia.jp.co.hakenman.debug:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle archiveasia.jp.co.hakenman.debug:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme archiveasia.jp.co.hakenman.debug:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme archiveasia.jp.co.hakenman.debug:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle archiveasia.jp.co.hakenman.debug:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle archiveasia.jp.co.hakenman.debug:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance archiveasia.jp.co.hakenman.debug:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor archiveasia.jp.co.hakenman.debug:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground archiveasia.jp.co.hakenman.debug:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle archiveasia.jp.co.hakenman.debug:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable archiveasia.jp.co.hakenman.debug:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable archiveasia.jp.co.hakenman.debug:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable archiveasia.jp.co.hakenman.debug:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable archiveasia.jp.co.hakenman.debug:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable archiveasia.jp.co.hakenman.debug:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle archiveasia.jp.co.hakenman.debug:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable archiveasia.jp.co.hakenman.debug:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable archiveasia.jp.co.hakenman.debug:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground archiveasia.jp.co.hakenman.debug:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle archiveasia.jp.co.hakenman.debug:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable archiveasia.jp.co.hakenman.debug:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle archiveasia.jp.co.hakenman.debug:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle archiveasia.jp.co.hakenman.debug:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle archiveasia.jp.co.hakenman.debug:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle archiveasia.jp.co.hakenman.debug:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons archiveasia.jp.co.hakenman.debug:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle archiveasia.jp.co.hakenman.debug:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme archiveasia.jp.co.hakenman.debug:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle archiveasia.jp.co.hakenman.debug:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle archiveasia.jp.co.hakenman.debug:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle archiveasia.jp.co.hakenman.debug:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle archiveasia.jp.co.hakenman.debug:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle archiveasia.jp.co.hakenman.debug:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle archiveasia.jp.co.hakenman.debug:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle archiveasia.jp.co.hakenman.debug:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle archiveasia.jp.co.hakenman.debug:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall archiveasia.jp.co.hakenman.debug:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle archiveasia.jp.co.hakenman.debug:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle archiveasia.jp.co.hakenman.debug:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent archiveasia.jp.co.hakenman.debug:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating archiveasia.jp.co.hakenman.debug:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal archiveasia.jp.co.hakenman.debug:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated archiveasia.jp.co.hakenman.debug:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight archiveasia.jp.co.hakenman.debug:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal archiveasia.jp.co.hakenman.debug:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError archiveasia.jp.co.hakenman.debug:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary archiveasia.jp.co.hakenman.debug:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark archiveasia.jp.co.hakenman.debug:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal archiveasia.jp.co.hakenman.debug:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground archiveasia.jp.co.hakenman.debug:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius archiveasia.jp.co.hakenman.debug:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding archiveasia.jp.co.hakenman.debug:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme archiveasia.jp.co.hakenman.debug:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal archiveasia.jp.co.hakenman.debug:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical archiveasia.jp.co.hakenman.debug:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle archiveasia.jp.co.hakenman.debug:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight archiveasia.jp.co.hakenman.debug:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground archiveasia.jp.co.hakenman.debug:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor archiveasia.jp.co.hakenman.debug:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle archiveasia.jp.co.hakenman.debug:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator archiveasia.jp.co.hakenman.debug:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle archiveasia.jp.co.hakenman.debug:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator archiveasia.jp.co.hakenman.debug:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog archiveasia.jp.co.hakenman.debug:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle archiveasia.jp.co.hakenman.debug:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle archiveasia.jp.co.hakenman.debug:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight archiveasia.jp.co.hakenman.debug:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge archiveasia.jp.co.hakenman.debug:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall archiveasia.jp.co.hakenman.debug:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft archiveasia.jp.co.hakenman.debug:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight archiveasia.jp.co.hakenman.debug:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground archiveasia.jp.co.hakenman.debug:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme archiveasia.jp.co.hakenman.debug:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth archiveasia.jp.co.hakenman.debug:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle archiveasia.jp.co.hakenman.debug:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle archiveasia.jp.co.hakenman.debug:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle archiveasia.jp.co.hakenman.debug:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle archiveasia.jp.co.hakenman.debug:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator archiveasia.jp.co.hakenman.debug:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall archiveasia.jp.co.hakenman.debug:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle archiveasia.jp.co.hakenman.debug:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle archiveasia.jp.co.hakenman.debug:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground archiveasia.jp.co.hakenman.debug:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless archiveasia.jp.co.hakenman.debug:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle archiveasia.jp.co.hakenman.debug:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle archiveasia.jp.co.hakenman.debug:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle archiveasia.jp.co.hakenman.debug:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu archiveasia.jp.co.hakenman.debug:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem archiveasia.jp.co.hakenman.debug:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary archiveasia.jp.co.hakenman.debug:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall archiveasia.jp.co.hakenman.debug:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader archiveasia.jp.co.hakenman.debug:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle archiveasia.jp.co.hakenman.debug:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle archiveasia.jp.co.hakenman.debug:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu archiveasia.jp.co.hakenman.debug:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem archiveasia.jp.co.hakenman.debug:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl archiveasia.jp.co.hakenman.debug:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle archiveasia.jp.co.hakenman.debug:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle archiveasia.jp.co.hakenman.debug:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor archiveasia.jp.co.hakenman.debug:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground archiveasia.jp.co.hakenman.debug:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass archiveasia.jp.co.hakenman.debug:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar archiveasia.jp.co.hakenman.debug:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay archiveasia.jp.co.hakenman.debug:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay archiveasia.jp.co.hakenman.debug:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor archiveasia.jp.co.hakenman.debug:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor archiveasia.jp.co.hakenman.debug:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor archiveasia.jp.co.hakenman.debug:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor archiveasia.jp.co.hakenman.debug:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor archiveasia.jp.co.hakenman.debug:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor archiveasia.jp.co.hakenman.debug:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle archiveasia.jp.co.hakenman.debug:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider archiveasia.jp.co.hakenman:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground archiveasia.jp.co.hakenman:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme archiveasia.jp.co.hakenman:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize archiveasia.jp.co.hakenman:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle archiveasia.jp.co.hakenman:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle archiveasia.jp.co.hakenman:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle archiveasia.jp.co.hakenman:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle archiveasia.jp.co.hakenman:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle archiveasia.jp.co.hakenman:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme archiveasia.jp.co.hakenman:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme archiveasia.jp.co.hakenman:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle archiveasia.jp.co.hakenman:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle archiveasia.jp.co.hakenman:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance archiveasia.jp.co.hakenman:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor archiveasia.jp.co.hakenman:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground archiveasia.jp.co.hakenman:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle archiveasia.jp.co.hakenman:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable archiveasia.jp.co.hakenman:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable archiveasia.jp.co.hakenman:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable archiveasia.jp.co.hakenman:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable archiveasia.jp.co.hakenman:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable archiveasia.jp.co.hakenman:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle archiveasia.jp.co.hakenman:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable archiveasia.jp.co.hakenman:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable archiveasia.jp.co.hakenman:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground archiveasia.jp.co.hakenman:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle archiveasia.jp.co.hakenman:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable archiveasia.jp.co.hakenman:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle archiveasia.jp.co.hakenman:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle archiveasia.jp.co.hakenman:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle archiveasia.jp.co.hakenman:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle archiveasia.jp.co.hakenman:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons archiveasia.jp.co.hakenman:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle archiveasia.jp.co.hakenman:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme archiveasia.jp.co.hakenman:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle archiveasia.jp.co.hakenman:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle archiveasia.jp.co.hakenman:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle archiveasia.jp.co.hakenman:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle archiveasia.jp.co.hakenman:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle archiveasia.jp.co.hakenman:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle archiveasia.jp.co.hakenman:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle archiveasia.jp.co.hakenman:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle archiveasia.jp.co.hakenman:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall archiveasia.jp.co.hakenman:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle archiveasia.jp.co.hakenman:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle archiveasia.jp.co.hakenman:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent archiveasia.jp.co.hakenman:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating archiveasia.jp.co.hakenman:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal archiveasia.jp.co.hakenman:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated archiveasia.jp.co.hakenman:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight archiveasia.jp.co.hakenman:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal archiveasia.jp.co.hakenman:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError archiveasia.jp.co.hakenman:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary archiveasia.jp.co.hakenman:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark archiveasia.jp.co.hakenman:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal archiveasia.jp.co.hakenman:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground archiveasia.jp.co.hakenman:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius archiveasia.jp.co.hakenman:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding archiveasia.jp.co.hakenman:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme archiveasia.jp.co.hakenman:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal archiveasia.jp.co.hakenman:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical archiveasia.jp.co.hakenman:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle archiveasia.jp.co.hakenman:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight archiveasia.jp.co.hakenman:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground archiveasia.jp.co.hakenman:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor archiveasia.jp.co.hakenman:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle archiveasia.jp.co.hakenman:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator archiveasia.jp.co.hakenman:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle archiveasia.jp.co.hakenman:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator archiveasia.jp.co.hakenman:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog archiveasia.jp.co.hakenman:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle archiveasia.jp.co.hakenman:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle archiveasia.jp.co.hakenman:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight archiveasia.jp.co.hakenman:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge archiveasia.jp.co.hakenman:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall archiveasia.jp.co.hakenman:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft archiveasia.jp.co.hakenman:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight archiveasia.jp.co.hakenman:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground archiveasia.jp.co.hakenman:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme archiveasia.jp.co.hakenman:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth archiveasia.jp.co.hakenman:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle archiveasia.jp.co.hakenman:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle archiveasia.jp.co.hakenman:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle archiveasia.jp.co.hakenman:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle archiveasia.jp.co.hakenman:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator archiveasia.jp.co.hakenman:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall archiveasia.jp.co.hakenman:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle archiveasia.jp.co.hakenman:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle archiveasia.jp.co.hakenman:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground archiveasia.jp.co.hakenman:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless archiveasia.jp.co.hakenman:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle archiveasia.jp.co.hakenman:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle archiveasia.jp.co.hakenman:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle archiveasia.jp.co.hakenman:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu archiveasia.jp.co.hakenman:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem archiveasia.jp.co.hakenman:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary archiveasia.jp.co.hakenman:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall archiveasia.jp.co.hakenman:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader archiveasia.jp.co.hakenman:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle archiveasia.jp.co.hakenman:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle archiveasia.jp.co.hakenman:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu archiveasia.jp.co.hakenman:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem archiveasia.jp.co.hakenman:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl archiveasia.jp.co.hakenman:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle archiveasia.jp.co.hakenman:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle archiveasia.jp.co.hakenman:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor archiveasia.jp.co.hakenman:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground archiveasia.jp.co.hakenman:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass archiveasia.jp.co.hakenman:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar archiveasia.jp.co.hakenman:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay archiveasia.jp.co.hakenman:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay archiveasia.jp.co.hakenman:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor archiveasia.jp.co.hakenman:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor archiveasia.jp.co.hakenman:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor archiveasia.jp.co.hakenman:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor archiveasia.jp.co.hakenman:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor archiveasia.jp.co.hakenman:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor archiveasia.jp.co.hakenman:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle archiveasia.jp.co.hakenman:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -7653,26 +7786,26 @@ public final class R {
         0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 
         0x7f030025, 0x7f03002b, 0x7f030040, 0x7f03004e, 
         0x7f03004f, 0x7f030050, 0x7f030051, 0x7f030052, 
-        0x7f030056, 0x7f030057, 0x7f030062, 0x7f030067, 
-        0x7f030087, 0x7f030088, 0x7f030089, 0x7f03008a, 
-        0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 
-        0x7f03008f, 0x7f030091, 0x7f0300a3, 0x7f0300ac, 
-        0x7f0300ad, 0x7f0300ae, 0x7f0300b1, 0x7f0300b3, 
-        0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 0x7f0300b9, 
-        0x7f0300ba, 0x7f0300f0, 0x7f0300fc, 0x7f030151, 
-        0x7f030152, 0x7f030155, 0x7f030156, 0x7f030157, 
-        0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b, 
-        0x7f030171, 0x7f030172, 0x7f030173, 0x7f030179, 
-        0x7f03017b, 0x7f030183, 0x7f030184, 0x7f030185, 
-        0x7f030186, 0x7f03018e, 0x7f03018f, 0x7f030190, 
-        0x7f030191, 0x7f03019f, 0x7f0301a0, 0x7f0301b6, 
-        0x7f0301dd, 0x7f0301de, 0x7f0301df, 0x7f0301e0, 
-        0x7f0301e2, 0x7f0301e3, 0x7f0301e4, 0x7f0301e5, 
-        0x7f0301e8, 0x7f0301e9, 0x7f030203, 0x7f030204, 
-        0x7f030205, 0x7f030206, 0x7f03020d, 0x7f03020f, 
-        0x7f030210, 0x7f030211, 0x7f030212, 0x7f030213, 
-        0x7f030214, 0x7f030215, 0x7f030216, 0x7f030217, 
-        0x7f030218
+        0x7f030057, 0x7f030058, 0x7f030063, 0x7f030068, 
+        0x7f030089, 0x7f03008a, 0x7f03008b, 0x7f03008c, 
+        0x7f03008d, 0x7f03008e, 0x7f03008f, 0x7f030090, 
+        0x7f030091, 0x7f030094, 0x7f0300a6, 0x7f0300af, 
+        0x7f0300b0, 0x7f0300b1, 0x7f0300b4, 0x7f0300b6, 
+        0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
+        0x7f0300bd, 0x7f0300f3, 0x7f030101, 0x7f030156, 
+        0x7f030157, 0x7f03015a, 0x7f03015b, 0x7f03015c, 
+        0x7f03015d, 0x7f03015e, 0x7f03015f, 0x7f030160, 
+        0x7f030176, 0x7f030177, 0x7f030178, 0x7f03017e, 
+        0x7f030180, 0x7f030188, 0x7f030189, 0x7f03018a, 
+        0x7f03018b, 0x7f030194, 0x7f030195, 0x7f030196, 
+        0x7f030197, 0x7f0301a5, 0x7f0301a6, 0x7f0301bc, 
+        0x7f0301e3, 0x7f0301e4, 0x7f0301e5, 0x7f0301e6, 
+        0x7f0301e8, 0x7f0301e9, 0x7f0301ea, 0x7f0301eb, 
+        0x7f0301ee, 0x7f0301ef, 0x7f030209, 0x7f03020a, 
+        0x7f03020b, 0x7f03020c, 0x7f030213, 0x7f030215, 
+        0x7f030216, 0x7f030217, 0x7f030218, 0x7f030219, 
+        0x7f03021a, 0x7f03021b, 0x7f03021c, 0x7f03021d, 
+        0x7f03021e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -7697,7 +7830,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7705,11 +7838,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarDivider
+     * @attr name archiveasia.jp.co.hakenman:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7717,11 +7850,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarItemBackground
+     * @attr name archiveasia.jp.co.hakenman:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7729,11 +7862,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarPopupTheme
+     * @attr name archiveasia.jp.co.hakenman:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7750,11 +7883,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarSize
+     * @attr name archiveasia.jp.co.hakenman:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7762,11 +7895,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarSplitStyle
+     * @attr name archiveasia.jp.co.hakenman:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7774,11 +7907,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarStyle
+     * @attr name archiveasia.jp.co.hakenman:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7786,11 +7919,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarTabBarStyle
+     * @attr name archiveasia.jp.co.hakenman:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7798,11 +7931,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarTabStyle
+     * @attr name archiveasia.jp.co.hakenman:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7810,11 +7943,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarTabTextStyle
+     * @attr name archiveasia.jp.co.hakenman:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7822,11 +7955,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarTheme
+     * @attr name archiveasia.jp.co.hakenman:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7834,11 +7967,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionBarWidgetTheme
+     * @attr name archiveasia.jp.co.hakenman:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7846,11 +7979,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7858,11 +7991,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionDropDownStyle
+     * @attr name archiveasia.jp.co.hakenman:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7870,11 +8003,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionMenuTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7885,11 +8018,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionMenuTextColor
+     * @attr name archiveasia.jp.co.hakenman:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7897,11 +8030,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeBackground
+     * @attr name archiveasia.jp.co.hakenman:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7909,11 +8042,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeCloseButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7921,11 +8054,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeCloseDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7933,11 +8066,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeCopyDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7945,11 +8078,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeCutDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7957,11 +8090,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeFindDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7969,11 +8102,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModePasteDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7981,11 +8114,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModePopupWindowStyle
+     * @attr name archiveasia.jp.co.hakenman:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7993,11 +8126,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeSelectAllDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8005,11 +8138,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeShareDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8017,11 +8150,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeSplitBackground
+     * @attr name archiveasia.jp.co.hakenman:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8029,11 +8162,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeStyle
+     * @attr name archiveasia.jp.co.hakenman:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8041,11 +8174,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionModeWebSearchDrawable
+     * @attr name archiveasia.jp.co.hakenman:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8053,11 +8186,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionOverflowButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8065,11 +8198,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionOverflowMenuStyle
+     * @attr name archiveasia.jp.co.hakenman:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8077,11 +8210,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:activityChooserViewStyle
+     * @attr name archiveasia.jp.co.hakenman:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8089,21 +8222,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alertDialogButtonGroupStyle
+     * @attr name archiveasia.jp.co.hakenman:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alertDialogCenterButtons
+     * @attr name archiveasia.jp.co.hakenman:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8111,11 +8244,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alertDialogStyle
+     * @attr name archiveasia.jp.co.hakenman:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8123,11 +8256,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alertDialogTheme
+     * @attr name archiveasia.jp.co.hakenman:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8135,11 +8268,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:autoCompleteTextViewStyle
+     * @attr name archiveasia.jp.co.hakenman:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8147,11 +8280,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:borderlessButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8159,11 +8292,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonBarButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8171,11 +8304,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonBarNegativeButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8183,11 +8316,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonBarNeutralButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8195,11 +8328,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonBarPositiveButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8207,11 +8340,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonBarStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8219,11 +8352,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonStyle
+     * @attr name archiveasia.jp.co.hakenman:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8231,11 +8364,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonStyleSmall
+     * @attr name archiveasia.jp.co.hakenman:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8243,11 +8376,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkboxStyle
+     * @attr name archiveasia.jp.co.hakenman:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8255,77 +8388,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkedTextViewStyle
+     * @attr name archiveasia.jp.co.hakenman:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorAccent
+     * @attr name archiveasia.jp.co.hakenman:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorBackgroundFloating
+     * @attr name archiveasia.jp.co.hakenman:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorButtonNormal
+     * @attr name archiveasia.jp.co.hakenman:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorControlActivated
+     * @attr name archiveasia.jp.co.hakenman:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorControlHighlight
+     * @attr name archiveasia.jp.co.hakenman:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorControlNormal
+     * @attr name archiveasia.jp.co.hakenman:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8336,44 +8469,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorError
+     * @attr name archiveasia.jp.co.hakenman:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorPrimary
+     * @attr name archiveasia.jp.co.hakenman:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorPrimaryDark
+     * @attr name archiveasia.jp.co.hakenman:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorSwitchThumbNormal
+     * @attr name archiveasia.jp.co.hakenman:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8381,11 +8514,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:controlBackground
+     * @attr name archiveasia.jp.co.hakenman:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8394,11 +8527,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dialogCornerRadius
+     * @attr name archiveasia.jp.co.hakenman:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8407,11 +8540,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dialogPreferredPadding
+     * @attr name archiveasia.jp.co.hakenman:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8419,11 +8552,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dialogTheme
+     * @attr name archiveasia.jp.co.hakenman:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8431,11 +8564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dividerHorizontal
+     * @attr name archiveasia.jp.co.hakenman:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8443,11 +8576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dividerVertical
+     * @attr name archiveasia.jp.co.hakenman:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8455,11 +8588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dropDownListViewStyle
+     * @attr name archiveasia.jp.co.hakenman:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8468,11 +8601,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dropdownListPreferredItemHeight
+     * @attr name archiveasia.jp.co.hakenman:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8480,11 +8613,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:editTextBackground
+     * @attr name archiveasia.jp.co.hakenman:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8495,11 +8628,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:editTextColor
+     * @attr name archiveasia.jp.co.hakenman:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8507,11 +8640,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:editTextStyle
+     * @attr name archiveasia.jp.co.hakenman:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8519,11 +8652,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:homeAsUpIndicator
+     * @attr name archiveasia.jp.co.hakenman:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8531,11 +8664,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:imageButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8543,11 +8676,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listChoiceBackgroundIndicator
+     * @attr name archiveasia.jp.co.hakenman:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8555,11 +8688,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listDividerAlertDialog
+     * @attr name archiveasia.jp.co.hakenman:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8567,11 +8700,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listMenuViewStyle
+     * @attr name archiveasia.jp.co.hakenman:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8579,11 +8712,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPopupWindowStyle
+     * @attr name archiveasia.jp.co.hakenman:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8592,11 +8725,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPreferredItemHeight
+     * @attr name archiveasia.jp.co.hakenman:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8605,11 +8738,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPreferredItemHeightLarge
+     * @attr name archiveasia.jp.co.hakenman:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8618,11 +8751,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPreferredItemHeightSmall
+     * @attr name archiveasia.jp.co.hakenman:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8631,11 +8764,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPreferredItemPaddingLeft
+     * @attr name archiveasia.jp.co.hakenman:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8644,11 +8777,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:listPreferredItemPaddingRight
+     * @attr name archiveasia.jp.co.hakenman:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8656,11 +8789,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:panelBackground
+     * @attr name archiveasia.jp.co.hakenman:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8668,11 +8801,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:panelMenuListTheme
+     * @attr name archiveasia.jp.co.hakenman:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8681,11 +8814,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:panelMenuListWidth
+     * @attr name archiveasia.jp.co.hakenman:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8693,11 +8826,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:popupMenuStyle
+     * @attr name archiveasia.jp.co.hakenman:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8705,11 +8838,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:popupWindowStyle
+     * @attr name archiveasia.jp.co.hakenman:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8717,11 +8850,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:radioButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8729,11 +8862,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:ratingBarStyle
+     * @attr name archiveasia.jp.co.hakenman:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8741,11 +8874,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:ratingBarStyleIndicator
+     * @attr name archiveasia.jp.co.hakenman:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8753,11 +8886,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:ratingBarStyleSmall
+     * @attr name archiveasia.jp.co.hakenman:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8765,11 +8898,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:searchViewStyle
+     * @attr name archiveasia.jp.co.hakenman:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8777,11 +8910,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:seekBarStyle
+     * @attr name archiveasia.jp.co.hakenman:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8789,11 +8922,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:selectableItemBackground
+     * @attr name archiveasia.jp.co.hakenman:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8801,11 +8934,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:selectableItemBackgroundBorderless
+     * @attr name archiveasia.jp.co.hakenman:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8813,11 +8946,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:spinnerDropDownItemStyle
+     * @attr name archiveasia.jp.co.hakenman:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8825,11 +8958,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:spinnerStyle
+     * @attr name archiveasia.jp.co.hakenman:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8837,11 +8970,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:switchStyle
+     * @attr name archiveasia.jp.co.hakenman:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8849,11 +8982,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceLargePopupMenu
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8861,11 +8994,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceListItem
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8873,11 +9006,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceListItemSecondary
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8885,11 +9018,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceListItemSmall
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8897,11 +9030,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearancePopupMenuHeader
+     * @attr name archiveasia.jp.co.hakenman:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8909,11 +9042,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceSearchResultSubtitle
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8921,11 +9054,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceSearchResultTitle
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8933,11 +9066,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceSmallPopupMenu
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8948,11 +9081,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textColorAlertDialogListItem
+     * @attr name archiveasia.jp.co.hakenman:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8963,11 +9096,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textColorSearchUrl
+     * @attr name archiveasia.jp.co.hakenman:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8975,11 +9108,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:toolbarNavigationButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8987,11 +9120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:toolbarStyle
+     * @attr name archiveasia.jp.co.hakenman:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9002,11 +9135,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tooltipForegroundColor
+     * @attr name archiveasia.jp.co.hakenman:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9014,51 +9147,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tooltipFrameBackground
+     * @attr name archiveasia.jp.co.hakenman:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:viewInflaterClass
+     * @attr name archiveasia.jp.co.hakenman:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowActionBar
+     * @attr name archiveasia.jp.co.hakenman:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowActionBarOverlay
+     * @attr name archiveasia.jp.co.hakenman:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowActionModeOverlay
+     * @attr name archiveasia.jp.co.hakenman:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9071,11 +9204,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowFixedHeightMajor
+     * @attr name archiveasia.jp.co.hakenman:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9088,11 +9221,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowFixedHeightMinor
+     * @attr name archiveasia.jp.co.hakenman:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9105,11 +9238,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowFixedWidthMajor
+     * @attr name archiveasia.jp.co.hakenman:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9122,11 +9255,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowFixedWidthMinor
+     * @attr name archiveasia.jp.co.hakenman:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9139,11 +9272,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowMinWidthMajor
+     * @attr name archiveasia.jp.co.hakenman:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9156,17 +9289,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowMinWidthMinor
+     * @attr name archiveasia.jp.co.hakenman:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:windowNoTitle
+     * @attr name archiveasia.jp.co.hakenman:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -9176,19 +9309,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AutofitTextView_minTextSize archiveasia.jp.co.hakenman.debug:minTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AutofitTextView_precision archiveasia.jp.co.hakenman.debug:precision}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AutofitTextView_sizeToFit archiveasia.jp.co.hakenman.debug:sizeToFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_minTextSize archiveasia.jp.co.hakenman:minTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_precision archiveasia.jp.co.hakenman:precision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_sizeToFit archiveasia.jp.co.hakenman:sizeToFit}</code></td><td></td></tr>
      * </table>
      * @see #AutofitTextView_minTextSize
      * @see #AutofitTextView_precision
      * @see #AutofitTextView_sizeToFit
      */
     public static final int[] AutofitTextView={
-        0x7f030165, 0x7f03017c, 0x7f03019a
+        0x7f03016a, 0x7f030181, 0x7f0301a0
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#minTextSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#minTextSize}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9197,26 +9330,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:minTextSize
+     * @attr name archiveasia.jp.co.hakenman:minTextSize
      */
     public static final int AutofitTextView_minTextSize=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#precision}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#precision}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:precision
+     * @attr name archiveasia.jp.co.hakenman:precision
      */
     public static final int AutofitTextView_precision=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#sizeToFit}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#sizeToFit}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:sizeToFit
+     * @attr name archiveasia.jp.co.hakenman:sizeToFit
      */
     public static final int AutofitTextView_sizeToFit=2;
     /**
@@ -9226,12 +9359,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint archiveasia.jp.co.hakenman.debug:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode archiveasia.jp.co.hakenman.debug:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin archiveasia.jp.co.hakenman.debug:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius archiveasia.jp.co.hakenman.debug:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset archiveasia.jp.co.hakenman.debug:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll archiveasia.jp.co.hakenman.debug:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint archiveasia.jp.co.hakenman:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode archiveasia.jp.co.hakenman:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin archiveasia.jp.co.hakenman:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius archiveasia.jp.co.hakenman:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset archiveasia.jp.co.hakenman:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll archiveasia.jp.co.hakenman:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -9241,22 +9374,22 @@ public final class R {
      * @see #BottomAppBar_hideOnScroll
      */
     public static final int[] BottomAppBar={
-        0x7f030034, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
-        0x7f0300cd, 0x7f0300ec
+        0x7f030034, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 
+        0x7f0300d0, 0x7f0300ef
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTint
+     * @attr name archiveasia.jp.co.hakenman:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9269,11 +9402,11 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabAlignmentMode
+     * @attr name archiveasia.jp.co.hakenman:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9282,11 +9415,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabCradleMargin
+     * @attr name archiveasia.jp.co.hakenman:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9295,11 +9428,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabCradleRoundedCornerRadius
+     * @attr name archiveasia.jp.co.hakenman:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9308,17 +9441,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabCradleVerticalOffset
+     * @attr name archiveasia.jp.co.hakenman:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hideOnScroll
+     * @attr name archiveasia.jp.co.hakenman:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=5;
     /**
@@ -9328,16 +9461,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground archiveasia.jp.co.hakenman.debug:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled archiveasia.jp.co.hakenman.debug:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize archiveasia.jp.co.hakenman.debug:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint archiveasia.jp.co.hakenman.debug:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive archiveasia.jp.co.hakenman.debug:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive archiveasia.jp.co.hakenman.debug:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor archiveasia.jp.co.hakenman.debug:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode archiveasia.jp.co.hakenman.debug:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu archiveasia.jp.co.hakenman.debug:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground archiveasia.jp.co.hakenman:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled archiveasia.jp.co.hakenman:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize archiveasia.jp.co.hakenman:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint archiveasia.jp.co.hakenman:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive archiveasia.jp.co.hakenman:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive archiveasia.jp.co.hakenman:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor archiveasia.jp.co.hakenman:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode archiveasia.jp.co.hakenman:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu archiveasia.jp.co.hakenman:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9351,12 +9484,12 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-        0x7f0300bb, 0x7f030101, 0x7f030103, 0x7f030105, 
-        0x7f030106, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
-        0x7f03010e, 0x7f030164
+        0x7f0300be, 0x7f030106, 0x7f030108, 0x7f03010a, 
+        0x7f03010b, 0x7f03010f, 0x7f030110, 0x7f030111, 
+        0x7f030113, 0x7f030169
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9365,11 +9498,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9377,21 +9510,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemBackground
+     * @attr name archiveasia.jp.co.hakenman:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemHorizontalTranslationEnabled
+     * @attr name archiveasia.jp.co.hakenman:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9400,22 +9533,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemIconSize
+     * @attr name archiveasia.jp.co.hakenman:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemIconTint
+     * @attr name archiveasia.jp.co.hakenman:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9423,11 +9556,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemTextAppearanceActive
+     * @attr name archiveasia.jp.co.hakenman:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9435,22 +9568,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemTextAppearanceInactive
+     * @attr name archiveasia.jp.co.hakenman:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemTextColor
+     * @attr name archiveasia.jp.co.hakenman:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9465,11 +9598,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:labelVisibilityMode
+     * @attr name archiveasia.jp.co.hakenman:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#menu}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9477,7 +9610,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:menu
+     * @attr name archiveasia.jp.co.hakenman:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -9487,10 +9620,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents archiveasia.jp.co.hakenman.debug:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable archiveasia.jp.co.hakenman.debug:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight archiveasia.jp.co.hakenman.debug:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed archiveasia.jp.co.hakenman.debug:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents archiveasia.jp.co.hakenman:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable archiveasia.jp.co.hakenman:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight archiveasia.jp.co.hakenman:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed archiveasia.jp.co.hakenman:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9501,27 +9634,27 @@ public final class R {
         0x7f03003a, 0x7f03003b, 0x7f03003d, 0x7f03003e
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_fitToContents
+     * @attr name archiveasia.jp.co.hakenman:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_hideable
+     * @attr name archiveasia.jp.co.hakenman:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9538,17 +9671,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_peekHeight
+     * @attr name archiveasia.jp.co.hakenman:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_skipCollapsed
+     * @attr name archiveasia.jp.co.hakenman:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -9558,7 +9691,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking archiveasia.jp.co.hakenman.debug:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking archiveasia.jp.co.hakenman:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -9566,13 +9699,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:allowStacking
+     * @attr name archiveasia.jp.co.hakenman:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -9584,17 +9717,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor archiveasia.jp.co.hakenman.debug:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius archiveasia.jp.co.hakenman.debug:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation archiveasia.jp.co.hakenman.debug:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation archiveasia.jp.co.hakenman.debug:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap archiveasia.jp.co.hakenman.debug:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding archiveasia.jp.co.hakenman.debug:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding archiveasia.jp.co.hakenman.debug:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom archiveasia.jp.co.hakenman.debug:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft archiveasia.jp.co.hakenman.debug:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight archiveasia.jp.co.hakenman.debug:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop archiveasia.jp.co.hakenman.debug:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor archiveasia.jp.co.hakenman:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius archiveasia.jp.co.hakenman:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation archiveasia.jp.co.hakenman:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation archiveasia.jp.co.hakenman:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap archiveasia.jp.co.hakenman:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding archiveasia.jp.co.hakenman:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding archiveasia.jp.co.hakenman:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom archiveasia.jp.co.hakenman:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft archiveasia.jp.co.hakenman:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight archiveasia.jp.co.hakenman:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop archiveasia.jp.co.hakenman:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -9611,10 +9744,10 @@ public final class R {
      * @see #CardView_contentPaddingTop
      */
     public static final int[] CardView={
-        0x0101013f, 0x01010140, 0x7f03005a, 0x7f03005b, 
-        0x7f03005c, 0x7f03005d, 0x7f03005e, 0x7f03005f, 
-        0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f0300a0, 
-        0x7f0300a1
+        0x0101013f, 0x01010140, 0x7f03005b, 0x7f03005c, 
+        0x7f03005d, 0x7f03005e, 0x7f03005f, 0x7f030060, 
+        0x7f0300a0, 0x7f0300a1, 0x7f0300a2, 0x7f0300a3, 
+        0x7f0300a4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
@@ -9643,18 +9776,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardBackgroundColor
+     * @attr name archiveasia.jp.co.hakenman:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9663,11 +9796,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardCornerRadius
+     * @attr name archiveasia.jp.co.hakenman:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9676,11 +9809,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardElevation
+     * @attr name archiveasia.jp.co.hakenman:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9689,31 +9822,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardMaxElevation
+     * @attr name archiveasia.jp.co.hakenman:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardPreventCornerOverlap
+     * @attr name archiveasia.jp.co.hakenman:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cardUseCompatPadding
+     * @attr name archiveasia.jp.co.hakenman:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9722,11 +9855,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentPadding
+     * @attr name archiveasia.jp.co.hakenman:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9735,11 +9868,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentPaddingBottom
+     * @attr name archiveasia.jp.co.hakenman:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9748,11 +9881,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentPaddingLeft
+     * @attr name archiveasia.jp.co.hakenman:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9761,11 +9894,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentPaddingRight
+     * @attr name archiveasia.jp.co.hakenman:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9774,7 +9907,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentPaddingTop
+     * @attr name archiveasia.jp.co.hakenman:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -9789,35 +9922,35 @@ public final class R {
      * <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIcon archiveasia.jp.co.hakenman.debug:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconEnabled archiveasia.jp.co.hakenman.debug:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconVisible archiveasia.jp.co.hakenman.debug:checkedIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipBackgroundColor archiveasia.jp.co.hakenman.debug:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipCornerRadius archiveasia.jp.co.hakenman.debug:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipEndPadding archiveasia.jp.co.hakenman.debug:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIcon archiveasia.jp.co.hakenman.debug:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconEnabled archiveasia.jp.co.hakenman.debug:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconSize archiveasia.jp.co.hakenman.debug:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconTint archiveasia.jp.co.hakenman.debug:chipIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconVisible archiveasia.jp.co.hakenman.debug:chipIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipMinHeight archiveasia.jp.co.hakenman.debug:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStartPadding archiveasia.jp.co.hakenman.debug:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeColor archiveasia.jp.co.hakenman.debug:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeWidth archiveasia.jp.co.hakenman.debug:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon archiveasia.jp.co.hakenman.debug:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEnabled archiveasia.jp.co.hakenman.debug:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEndPadding archiveasia.jp.co.hakenman.debug:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconSize archiveasia.jp.co.hakenman.debug:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconStartPadding archiveasia.jp.co.hakenman.debug:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconTint archiveasia.jp.co.hakenman.debug:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconVisible archiveasia.jp.co.hakenman.debug:closeIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_hideMotionSpec archiveasia.jp.co.hakenman.debug:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconEndPadding archiveasia.jp.co.hakenman.debug:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconStartPadding archiveasia.jp.co.hakenman.debug:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_rippleColor archiveasia.jp.co.hakenman.debug:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_showMotionSpec archiveasia.jp.co.hakenman.debug:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textEndPadding archiveasia.jp.co.hakenman.debug:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textStartPadding archiveasia.jp.co.hakenman.debug:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIcon archiveasia.jp.co.hakenman:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconEnabled archiveasia.jp.co.hakenman:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconVisible archiveasia.jp.co.hakenman:checkedIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipBackgroundColor archiveasia.jp.co.hakenman:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipCornerRadius archiveasia.jp.co.hakenman:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipEndPadding archiveasia.jp.co.hakenman:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIcon archiveasia.jp.co.hakenman:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconEnabled archiveasia.jp.co.hakenman:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconSize archiveasia.jp.co.hakenman:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconTint archiveasia.jp.co.hakenman:chipIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconVisible archiveasia.jp.co.hakenman:chipIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipMinHeight archiveasia.jp.co.hakenman:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStartPadding archiveasia.jp.co.hakenman:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeColor archiveasia.jp.co.hakenman:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeWidth archiveasia.jp.co.hakenman:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon archiveasia.jp.co.hakenman:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEnabled archiveasia.jp.co.hakenman:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEndPadding archiveasia.jp.co.hakenman:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconSize archiveasia.jp.co.hakenman:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconStartPadding archiveasia.jp.co.hakenman:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconTint archiveasia.jp.co.hakenman:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconVisible archiveasia.jp.co.hakenman:closeIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_hideMotionSpec archiveasia.jp.co.hakenman:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconEndPadding archiveasia.jp.co.hakenman:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconStartPadding archiveasia.jp.co.hakenman:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_rippleColor archiveasia.jp.co.hakenman:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_showMotionSpec archiveasia.jp.co.hakenman:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textEndPadding archiveasia.jp.co.hakenman:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textStartPadding archiveasia.jp.co.hakenman:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #Chip_android_textAppearance
      * @see #Chip_android_ellipsize
@@ -9856,14 +9989,14 @@ public final class R {
      */
     public static final int[] Chip={
         0x01010034, 0x010100ab, 0x0101011f, 0x0101014f, 
-        0x010101e5, 0x7f030064, 0x7f030065, 0x7f030066, 
-        0x7f030068, 0x7f030069, 0x7f03006a, 0x7f03006c, 
-        0x7f03006d, 0x7f03006e, 0x7f03006f, 0x7f030070, 
-        0x7f030071, 0x7f030076, 0x7f030077, 0x7f030078, 
-        0x7f03007a, 0x7f03007b, 0x7f03007c, 0x7f03007d, 
-        0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f0300ea, 
-        0x7f0300f4, 0x7f0300f8, 0x7f030188, 0x7f030194, 
-        0x7f0301ea, 0x7f0301ec
+        0x010101e5, 0x7f030065, 0x7f030066, 0x7f030067, 
+        0x7f030069, 0x7f03006a, 0x7f03006b, 0x7f03006d, 
+        0x7f03006e, 0x7f03006f, 0x7f030070, 0x7f030071, 
+        0x7f030072, 0x7f030077, 0x7f030078, 0x7f030079, 
+        0x7f03007c, 0x7f03007d, 0x7f03007e, 0x7f03007f, 
+        0x7f030080, 0x7f030081, 0x7f030082, 0x7f0300ed, 
+        0x7f0300f7, 0x7f0300fb, 0x7f03018d, 0x7f03019a, 
+        0x7f0301f0, 0x7f0301f2
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -9931,7 +10064,7 @@ public final class R {
      */
     public static final int Chip_android_checkable=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9939,42 +10072,42 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkedIcon
+     * @attr name archiveasia.jp.co.hakenman:checkedIcon
      */
     public static final int Chip_checkedIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkedIconEnabled
+     * @attr name archiveasia.jp.co.hakenman:checkedIconEnabled
      */
     public static final int Chip_checkedIconEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkedIconVisible}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkedIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkedIconVisible
+     * @attr name archiveasia.jp.co.hakenman:checkedIconVisible
      */
     public static final int Chip_checkedIconVisible=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipBackgroundColor
+     * @attr name archiveasia.jp.co.hakenman:chipBackgroundColor
      */
     public static final int Chip_chipBackgroundColor=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9983,11 +10116,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipCornerRadius
+     * @attr name archiveasia.jp.co.hakenman:chipCornerRadius
      */
     public static final int Chip_chipCornerRadius=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9996,11 +10129,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipEndPadding
+     * @attr name archiveasia.jp.co.hakenman:chipEndPadding
      */
     public static final int Chip_chipEndPadding=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10008,21 +10141,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipIcon
+     * @attr name archiveasia.jp.co.hakenman:chipIcon
      */
     public static final int Chip_chipIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipIconEnabled
+     * @attr name archiveasia.jp.co.hakenman:chipIconEnabled
      */
     public static final int Chip_chipIconEnabled=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10031,32 +10164,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipIconSize
+     * @attr name archiveasia.jp.co.hakenman:chipIconSize
      */
     public static final int Chip_chipIconSize=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipIconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipIconTint
+     * @attr name archiveasia.jp.co.hakenman:chipIconTint
      */
     public static final int Chip_chipIconTint=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipIconVisible}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipIconVisible
+     * @attr name archiveasia.jp.co.hakenman:chipIconVisible
      */
     public static final int Chip_chipIconVisible=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10065,11 +10198,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipMinHeight
+     * @attr name archiveasia.jp.co.hakenman:chipMinHeight
      */
     public static final int Chip_chipMinHeight=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10078,22 +10211,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipStartPadding
+     * @attr name archiveasia.jp.co.hakenman:chipStartPadding
      */
     public static final int Chip_chipStartPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipStrokeColor
+     * @attr name archiveasia.jp.co.hakenman:chipStrokeColor
      */
     public static final int Chip_chipStrokeColor=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10102,11 +10235,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipStrokeWidth
+     * @attr name archiveasia.jp.co.hakenman:chipStrokeWidth
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10114,21 +10247,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIcon
+     * @attr name archiveasia.jp.co.hakenman:closeIcon
      */
     public static final int Chip_closeIcon=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconEnabled
+     * @attr name archiveasia.jp.co.hakenman:closeIconEnabled
      */
     public static final int Chip_closeIconEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10137,11 +10270,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconEndPadding
+     * @attr name archiveasia.jp.co.hakenman:closeIconEndPadding
      */
     public static final int Chip_closeIconEndPadding=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10150,11 +10283,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconSize
+     * @attr name archiveasia.jp.co.hakenman:closeIconSize
      */
     public static final int Chip_closeIconSize=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10163,32 +10296,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconStartPadding
+     * @attr name archiveasia.jp.co.hakenman:closeIconStartPadding
      */
     public static final int Chip_closeIconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconTint
+     * @attr name archiveasia.jp.co.hakenman:closeIconTint
      */
     public static final int Chip_closeIconTint=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIconVisible}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIconVisible
+     * @attr name archiveasia.jp.co.hakenman:closeIconVisible
      */
     public static final int Chip_closeIconVisible=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10196,11 +10329,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hideMotionSpec
+     * @attr name archiveasia.jp.co.hakenman:hideMotionSpec
      */
     public static final int Chip_hideMotionSpec=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10209,11 +10342,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconEndPadding
+     * @attr name archiveasia.jp.co.hakenman:iconEndPadding
      */
     public static final int Chip_iconEndPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10222,22 +10355,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconStartPadding
+     * @attr name archiveasia.jp.co.hakenman:iconStartPadding
      */
     public static final int Chip_iconStartPadding=29;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#rippleColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:rippleColor
+     * @attr name archiveasia.jp.co.hakenman:rippleColor
      */
     public static final int Chip_rippleColor=30;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10245,11 +10378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showMotionSpec
+     * @attr name archiveasia.jp.co.hakenman:showMotionSpec
      */
     public static final int Chip_showMotionSpec=31;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10258,11 +10391,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textEndPadding
+     * @attr name archiveasia.jp.co.hakenman:textEndPadding
      */
     public static final int Chip_textEndPadding=32;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10271,7 +10404,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textStartPadding
+     * @attr name archiveasia.jp.co.hakenman:textStartPadding
      */
     public static final int Chip_textStartPadding=33;
     /**
@@ -10281,12 +10414,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip archiveasia.jp.co.hakenman.debug:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing archiveasia.jp.co.hakenman.debug:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal archiveasia.jp.co.hakenman.debug:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical archiveasia.jp.co.hakenman.debug:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine archiveasia.jp.co.hakenman.debug:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection archiveasia.jp.co.hakenman.debug:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip archiveasia.jp.co.hakenman:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing archiveasia.jp.co.hakenman:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal archiveasia.jp.co.hakenman:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical archiveasia.jp.co.hakenman:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine archiveasia.jp.co.hakenman:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection archiveasia.jp.co.hakenman:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -10296,11 +10429,11 @@ public final class R {
      * @see #ChipGroup_singleSelection
      */
     public static final int[] ChipGroup={
-        0x7f030063, 0x7f030072, 0x7f030073, 0x7f030074, 
-        0x7f030198, 0x7f030199
+        0x7f030064, 0x7f030073, 0x7f030074, 0x7f030075, 
+        0x7f03019e, 0x7f03019f
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10308,11 +10441,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:checkedChip
+     * @attr name archiveasia.jp.co.hakenman:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10321,11 +10454,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipSpacing
+     * @attr name archiveasia.jp.co.hakenman:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10334,11 +10467,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipSpacingHorizontal
+     * @attr name archiveasia.jp.co.hakenman:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10347,27 +10480,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipSpacingVertical
+     * @attr name archiveasia.jp.co.hakenman:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:singleLine
+     * @attr name archiveasia.jp.co.hakenman:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:singleSelection
+     * @attr name archiveasia.jp.co.hakenman:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
     /**
@@ -10377,22 +10510,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity archiveasia.jp.co.hakenman.debug:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance archiveasia.jp.co.hakenman.debug:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim archiveasia.jp.co.hakenman.debug:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity archiveasia.jp.co.hakenman.debug:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin archiveasia.jp.co.hakenman.debug:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom archiveasia.jp.co.hakenman.debug:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd archiveasia.jp.co.hakenman.debug:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart archiveasia.jp.co.hakenman.debug:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop archiveasia.jp.co.hakenman.debug:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance archiveasia.jp.co.hakenman.debug:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration archiveasia.jp.co.hakenman.debug:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger archiveasia.jp.co.hakenman.debug:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim archiveasia.jp.co.hakenman.debug:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title archiveasia.jp.co.hakenman.debug:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled archiveasia.jp.co.hakenman.debug:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId archiveasia.jp.co.hakenman.debug:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity archiveasia.jp.co.hakenman:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance archiveasia.jp.co.hakenman:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim archiveasia.jp.co.hakenman:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity archiveasia.jp.co.hakenman:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin archiveasia.jp.co.hakenman:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom archiveasia.jp.co.hakenman:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd archiveasia.jp.co.hakenman:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart archiveasia.jp.co.hakenman:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop archiveasia.jp.co.hakenman:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance archiveasia.jp.co.hakenman:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration archiveasia.jp.co.hakenman:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger archiveasia.jp.co.hakenman:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim archiveasia.jp.co.hakenman:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title archiveasia.jp.co.hakenman:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled archiveasia.jp.co.hakenman:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId archiveasia.jp.co.hakenman:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10412,13 +10545,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-        0x7f030084, 0x7f030085, 0x7f0300a2, 0x7f0300c3, 
-        0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
-        0x7f0300c8, 0x7f0300c9, 0x7f030189, 0x7f03018b, 
-        0x7f0301aa, 0x7f0301f7, 0x7f0301f8, 0x7f030202
+        0x7f030086, 0x7f030087, 0x7f0300a5, 0x7f0300c6, 
+        0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
+        0x7f0300cb, 0x7f0300cc, 0x7f03018f, 0x7f030191, 
+        0x7f0301b0, 0x7f0301fd, 0x7f0301fe, 0x7f030208
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10439,11 +10572,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:collapsedTitleGravity
+     * @attr name archiveasia.jp.co.hakenman:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10451,22 +10584,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:collapsedTitleTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentScrim
+     * @attr name archiveasia.jp.co.hakenman:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10487,11 +10620,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleGravity
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10500,11 +10633,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleMargin
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10513,11 +10646,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleMarginBottom
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10526,11 +10659,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleMarginEnd
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10539,11 +10672,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleMarginStart
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10552,11 +10685,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleMarginTop
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10564,20 +10697,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:expandedTitleTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:scrimAnimationDuration
+     * @attr name archiveasia.jp.co.hakenman:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10586,42 +10719,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:scrimVisibleHeightTrigger
+     * @attr name archiveasia.jp.co.hakenman:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:statusBarScrim
+     * @attr name archiveasia.jp.co.hakenman:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#title}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:title
+     * @attr name archiveasia.jp.co.hakenman:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleEnabled
+     * @attr name archiveasia.jp.co.hakenman:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10629,7 +10762,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:toolbarId
+     * @attr name archiveasia.jp.co.hakenman:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -10639,17 +10772,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode archiveasia.jp.co.hakenman.debug:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier archiveasia.jp.co.hakenman.debug:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode archiveasia.jp.co.hakenman:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier archiveasia.jp.co.hakenman:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f030115, 0x7f030116
+        0x7f03011a, 0x7f03011b
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10663,16 +10796,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_collapseMode
+     * @attr name archiveasia.jp.co.hakenman:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_collapseParallaxMultiplier
+     * @attr name archiveasia.jp.co.hakenman:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -10684,7 +10817,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha archiveasia.jp.co.hakenman.debug:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha archiveasia.jp.co.hakenman:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -10714,12 +10847,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alpha
+     * @attr name archiveasia.jp.co.hakenman:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -10730,15 +10863,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint archiveasia.jp.co.hakenman.debug:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode archiveasia.jp.co.hakenman.debug:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint archiveasia.jp.co.hakenman:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode archiveasia.jp.co.hakenman:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-        0x01010107, 0x7f030058, 0x7f030059
+        0x01010107, 0x7f030059, 0x7f03005a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -10753,18 +10886,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonTint
+     * @attr name archiveasia.jp.co.hakenman:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10781,7 +10914,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonTintMode
+     * @attr name archiveasia.jp.co.hakenman:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -10796,61 +10929,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets archiveasia.jp.co.hakenman.debug:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection archiveasia.jp.co.hakenman.debug:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl archiveasia.jp.co.hakenman.debug:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet archiveasia.jp.co.hakenman.debug:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids archiveasia.jp.co.hakenman.debug:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight archiveasia.jp.co.hakenman.debug:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth archiveasia.jp.co.hakenman.debug:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator archiveasia.jp.co.hakenman.debug:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle archiveasia.jp.co.hakenman.debug:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle archiveasia.jp.co.hakenman.debug:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius archiveasia.jp.co.hakenman.debug:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio archiveasia.jp.co.hakenman.debug:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin archiveasia.jp.co.hakenman.debug:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end archiveasia.jp.co.hakenman.debug:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent archiveasia.jp.co.hakenman.debug:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default archiveasia.jp.co.hakenman.debug:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max archiveasia.jp.co.hakenman.debug:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min archiveasia.jp.co.hakenman.debug:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent archiveasia.jp.co.hakenman.debug:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator archiveasia.jp.co.hakenman.debug:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator archiveasia.jp.co.hakenman.debug:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf archiveasia.jp.co.hakenman.debug:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf archiveasia.jp.co.hakenman.debug:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf archiveasia.jp.co.hakenman.debug:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf archiveasia.jp.co.hakenman.debug:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator archiveasia.jp.co.hakenman.debug:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf archiveasia.jp.co.hakenman.debug:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf archiveasia.jp.co.hakenman.debug:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias archiveasia.jp.co.hakenman.debug:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle archiveasia.jp.co.hakenman.debug:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight archiveasia.jp.co.hakenman.debug:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default archiveasia.jp.co.hakenman.debug:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max archiveasia.jp.co.hakenman.debug:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min archiveasia.jp.co.hakenman.debug:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent archiveasia.jp.co.hakenman.debug:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX archiveasia.jp.co.hakenman.debug:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY archiveasia.jp.co.hakenman.debug:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom archiveasia.jp.co.hakenman.debug:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd archiveasia.jp.co.hakenman.debug:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft archiveasia.jp.co.hakenman.debug:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight archiveasia.jp.co.hakenman.debug:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart archiveasia.jp.co.hakenman.debug:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop archiveasia.jp.co.hakenman.debug:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel archiveasia.jp.co.hakenman.debug:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets archiveasia.jp.co.hakenman:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection archiveasia.jp.co.hakenman:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl archiveasia.jp.co.hakenman:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet archiveasia.jp.co.hakenman:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids archiveasia.jp.co.hakenman:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight archiveasia.jp.co.hakenman:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth archiveasia.jp.co.hakenman:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator archiveasia.jp.co.hakenman:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf archiveasia.jp.co.hakenman:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator archiveasia.jp.co.hakenman:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf archiveasia.jp.co.hakenman:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf archiveasia.jp.co.hakenman:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle archiveasia.jp.co.hakenman:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle archiveasia.jp.co.hakenman:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius archiveasia.jp.co.hakenman:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio archiveasia.jp.co.hakenman:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf archiveasia.jp.co.hakenman:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf archiveasia.jp.co.hakenman:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin archiveasia.jp.co.hakenman:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end archiveasia.jp.co.hakenman:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent archiveasia.jp.co.hakenman:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default archiveasia.jp.co.hakenman:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max archiveasia.jp.co.hakenman:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min archiveasia.jp.co.hakenman:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent archiveasia.jp.co.hakenman:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias archiveasia.jp.co.hakenman:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle archiveasia.jp.co.hakenman:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight archiveasia.jp.co.hakenman:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator archiveasia.jp.co.hakenman:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf archiveasia.jp.co.hakenman:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf archiveasia.jp.co.hakenman:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator archiveasia.jp.co.hakenman:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf archiveasia.jp.co.hakenman:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf archiveasia.jp.co.hakenman:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf archiveasia.jp.co.hakenman:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf archiveasia.jp.co.hakenman:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator archiveasia.jp.co.hakenman:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf archiveasia.jp.co.hakenman:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf archiveasia.jp.co.hakenman:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias archiveasia.jp.co.hakenman:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle archiveasia.jp.co.hakenman:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight archiveasia.jp.co.hakenman:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default archiveasia.jp.co.hakenman:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max archiveasia.jp.co.hakenman:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min archiveasia.jp.co.hakenman:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent archiveasia.jp.co.hakenman:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX archiveasia.jp.co.hakenman:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY archiveasia.jp.co.hakenman:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom archiveasia.jp.co.hakenman:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd archiveasia.jp.co.hakenman:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft archiveasia.jp.co.hakenman:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight archiveasia.jp.co.hakenman:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart archiveasia.jp.co.hakenman:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop archiveasia.jp.co.hakenman:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel archiveasia.jp.co.hakenman:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -10915,20 +11048,20 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
         0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-        0x01010140, 0x7f030037, 0x7f030038, 0x7f030061, 
-        0x7f030093, 0x7f030094, 0x7f030117, 0x7f030118, 
-        0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
-        0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
-        0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
-        0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
-        0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
-        0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
-        0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
-        0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 
-        0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
-        0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030141, 
-        0x7f030142, 0x7f030143, 0x7f030144, 0x7f030145, 
-        0x7f030146, 0x7f030147, 0x7f030148, 0x7f03014b
+        0x01010140, 0x7f030037, 0x7f030038, 0x7f030062, 
+        0x7f030096, 0x7f030097, 0x7f03011c, 0x7f03011d, 
+        0x7f03011e, 0x7f03011f, 0x7f030120, 0x7f030121, 
+        0x7f030122, 0x7f030123, 0x7f030124, 0x7f030125, 
+        0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 
+        0x7f03012a, 0x7f03012b, 0x7f03012c, 0x7f03012d, 
+        0x7f03012e, 0x7f03012f, 0x7f030130, 0x7f030131, 
+        0x7f030132, 0x7f030133, 0x7f030134, 0x7f030135, 
+        0x7f030136, 0x7f030137, 0x7f030138, 0x7f030139, 
+        0x7f03013a, 0x7f03013b, 0x7f03013c, 0x7f03013d, 
+        0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 
+        0x7f030142, 0x7f030143, 0x7f030144, 0x7f030146, 
+        0x7f030147, 0x7f030148, 0x7f030149, 0x7f03014a, 
+        0x7f03014b, 0x7f03014c, 0x7f03014d, 0x7f030150
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -11000,17 +11133,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:barrierAllowsGoneWidgets
+     * @attr name archiveasia.jp.co.hakenman:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11027,21 +11160,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:barrierDirection
+     * @attr name archiveasia.jp.co.hakenman:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chainUseRtl
+     * @attr name archiveasia.jp.co.hakenman:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11049,50 +11182,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:constraintSet
+     * @attr name archiveasia.jp.co.hakenman:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:constraint_referenced_ids
+     * @attr name archiveasia.jp.co.hakenman:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constrainedHeight
+     * @attr name archiveasia.jp.co.hakenman:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constrainedWidth
+     * @attr name archiveasia.jp.co.hakenman:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11108,20 +11241,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_toBaselineOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11137,11 +11270,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toBottomOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11157,11 +11290,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toTopOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11169,20 +11302,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircleAngle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11191,21 +11324,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircleRadius
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintDimensionRatio
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11221,11 +11354,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toEndOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11241,11 +11374,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toStartOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11254,11 +11387,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_begin
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11267,20 +11400,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_end
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11294,11 +11427,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_default
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11315,11 +11448,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_max
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11336,29 +11469,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_min
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_bias
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11372,29 +11505,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_chainStyle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_weight
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11410,11 +11543,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toLeftOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11430,20 +11563,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toRightOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11459,11 +11592,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_toLeftOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11479,11 +11612,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_toRightOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11499,11 +11632,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintStart_toEndOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11519,20 +11652,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintStart_toStartOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11548,11 +11681,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_toBottomOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11568,20 +11701,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_toTopOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_bias
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11595,20 +11728,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_chainStyle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_weight
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11622,11 +11755,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_default
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11643,11 +11776,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_max
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11664,20 +11797,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_min
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11686,11 +11819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_editor_absoluteX
+     * @attr name archiveasia.jp.co.hakenman:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11699,11 +11832,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_editor_absoluteY
+     * @attr name archiveasia.jp.co.hakenman:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11712,11 +11845,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginBottom
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11725,11 +11858,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginEnd
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11738,11 +11871,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginLeft
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11751,11 +11884,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginRight
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11764,11 +11897,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginStart
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11777,11 +11910,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginTop
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11793,12 +11926,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_optimizationLevel
+     * @attr name archiveasia.jp.co.hakenman:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -11808,17 +11942,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content archiveasia.jp.co.hakenman.debug:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility archiveasia.jp.co.hakenman.debug:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content archiveasia.jp.co.hakenman:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility archiveasia.jp.co.hakenman:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-        0x7f030095, 0x7f0300bc
+        0x7f030098, 0x7f0300bf
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#content}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11826,11 +11960,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:content
+     * @attr name archiveasia.jp.co.hakenman:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11843,7 +11977,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:emptyVisibility
+     * @attr name archiveasia.jp.co.hakenman:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -11862,6 +11996,10 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
@@ -11876,55 +12014,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight archiveasia.jp.co.hakenman.debug:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth archiveasia.jp.co.hakenman.debug:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator archiveasia.jp.co.hakenman.debug:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle archiveasia.jp.co.hakenman.debug:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle archiveasia.jp.co.hakenman.debug:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius archiveasia.jp.co.hakenman.debug:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio archiveasia.jp.co.hakenman.debug:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin archiveasia.jp.co.hakenman.debug:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end archiveasia.jp.co.hakenman.debug:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent archiveasia.jp.co.hakenman.debug:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default archiveasia.jp.co.hakenman.debug:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max archiveasia.jp.co.hakenman.debug:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min archiveasia.jp.co.hakenman.debug:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent archiveasia.jp.co.hakenman.debug:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator archiveasia.jp.co.hakenman.debug:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator archiveasia.jp.co.hakenman.debug:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf archiveasia.jp.co.hakenman.debug:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf archiveasia.jp.co.hakenman.debug:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf archiveasia.jp.co.hakenman.debug:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf archiveasia.jp.co.hakenman.debug:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator archiveasia.jp.co.hakenman.debug:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf archiveasia.jp.co.hakenman.debug:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf archiveasia.jp.co.hakenman.debug:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias archiveasia.jp.co.hakenman.debug:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle archiveasia.jp.co.hakenman.debug:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight archiveasia.jp.co.hakenman.debug:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default archiveasia.jp.co.hakenman.debug:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max archiveasia.jp.co.hakenman.debug:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min archiveasia.jp.co.hakenman.debug:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent archiveasia.jp.co.hakenman.debug:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX archiveasia.jp.co.hakenman.debug:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY archiveasia.jp.co.hakenman.debug:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom archiveasia.jp.co.hakenman.debug:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd archiveasia.jp.co.hakenman.debug:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft archiveasia.jp.co.hakenman.debug:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight archiveasia.jp.co.hakenman.debug:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart archiveasia.jp.co.hakenman.debug:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop archiveasia.jp.co.hakenman.debug:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets archiveasia.jp.co.hakenman:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection archiveasia.jp.co.hakenman:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl archiveasia.jp.co.hakenman:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids archiveasia.jp.co.hakenman:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight archiveasia.jp.co.hakenman:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth archiveasia.jp.co.hakenman:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator archiveasia.jp.co.hakenman:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf archiveasia.jp.co.hakenman:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator archiveasia.jp.co.hakenman:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf archiveasia.jp.co.hakenman:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf archiveasia.jp.co.hakenman:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle archiveasia.jp.co.hakenman:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle archiveasia.jp.co.hakenman:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius archiveasia.jp.co.hakenman:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio archiveasia.jp.co.hakenman:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf archiveasia.jp.co.hakenman:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf archiveasia.jp.co.hakenman:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin archiveasia.jp.co.hakenman:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end archiveasia.jp.co.hakenman:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent archiveasia.jp.co.hakenman:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default archiveasia.jp.co.hakenman:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max archiveasia.jp.co.hakenman:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min archiveasia.jp.co.hakenman:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent archiveasia.jp.co.hakenman:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias archiveasia.jp.co.hakenman:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle archiveasia.jp.co.hakenman:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight archiveasia.jp.co.hakenman:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator archiveasia.jp.co.hakenman:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf archiveasia.jp.co.hakenman:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf archiveasia.jp.co.hakenman:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator archiveasia.jp.co.hakenman:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf archiveasia.jp.co.hakenman:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf archiveasia.jp.co.hakenman:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf archiveasia.jp.co.hakenman:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf archiveasia.jp.co.hakenman:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator archiveasia.jp.co.hakenman:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf archiveasia.jp.co.hakenman:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf archiveasia.jp.co.hakenman:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias archiveasia.jp.co.hakenman:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle archiveasia.jp.co.hakenman:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight archiveasia.jp.co.hakenman:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default archiveasia.jp.co.hakenman:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max archiveasia.jp.co.hakenman:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min archiveasia.jp.co.hakenman:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent archiveasia.jp.co.hakenman:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX archiveasia.jp.co.hakenman:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY archiveasia.jp.co.hakenman:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom archiveasia.jp.co.hakenman:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd archiveasia.jp.co.hakenman:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft archiveasia.jp.co.hakenman:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight archiveasia.jp.co.hakenman:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart archiveasia.jp.co.hakenman:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop archiveasia.jp.co.hakenman:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -11935,6 +12077,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginTop
      * @see #ConstraintSet_android_layout_marginRight
      * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
      * @see #ConstraintSet_android_alpha
      * @see #ConstraintSet_android_transformPivotX
      * @see #ConstraintSet_android_transformPivotY
@@ -11949,6 +12095,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginEnd
      * @see #ConstraintSet_android_translationZ
      * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
      * @see #ConstraintSet_layout_constrainedHeight
      * @see #ConstraintSet_layout_constrainedWidth
      * @see #ConstraintSet_layout_constraintBaseline_creator
@@ -12002,22 +12152,24 @@ public final class R {
     public static final int[] ConstraintSet={
         0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
         0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-        0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
+        0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
         0x01010322, 0x01010323, 0x01010324, 0x01010325, 
         0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
-        0x010103b6, 0x010103fa, 0x01010440, 0x7f030117, 
-        0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
-        0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
-        0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
-        0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
-        0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
-        0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
-        0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-        0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
-        0x7f030138, 0x7f030139, 0x7f03013a, 0x7f03013b, 
-        0x7f03013c, 0x7f03013d, 0x7f03013e, 0x7f03013f, 
+        0x010103b6, 0x010103fa, 0x01010440, 0x7f030037, 
+        0x7f030038, 0x7f030062, 0x7f030097, 0x7f03011c, 
+        0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
+        0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
+        0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
+        0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
+        0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
+        0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
+        0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 
+        0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
+        0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140, 
         0x7f030141, 0x7f030142, 0x7f030143, 0x7f030144, 
-        0x7f030145, 0x7f030146, 0x7f030147, 0x7f030148
+        0x7f030146, 0x7f030147, 0x7f030148, 0x7f030149, 
+        0x7f03014a, 0x7f03014b, 0x7f03014c, 0x7f03014d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -12165,6 +12317,58 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_marginBottom=8;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -12172,7 +12376,7 @@ public final class R {
      *
      * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_alpha=9;
+    public static final int ConstraintSet_android_alpha=13;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12185,7 +12389,7 @@ public final class R {
      *
      * @attr name android:transformPivotX
      */
-    public static final int ConstraintSet_android_transformPivotX=10;
+    public static final int ConstraintSet_android_transformPivotX=14;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12198,7 +12402,7 @@ public final class R {
      *
      * @attr name android:transformPivotY
      */
-    public static final int ConstraintSet_android_transformPivotY=11;
+    public static final int ConstraintSet_android_transformPivotY=15;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12211,7 +12415,7 @@ public final class R {
      *
      * @attr name android:translationX
      */
-    public static final int ConstraintSet_android_translationX=12;
+    public static final int ConstraintSet_android_translationX=16;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12224,7 +12428,7 @@ public final class R {
      *
      * @attr name android:translationY
      */
-    public static final int ConstraintSet_android_translationY=13;
+    public static final int ConstraintSet_android_translationY=17;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12233,7 +12437,7 @@ public final class R {
      *
      * @attr name android:scaleX
      */
-    public static final int ConstraintSet_android_scaleX=14;
+    public static final int ConstraintSet_android_scaleX=18;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12242,7 +12446,7 @@ public final class R {
      *
      * @attr name android:scaleY
      */
-    public static final int ConstraintSet_android_scaleY=15;
+    public static final int ConstraintSet_android_scaleY=19;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12251,7 +12455,7 @@ public final class R {
      *
      * @attr name android:rotation
      */
-    public static final int ConstraintSet_android_rotation=16;
+    public static final int ConstraintSet_android_rotation=20;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12260,7 +12464,7 @@ public final class R {
      *
      * @attr name android:rotationX
      */
-    public static final int ConstraintSet_android_rotationX=17;
+    public static final int ConstraintSet_android_rotationX=21;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12269,7 +12473,7 @@ public final class R {
      *
      * @attr name android:rotationY
      */
-    public static final int ConstraintSet_android_rotationY=18;
+    public static final int ConstraintSet_android_rotationY=22;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12282,7 +12486,7 @@ public final class R {
      *
      * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginStart=19;
+    public static final int ConstraintSet_android_layout_marginStart=23;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12295,7 +12499,7 @@ public final class R {
      *
      * @attr name android:layout_marginEnd
      */
-    public static final int ConstraintSet_android_layout_marginEnd=20;
+    public static final int ConstraintSet_android_layout_marginEnd=24;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12308,7 +12512,7 @@ public final class R {
      *
      * @attr name android:translationZ
      */
-    public static final int ConstraintSet_android_translationZ=21;
+    public static final int ConstraintSet_android_translationZ=25;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12321,151 +12525,89 @@ public final class R {
      *
      * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_elevation=22;
+    public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constrainedHeight
+     * @attr name archiveasia.jp.co.hakenman:barrierAllowsGoneWidgets
      */
-    public static final int ConstraintSet_layout_constrainedHeight=23;
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=28;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constrainedWidth
+     * @attr name archiveasia.jp.co.hakenman:chainUseRtl
      */
-    public static final int ConstraintSet_layout_constrainedWidth=24;
+    public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=25;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_creator
-     */
-    public static final int ConstraintSet_layout_constraintBottom_creator=27;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircle
-     */
-    public static final int ConstraintSet_layout_constraintCircle=30;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircleAngle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircleAngle
-     */
-    public static final int ConstraintSet_layout_constraintCircleAngle=31;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintCircleRadius}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintCircleRadius
-     */
-    public static final int ConstraintSet_layout_constraintCircleRadius=32;
-    /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintDimensionRatio
+     * @attr name archiveasia.jp.co.hakenman:constraint_referenced_ids
      */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=33;
+    public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=31;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=32;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=33;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12481,11 +12623,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toEndOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=35;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12501,11 +12652,52 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintEnd_toStartOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=38;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=39;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12514,11 +12706,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_begin
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintCircleRadius
      */
-    public static final int ConstraintSet_layout_constraintGuide_begin=36;
+    public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=41;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12527,20 +12769,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_end
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_begin
      */
-    public static final int ConstraintSet_layout_constraintGuide_end=37;
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintGuide_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintGuide_percent
      */
-    public static final int ConstraintSet_layout_constraintGuide_percent=38;
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12554,11 +12809,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_default
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_default
      */
-    public static final int ConstraintSet_layout_constraintHeight_default=39;
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12575,11 +12830,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_max
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_max
      */
-    public static final int ConstraintSet_layout_constraintHeight_max=40;
+    public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12596,29 +12851,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_min
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_min
      */
-    public static final int ConstraintSet_layout_constraintHeight_min=41;
+    public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHeight_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHeight_percent
      */
-    public static final int ConstraintSet_layout_constraintHeight_percent=42;
+    public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_bias
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_bias
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12632,29 +12887,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_chainStyle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintHorizontal_weight
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_creator
      */
-    public static final int ConstraintSet_layout_constraintLeft_creator=46;
+    public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12670,11 +12925,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toLeftOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12690,20 +12945,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintLeft_toRightOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_creator
      */
-    public static final int ConstraintSet_layout_constraintRight_creator=49;
+    public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12719,11 +12974,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_toLeftOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12739,11 +12994,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintRight_toRightOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12759,11 +13014,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintStart_toEndOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12779,20 +13034,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintStart_toStartOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_creator
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_creator
      */
-    public static final int ConstraintSet_layout_constraintTop_creator=54;
+    public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12808,11 +13063,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_toBottomOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12828,20 +13083,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintTop_toTopOf
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_bias
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_bias
      */
-    public static final int ConstraintSet_layout_constraintVertical_bias=57;
+    public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12855,20 +13110,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_chainStyle
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintVertical_weight
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintVertical_weight
      */
-    public static final int ConstraintSet_layout_constraintVertical_weight=59;
+    public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12882,11 +13137,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_default
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_default
      */
-    public static final int ConstraintSet_layout_constraintWidth_default=60;
+    public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12903,11 +13158,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_max
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_max
      */
-    public static final int ConstraintSet_layout_constraintWidth_max=61;
+    public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12924,20 +13179,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_min
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_min
      */
-    public static final int ConstraintSet_layout_constraintWidth_min=62;
+    public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_constraintWidth_percent
+     * @attr name archiveasia.jp.co.hakenman:layout_constraintWidth_percent
      */
-    public static final int ConstraintSet_layout_constraintWidth_percent=63;
+    public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12946,11 +13201,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_editor_absoluteX
+     * @attr name archiveasia.jp.co.hakenman:layout_editor_absoluteX
      */
-    public static final int ConstraintSet_layout_editor_absoluteX=64;
+    public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12959,11 +13214,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_editor_absoluteY
+     * @attr name archiveasia.jp.co.hakenman:layout_editor_absoluteY
      */
-    public static final int ConstraintSet_layout_editor_absoluteY=65;
+    public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12972,11 +13227,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginBottom
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginBottom
      */
-    public static final int ConstraintSet_layout_goneMarginBottom=66;
+    public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12985,11 +13240,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginEnd
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginEnd
      */
-    public static final int ConstraintSet_layout_goneMarginEnd=67;
+    public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12998,11 +13253,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginLeft
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginLeft
      */
-    public static final int ConstraintSet_layout_goneMarginLeft=68;
+    public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13011,11 +13266,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginRight
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginRight
      */
-    public static final int ConstraintSet_layout_goneMarginRight=69;
+    public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13024,11 +13279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginStart
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginStart
      */
-    public static final int ConstraintSet_layout_goneMarginStart=70;
+    public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13037,9 +13292,9 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_goneMarginTop
+     * @attr name archiveasia.jp.co.hakenman:layout_goneMarginTop
      */
-    public static final int ConstraintSet_layout_goneMarginTop=71;
+    public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
@@ -13047,17 +13302,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines archiveasia.jp.co.hakenman.debug:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground archiveasia.jp.co.hakenman.debug:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines archiveasia.jp.co.hakenman:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground archiveasia.jp.co.hakenman:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f03010d, 0x7f0301a9
+        0x7f030112, 0x7f0301af
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13065,11 +13320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:keylines
+     * @attr name archiveasia.jp.co.hakenman:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13080,7 +13335,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:statusBarBackground
+     * @attr name archiveasia.jp.co.hakenman:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -13091,12 +13346,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor archiveasia.jp.co.hakenman.debug:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity archiveasia.jp.co.hakenman.debug:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior archiveasia.jp.co.hakenman.debug:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges archiveasia.jp.co.hakenman.debug:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge archiveasia.jp.co.hakenman.debug:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline archiveasia.jp.co.hakenman.debug:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor archiveasia.jp.co.hakenman:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity archiveasia.jp.co.hakenman:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior archiveasia.jp.co.hakenman:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges archiveasia.jp.co.hakenman:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge archiveasia.jp.co.hakenman:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline archiveasia.jp.co.hakenman:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -13107,8 +13362,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f030112, 0x7f030113, 0x7f030114, 
-        0x7f030140, 0x7f030149, 0x7f03014a
+        0x010100b3, 0x7f030117, 0x7f030118, 0x7f030119, 
+        0x7f030145, 0x7f03014e, 0x7f03014f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -13140,7 +13395,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13148,11 +13403,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_anchor
+     * @attr name archiveasia.jp.co.hakenman:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13177,21 +13432,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_anchorGravity
+     * @attr name archiveasia.jp.co.hakenman:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_behavior
+     * @attr name archiveasia.jp.co.hakenman:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13210,11 +13465,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_dodgeInsetEdges
+     * @attr name archiveasia.jp.co.hakenman:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13232,16 +13487,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_insetEdge
+     * @attr name archiveasia.jp.co.hakenman:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout_keyline
+     * @attr name archiveasia.jp.co.hakenman:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -13251,8 +13506,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme archiveasia.jp.co.hakenman.debug:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle archiveasia.jp.co.hakenman.debug:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme archiveasia.jp.co.hakenman:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle archiveasia.jp.co.hakenman:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -13261,7 +13516,7 @@ public final class R {
         0x7f030043, 0x7f030044
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13269,11 +13524,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:bottomSheetDialogTheme
+     * @attr name archiveasia.jp.co.hakenman:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13281,7 +13536,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:bottomSheetStyle
+     * @attr name archiveasia.jp.co.hakenman:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -13291,14 +13546,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength archiveasia.jp.co.hakenman.debug:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength archiveasia.jp.co.hakenman.debug:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength archiveasia.jp.co.hakenman.debug:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color archiveasia.jp.co.hakenman.debug:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize archiveasia.jp.co.hakenman.debug:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars archiveasia.jp.co.hakenman.debug:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars archiveasia.jp.co.hakenman.debug:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness archiveasia.jp.co.hakenman.debug:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength archiveasia.jp.co.hakenman:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength archiveasia.jp.co.hakenman:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength archiveasia.jp.co.hakenman:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color archiveasia.jp.co.hakenman:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize archiveasia.jp.co.hakenman:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars archiveasia.jp.co.hakenman:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars archiveasia.jp.co.hakenman:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness archiveasia.jp.co.hakenman:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -13310,11 +13565,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030086, 
-        0x7f0300b4, 0x7f0300e3, 0x7f03019e, 0x7f0301ee
+        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030088, 
+        0x7f0300b7, 0x7f0300e6, 0x7f0301a4, 0x7f0301f4
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13323,11 +13578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:arrowHeadLength
+     * @attr name archiveasia.jp.co.hakenman:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13336,11 +13591,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:arrowShaftLength
+     * @attr name archiveasia.jp.co.hakenman:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13349,22 +13604,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:barLength
+     * @attr name archiveasia.jp.co.hakenman:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#color}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:color
+     * @attr name archiveasia.jp.co.hakenman:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13373,11 +13628,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:drawableSize
+     * @attr name archiveasia.jp.co.hakenman:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13386,21 +13641,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:gapBetweenBars
+     * @attr name archiveasia.jp.co.hakenman:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:spinBars
+     * @attr name archiveasia.jp.co.hakenman:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13409,7 +13664,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:thickness
+     * @attr name archiveasia.jp.co.hakenman:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -13419,19 +13674,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint archiveasia.jp.co.hakenman.debug:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode archiveasia.jp.co.hakenman.debug:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth archiveasia.jp.co.hakenman.debug:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize archiveasia.jp.co.hakenman.debug:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize archiveasia.jp.co.hakenman.debug:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec archiveasia.jp.co.hakenman.debug:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ archiveasia.jp.co.hakenman.debug:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize archiveasia.jp.co.hakenman.debug:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ archiveasia.jp.co.hakenman.debug:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor archiveasia.jp.co.hakenman.debug:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec archiveasia.jp.co.hakenman.debug:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding archiveasia.jp.co.hakenman.debug:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint archiveasia.jp.co.hakenman:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode archiveasia.jp.co.hakenman:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth archiveasia.jp.co.hakenman:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize archiveasia.jp.co.hakenman:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize archiveasia.jp.co.hakenman:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec archiveasia.jp.co.hakenman:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ archiveasia.jp.co.hakenman:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize archiveasia.jp.co.hakenman:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ archiveasia.jp.co.hakenman:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor archiveasia.jp.co.hakenman:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec archiveasia.jp.co.hakenman:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding archiveasia.jp.co.hakenman:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -13448,24 +13703,24 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-        0x7f030034, 0x7f030035, 0x7f03003f, 0x7f0300bb, 
-        0x7f0300ce, 0x7f0300cf, 0x7f0300ea, 0x7f0300f2, 
-        0x7f030162, 0x7f03017e, 0x7f030188, 0x7f030194, 
-        0x7f03020c
+        0x7f030034, 0x7f030035, 0x7f03003f, 0x7f0300be, 
+        0x7f0300d1, 0x7f0300d2, 0x7f0300ed, 0x7f0300f5, 
+        0x7f030167, 0x7f030183, 0x7f03018d, 0x7f03019a, 
+        0x7f030212
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTint
+     * @attr name archiveasia.jp.co.hakenman:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13482,11 +13737,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTintMode
+     * @attr name archiveasia.jp.co.hakenman:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13495,11 +13750,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:borderWidth
+     * @attr name archiveasia.jp.co.hakenman:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13508,11 +13763,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13521,11 +13776,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabCustomSize
+     * @attr name archiveasia.jp.co.hakenman:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13539,11 +13794,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fabSize
+     * @attr name archiveasia.jp.co.hakenman:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13551,11 +13806,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hideMotionSpec
+     * @attr name archiveasia.jp.co.hakenman:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13564,11 +13819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hoveredFocusedTranslationZ
+     * @attr name archiveasia.jp.co.hakenman:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13577,11 +13832,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:maxImageSize
+     * @attr name archiveasia.jp.co.hakenman:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13590,22 +13845,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:pressedTranslationZ
+     * @attr name archiveasia.jp.co.hakenman:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:rippleColor
+     * @attr name archiveasia.jp.co.hakenman:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13613,17 +13868,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showMotionSpec
+     * @attr name archiveasia.jp.co.hakenman:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:useCompatPadding
+     * @attr name archiveasia.jp.co.hakenman:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=12;
     /**
@@ -13633,7 +13888,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide archiveasia.jp.co.hakenman.debug:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide archiveasia.jp.co.hakenman:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -13641,13 +13896,13 @@ public final class R {
         0x7f030039
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_autoHide
+     * @attr name archiveasia.jp.co.hakenman:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -13657,17 +13912,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlowLayout_itemSpacing archiveasia.jp.co.hakenman.debug:itemSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlowLayout_lineSpacing archiveasia.jp.co.hakenman.debug:lineSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_itemSpacing archiveasia.jp.co.hakenman:itemSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_lineSpacing archiveasia.jp.co.hakenman:lineSpacing}</code></td><td></td></tr>
      * </table>
      * @see #FlowLayout_itemSpacing
      * @see #FlowLayout_lineSpacing
      */
     public static final int[] FlowLayout={
-        0x7f030108, 0x7f030150
+        0x7f03010d, 0x7f030155
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemSpacing}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13676,11 +13931,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemSpacing
+     * @attr name archiveasia.jp.co.hakenman:itemSpacing
      */
     public static final int FlowLayout_itemSpacing=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#lineSpacing}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#lineSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13689,7 +13944,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:lineSpacing
+     * @attr name archiveasia.jp.co.hakenman:lineSpacing
      */
     public static final int FlowLayout_lineSpacing=1;
     /**
@@ -13699,12 +13954,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority archiveasia.jp.co.hakenman.debug:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts archiveasia.jp.co.hakenman.debug:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy archiveasia.jp.co.hakenman.debug:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout archiveasia.jp.co.hakenman.debug:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage archiveasia.jp.co.hakenman.debug:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery archiveasia.jp.co.hakenman.debug:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority archiveasia.jp.co.hakenman:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts archiveasia.jp.co.hakenman:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy archiveasia.jp.co.hakenman:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout archiveasia.jp.co.hakenman:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage archiveasia.jp.co.hakenman:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery archiveasia.jp.co.hakenman:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -13714,21 +13969,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 
-        0x7f0300dd, 0x7f0300de
+        0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 
+        0x7f0300e0, 0x7f0300e1
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderAuthority
+     * @attr name archiveasia.jp.co.hakenman:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13736,11 +13991,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderCerts
+     * @attr name archiveasia.jp.co.hakenman:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13753,11 +14008,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderFetchStrategy
+     * @attr name archiveasia.jp.co.hakenman:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -13770,27 +14025,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderFetchTimeout
+     * @attr name archiveasia.jp.co.hakenman:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderPackage
+     * @attr name archiveasia.jp.co.hakenman:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontProviderQuery
+     * @attr name archiveasia.jp.co.hakenman:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -13805,11 +14060,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font archiveasia.jp.co.hakenman.debug:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle archiveasia.jp.co.hakenman.debug:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings archiveasia.jp.co.hakenman.debug:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight archiveasia.jp.co.hakenman.debug:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex archiveasia.jp.co.hakenman.debug:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font archiveasia.jp.co.hakenman:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle archiveasia.jp.co.hakenman:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings archiveasia.jp.co.hakenman:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight archiveasia.jp.co.hakenman:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex archiveasia.jp.co.hakenman:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -13824,8 +14079,8 @@ public final class R {
      */
     public static final int[] FontFamilyFont={
         0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
-        0x01010570, 0x7f0300d7, 0x7f0300df, 0x7f0300e0, 
-        0x7f0300e1, 0x7f03020b
+        0x01010570, 0x7f0300da, 0x7f0300e2, 0x7f0300e3, 
+        0x7f0300e4, 0x7f030211
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -13885,7 +14140,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#font}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13893,11 +14148,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:font
+     * @attr name archiveasia.jp.co.hakenman:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13910,35 +14165,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontStyle
+     * @attr name archiveasia.jp.co.hakenman:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontVariationSettings
+     * @attr name archiveasia.jp.co.hakenman:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontWeight
+     * @attr name archiveasia.jp.co.hakenman:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:ttcIndex
+     * @attr name archiveasia.jp.co.hakenman:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -13950,14 +14205,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding archiveasia.jp.co.hakenman.debug:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding archiveasia.jp.co.hakenman:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-        0x01010109, 0x01010200, 0x7f0300e2
+        0x01010109, 0x01010200, 0x7f0300e5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -14002,13 +14257,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:foregroundInsidePadding
+     * @attr name archiveasia.jp.co.hakenman:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -14278,10 +14533,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider archiveasia.jp.co.hakenman.debug:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding archiveasia.jp.co.hakenman.debug:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild archiveasia.jp.co.hakenman.debug:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers archiveasia.jp.co.hakenman.debug:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider archiveasia.jp.co.hakenman:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding archiveasia.jp.co.hakenman:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild archiveasia.jp.co.hakenman:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers archiveasia.jp.co.hakenman:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -14295,8 +14550,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f0300b0, 0x7f0300b2, 0x7f030163, 
-        0x7f030193
+        0x01010128, 0x7f0300b3, 0x7f0300b5, 0x7f030168, 
+        0x7f030199
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -14373,7 +14628,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#divider}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14381,11 +14636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:divider
+     * @attr name archiveasia.jp.co.hakenman:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14394,21 +14649,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:dividerPadding
+     * @attr name archiveasia.jp.co.hakenman:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:measureWithLargestChild
+     * @attr name archiveasia.jp.co.hakenman:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14423,7 +14678,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showDividers
+     * @attr name archiveasia.jp.co.hakenman:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -14573,6 +14828,61 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownVerticalOffset=1;
     /**
+     * Attributes that can be used with a LoadingImageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop archiveasia.jp.co.hakenman:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio archiveasia.jp.co.hakenman:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust archiveasia.jp.co.hakenman:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * </table>
+     * @see #LoadingImageView_circleCrop
+     * @see #LoadingImageView_imageAspectRatio
+     * @see #LoadingImageView_imageAspectRatioAdjust
+     */
+    public static final int[] LoadingImageView={
+        0x7f03007b, 0x7f0300ff, 0x7f030100
+      };
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#circleCrop}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:circleCrop
+     */
+    public static final int LoadingImageView_circleCrop=0;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#imageAspectRatio}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name archiveasia.jp.co.hakenman:imageAspectRatio
+     */
+    public static final int LoadingImageView_imageAspectRatio=1;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#imageAspectRatioAdjust}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>adjust_height</td><td>2</td><td></td></tr>
+     * <tr><td>adjust_width</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:imageAspectRatioAdjust
+     */
+    public static final int LoadingImageView_imageAspectRatioAdjust=2;
+    /**
      * Attributes that can be used with a MaterialButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -14583,18 +14893,18 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint archiveasia.jp.co.hakenman.debug:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode archiveasia.jp.co.hakenman.debug:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius archiveasia.jp.co.hakenman.debug:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon archiveasia.jp.co.hakenman.debug:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconGravity archiveasia.jp.co.hakenman.debug:iconGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding archiveasia.jp.co.hakenman.debug:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize archiveasia.jp.co.hakenman.debug:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint archiveasia.jp.co.hakenman.debug:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode archiveasia.jp.co.hakenman.debug:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor archiveasia.jp.co.hakenman.debug:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor archiveasia.jp.co.hakenman.debug:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth archiveasia.jp.co.hakenman.debug:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint archiveasia.jp.co.hakenman:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode archiveasia.jp.co.hakenman:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius archiveasia.jp.co.hakenman:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon archiveasia.jp.co.hakenman:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconGravity archiveasia.jp.co.hakenman:iconGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding archiveasia.jp.co.hakenman:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize archiveasia.jp.co.hakenman:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint archiveasia.jp.co.hakenman:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode archiveasia.jp.co.hakenman:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor archiveasia.jp.co.hakenman:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor archiveasia.jp.co.hakenman:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth archiveasia.jp.co.hakenman:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_insetLeft
      * @see #MaterialButton_android_insetRight
@@ -14615,9 +14925,9 @@ public final class R {
      */
     public static final int[] MaterialButton={
         0x010101b7, 0x010101b8, 0x010101b9, 0x010101ba, 
-        0x7f030034, 0x7f030035, 0x7f0300a5, 0x7f0300f3, 
-        0x7f0300f5, 0x7f0300f6, 0x7f0300f7, 0x7f0300f9, 
-        0x7f0300fa, 0x7f030188, 0x7f0301ab, 0x7f0301ac
+        0x7f030034, 0x7f030035, 0x7f0300a8, 0x7f0300f6, 
+        0x7f0300f8, 0x7f0300f9, 0x7f0300fa, 0x7f0300fc, 
+        0x7f0300fd, 0x7f03018d, 0x7f0301b1, 0x7f0301b2
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#insetLeft}
@@ -14688,18 +14998,18 @@ public final class R {
      */
     public static final int MaterialButton_android_insetBottom=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTint
+     * @attr name archiveasia.jp.co.hakenman:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14716,11 +15026,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTintMode
+     * @attr name archiveasia.jp.co.hakenman:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14729,11 +15039,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:cornerRadius
+     * @attr name archiveasia.jp.co.hakenman:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#icon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14741,11 +15051,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:icon
+     * @attr name archiveasia.jp.co.hakenman:icon
      */
     public static final int MaterialButton_icon=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconGravity}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14758,11 +15068,11 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconGravity
+     * @attr name archiveasia.jp.co.hakenman:iconGravity
      */
     public static final int MaterialButton_iconGravity=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14771,11 +15081,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconPadding
+     * @attr name archiveasia.jp.co.hakenman:iconPadding
      */
     public static final int MaterialButton_iconPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14784,22 +15094,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconSize
+     * @attr name archiveasia.jp.co.hakenman:iconSize
      */
     public static final int MaterialButton_iconSize=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconTint
+     * @attr name archiveasia.jp.co.hakenman:iconTint
      */
     public static final int MaterialButton_iconTint=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14816,33 +15126,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconTintMode
+     * @attr name archiveasia.jp.co.hakenman:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:rippleColor
+     * @attr name archiveasia.jp.co.hakenman:rippleColor
      */
     public static final int MaterialButton_rippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:strokeColor
+     * @attr name archiveasia.jp.co.hakenman:strokeColor
      */
     public static final int MaterialButton_strokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14851,7 +15161,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:strokeWidth
+     * @attr name archiveasia.jp.co.hakenman:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=15;
     /**
@@ -14861,28 +15171,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor archiveasia.jp.co.hakenman.debug:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth archiveasia.jp.co.hakenman.debug:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor archiveasia.jp.co.hakenman:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth archiveasia.jp.co.hakenman:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
      */
     public static final int[] MaterialCardView={
-        0x7f0301ab, 0x7f0301ac
+        0x7f0301b1, 0x7f0301b2
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:strokeColor
+     * @attr name archiveasia.jp.co.hakenman:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14891,7 +15201,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:strokeWidth
+     * @attr name archiveasia.jp.co.hakenman:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -14901,38 +15211,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme archiveasia.jp.co.hakenman.debug:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle archiveasia.jp.co.hakenman.debug:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle archiveasia.jp.co.hakenman.debug:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle archiveasia.jp.co.hakenman.debug:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle archiveasia.jp.co.hakenman.debug:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent archiveasia.jp.co.hakenman.debug:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating archiveasia.jp.co.hakenman.debug:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary archiveasia.jp.co.hakenman.debug:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark archiveasia.jp.co.hakenman.debug:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary archiveasia.jp.co.hakenman.debug:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle archiveasia.jp.co.hakenman.debug:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle archiveasia.jp.co.hakenman.debug:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle archiveasia.jp.co.hakenman.debug:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle archiveasia.jp.co.hakenman.debug:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle archiveasia.jp.co.hakenman.debug:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground archiveasia.jp.co.hakenman.debug:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle archiveasia.jp.co.hakenman.debug:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle archiveasia.jp.co.hakenman.debug:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 archiveasia.jp.co.hakenman.debug:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 archiveasia.jp.co.hakenman.debug:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton archiveasia.jp.co.hakenman.debug:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption archiveasia.jp.co.hakenman.debug:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 archiveasia.jp.co.hakenman.debug:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline archiveasia.jp.co.hakenman.debug:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 archiveasia.jp.co.hakenman.debug:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 archiveasia.jp.co.hakenman.debug:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle archiveasia.jp.co.hakenman.debug:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme archiveasia.jp.co.hakenman:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle archiveasia.jp.co.hakenman:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle archiveasia.jp.co.hakenman:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle archiveasia.jp.co.hakenman:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle archiveasia.jp.co.hakenman:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent archiveasia.jp.co.hakenman:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating archiveasia.jp.co.hakenman:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary archiveasia.jp.co.hakenman:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark archiveasia.jp.co.hakenman:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary archiveasia.jp.co.hakenman:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle archiveasia.jp.co.hakenman:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle archiveasia.jp.co.hakenman:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle archiveasia.jp.co.hakenman:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle archiveasia.jp.co.hakenman:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle archiveasia.jp.co.hakenman:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground archiveasia.jp.co.hakenman:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle archiveasia.jp.co.hakenman:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle archiveasia.jp.co.hakenman:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 archiveasia.jp.co.hakenman:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 archiveasia.jp.co.hakenman:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton archiveasia.jp.co.hakenman:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption archiveasia.jp.co.hakenman:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 archiveasia.jp.co.hakenman:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 archiveasia.jp.co.hakenman:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 archiveasia.jp.co.hakenman:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 archiveasia.jp.co.hakenman:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 archiveasia.jp.co.hakenman:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 archiveasia.jp.co.hakenman:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline archiveasia.jp.co.hakenman:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 archiveasia.jp.co.hakenman:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 archiveasia.jp.co.hakenman:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle archiveasia.jp.co.hakenman:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -14968,17 +15278,17 @@ public final class R {
      * @see #MaterialComponentsTheme_textInputStyle
      */
     public static final int[] MaterialComponentsTheme={
-        0x7f030043, 0x7f030044, 0x7f03006b, 0x7f030075, 
-        0x7f030079, 0x7f030087, 0x7f030088, 0x7f03008e, 
-        0x7f03008f, 0x7f030090, 0x7f0300ba, 0x7f0300d6, 
-        0x7f03015e, 0x7f03015f, 0x7f03016a, 0x7f03018a, 
-        0x7f03019b, 0x7f0301ce, 0x7f0301d3, 0x7f0301d4, 
-        0x7f0301d5, 0x7f0301d6, 0x7f0301d7, 0x7f0301d8, 
-        0x7f0301d9, 0x7f0301da, 0x7f0301db, 0x7f0301dc, 
-        0x7f0301e1, 0x7f0301e6, 0x7f0301e7, 0x7f0301eb
+        0x7f030043, 0x7f030044, 0x7f03006c, 0x7f030076, 
+        0x7f03007a, 0x7f030089, 0x7f03008a, 0x7f030090, 
+        0x7f030091, 0x7f030093, 0x7f0300bd, 0x7f0300d9, 
+        0x7f030163, 0x7f030164, 0x7f03016f, 0x7f030190, 
+        0x7f0301a1, 0x7f0301d4, 0x7f0301d9, 0x7f0301da, 
+        0x7f0301db, 0x7f0301dc, 0x7f0301dd, 0x7f0301de, 
+        0x7f0301df, 0x7f0301e0, 0x7f0301e1, 0x7f0301e2, 
+        0x7f0301e7, 0x7f0301ec, 0x7f0301ed, 0x7f0301f1
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14986,11 +15296,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:bottomSheetDialogTheme
+     * @attr name archiveasia.jp.co.hakenman:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14998,11 +15308,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:bottomSheetStyle
+     * @attr name archiveasia.jp.co.hakenman:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15010,11 +15320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipGroupStyle
+     * @attr name archiveasia.jp.co.hakenman:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15022,11 +15332,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipStandaloneStyle
+     * @attr name archiveasia.jp.co.hakenman:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15034,66 +15344,66 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:chipStyle
+     * @attr name archiveasia.jp.co.hakenman:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorAccent}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorAccent
+     * @attr name archiveasia.jp.co.hakenman:colorAccent
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorBackgroundFloating
+     * @attr name archiveasia.jp.co.hakenman:colorBackgroundFloating
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorPrimary
+     * @attr name archiveasia.jp.co.hakenman:colorPrimary
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorPrimaryDark
+     * @attr name archiveasia.jp.co.hakenman:colorPrimaryDark
      */
     public static final int MaterialComponentsTheme_colorPrimaryDark=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorSecondary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:colorSecondary
+     * @attr name archiveasia.jp.co.hakenman:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15101,11 +15411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:editTextStyle
+     * @attr name archiveasia.jp.co.hakenman:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15131,11 +15441,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:floatingActionButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15143,11 +15453,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:materialButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15155,11 +15465,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:materialCardViewStyle
+     * @attr name archiveasia.jp.co.hakenman:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15167,11 +15477,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:navigationViewStyle
+     * @attr name archiveasia.jp.co.hakenman:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15182,11 +15492,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:scrimBackground
+     * @attr name archiveasia.jp.co.hakenman:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15194,11 +15504,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:snackbarButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15206,11 +15516,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabStyle
+     * @attr name archiveasia.jp.co.hakenman:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15218,11 +15528,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceBody1
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15230,11 +15540,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceBody2
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15242,11 +15552,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceButton
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15254,11 +15564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceCaption
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15266,11 +15576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline1
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15278,11 +15588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline2
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15290,11 +15600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline3
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15302,11 +15612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline4
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15314,11 +15624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline5
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15326,11 +15636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceHeadline6
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15338,11 +15648,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceOverline
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15350,11 +15660,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceSubtitle1
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15362,11 +15672,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAppearanceSubtitle2
+     * @attr name archiveasia.jp.co.hakenman:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15374,7 +15684,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textInputStyle
+     * @attr name archiveasia.jp.co.hakenman:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
     /**
@@ -15500,16 +15810,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout archiveasia.jp.co.hakenman.debug:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass archiveasia.jp.co.hakenman.debug:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass archiveasia.jp.co.hakenman.debug:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers archiveasia.jp.co.hakenman.debug:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription archiveasia.jp.co.hakenman.debug:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint archiveasia.jp.co.hakenman.debug:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode archiveasia.jp.co.hakenman.debug:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers archiveasia.jp.co.hakenman.debug:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction archiveasia.jp.co.hakenman.debug:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText archiveasia.jp.co.hakenman.debug:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout archiveasia.jp.co.hakenman:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass archiveasia.jp.co.hakenman:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass archiveasia.jp.co.hakenman:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers archiveasia.jp.co.hakenman:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription archiveasia.jp.co.hakenman:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint archiveasia.jp.co.hakenman:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode archiveasia.jp.co.hakenman:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers archiveasia.jp.co.hakenman:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction archiveasia.jp.co.hakenman:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText archiveasia.jp.co.hakenman:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -15540,8 +15850,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-        0x7f030028, 0x7f030096, 0x7f0300f9, 0x7f0300fa, 
-        0x7f03016b, 0x7f030192, 0x7f030207
+        0x7f030028, 0x7f030099, 0x7f0300fc, 0x7f0300fd, 
+        0x7f030170, 0x7f030198, 0x7f03020d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -15686,7 +15996,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15694,31 +16004,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionLayout
+     * @attr name archiveasia.jp.co.hakenman:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionProviderClass
+     * @attr name archiveasia.jp.co.hakenman:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:actionViewClass
+     * @attr name archiveasia.jp.co.hakenman:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15735,32 +16045,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:alphabeticModifiers
+     * @attr name archiveasia.jp.co.hakenman:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentDescription
+     * @attr name archiveasia.jp.co.hakenman:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconTint
+     * @attr name archiveasia.jp.co.hakenman:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15777,11 +16087,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconTintMode
+     * @attr name archiveasia.jp.co.hakenman:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15798,11 +16108,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:numericModifiers
+     * @attr name archiveasia.jp.co.hakenman:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15818,17 +16128,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showAsAction
+     * @attr name archiveasia.jp.co.hakenman:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tooltipText
+     * @attr name archiveasia.jp.co.hakenman:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -15845,8 +16155,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing archiveasia.jp.co.hakenman.debug:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow archiveasia.jp.co.hakenman.debug:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing archiveasia.jp.co.hakenman:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow archiveasia.jp.co.hakenman:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -15860,8 +16170,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f03017d, 
-        0x7f0301ad
+        0x0101012f, 0x01010130, 0x01010131, 0x7f030182, 
+        0x7f0301b3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -15951,17 +16261,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:preserveIconSpacing
+     * @attr name archiveasia.jp.co.hakenman:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15969,7 +16279,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subMenuArrow
+     * @attr name archiveasia.jp.co.hakenman:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -15982,15 +16292,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout archiveasia.jp.co.hakenman.debug:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground archiveasia.jp.co.hakenman.debug:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding archiveasia.jp.co.hakenman.debug:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding archiveasia.jp.co.hakenman.debug:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint archiveasia.jp.co.hakenman.debug:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance archiveasia.jp.co.hakenman.debug:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor archiveasia.jp.co.hakenman.debug:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu archiveasia.jp.co.hakenman.debug:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout archiveasia.jp.co.hakenman:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground archiveasia.jp.co.hakenman:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding archiveasia.jp.co.hakenman:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding archiveasia.jp.co.hakenman:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint archiveasia.jp.co.hakenman:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance archiveasia.jp.co.hakenman:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor archiveasia.jp.co.hakenman:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu archiveasia.jp.co.hakenman:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -16006,9 +16316,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300bb, 
-        0x7f0300e5, 0x7f030101, 0x7f030102, 0x7f030104, 
-        0x7f030106, 0x7f030109, 0x7f03010c, 0x7f030164
+        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300be, 
+        0x7f0300e8, 0x7f030106, 0x7f030107, 0x7f030109, 
+        0x7f03010b, 0x7f03010e, 0x7f030111, 0x7f030169
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -16049,7 +16359,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16058,11 +16368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16070,11 +16380,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:headerLayout
+     * @attr name archiveasia.jp.co.hakenman:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16082,11 +16392,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemBackground
+     * @attr name archiveasia.jp.co.hakenman:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16095,11 +16405,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemHorizontalPadding
+     * @attr name archiveasia.jp.co.hakenman:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16108,22 +16418,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemIconPadding
+     * @attr name archiveasia.jp.co.hakenman:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemIconTint
+     * @attr name archiveasia.jp.co.hakenman:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16131,22 +16441,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:itemTextColor
+     * @attr name archiveasia.jp.co.hakenman:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#menu}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16154,7 +16464,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:menu
+     * @attr name archiveasia.jp.co.hakenman:menu
      */
     public static final int NavigationView_menu=11;
     /**
@@ -16166,14 +16476,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor archiveasia.jp.co.hakenman.debug:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor archiveasia.jp.co.hakenman:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f03016c
+        0x01010176, 0x010102c9, 0x7f030171
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -16203,13 +16513,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:overlapAnchor
+     * @attr name archiveasia.jp.co.hakenman:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -16219,21 +16529,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor archiveasia.jp.co.hakenman.debug:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor archiveasia.jp.co.hakenman:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0301a4
+        0x7f0301aa
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:state_above_anchor
+     * @attr name archiveasia.jp.co.hakenman:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -16243,17 +16553,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons archiveasia.jp.co.hakenman.debug:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle archiveasia.jp.co.hakenman.debug:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons archiveasia.jp.co.hakenman:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle archiveasia.jp.co.hakenman:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f03016d, 0x7f030170
+        0x7f030172, 0x7f030175
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16262,11 +16572,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:paddingBottomNoButtons
+     * @attr name archiveasia.jp.co.hakenman:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16275,7 +16585,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:paddingTopNoTitle
+     * @attr name archiveasia.jp.co.hakenman:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -16287,15 +16597,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled archiveasia.jp.co.hakenman.debug:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable archiveasia.jp.co.hakenman.debug:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable archiveasia.jp.co.hakenman.debug:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable archiveasia.jp.co.hakenman.debug:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable archiveasia.jp.co.hakenman.debug:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager archiveasia.jp.co.hakenman.debug:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout archiveasia.jp.co.hakenman.debug:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount archiveasia.jp.co.hakenman.debug:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd archiveasia.jp.co.hakenman.debug:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled archiveasia.jp.co.hakenman:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable archiveasia.jp.co.hakenman:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable archiveasia.jp.co.hakenman:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable archiveasia.jp.co.hakenman:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable archiveasia.jp.co.hakenman:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager archiveasia.jp.co.hakenman:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout archiveasia.jp.co.hakenman:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount archiveasia.jp.co.hakenman:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd archiveasia.jp.co.hakenman:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -16310,9 +16620,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f0300d0, 0x7f0300d1, 
-        0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f030111, 
-        0x7f030187, 0x7f03019d, 0x7f0301a3
+        0x010100c4, 0x010100f1, 0x7f0300d3, 0x7f0300d4, 
+        0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f030116, 
+        0x7f03018c, 0x7f0301a3, 0x7f0301a9
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -16350,17 +16660,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fastScrollEnabled
+     * @attr name archiveasia.jp.co.hakenman:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16368,11 +16678,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fastScrollHorizontalThumbDrawable
+     * @attr name archiveasia.jp.co.hakenman:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16380,11 +16690,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fastScrollHorizontalTrackDrawable
+     * @attr name archiveasia.jp.co.hakenman:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16392,11 +16702,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fastScrollVerticalThumbDrawable
+     * @attr name archiveasia.jp.co.hakenman:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16404,46 +16714,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fastScrollVerticalTrackDrawable
+     * @attr name archiveasia.jp.co.hakenman:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layoutManager
+     * @attr name archiveasia.jp.co.hakenman:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:reverseLayout
+     * @attr name archiveasia.jp.co.hakenman:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:spanCount
+     * @attr name archiveasia.jp.co.hakenman:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:stackFromEnd
+     * @attr name archiveasia.jp.co.hakenman:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -16453,15 +16763,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground archiveasia.jp.co.hakenman.debug:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground archiveasia.jp.co.hakenman:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-        0x7f0300ff
+        0x7f030104
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16472,7 +16782,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:insetForeground
+     * @attr name archiveasia.jp.co.hakenman:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -16482,7 +16792,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop archiveasia.jp.co.hakenman.debug:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop archiveasia.jp.co.hakenman:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -16490,7 +16800,7 @@ public final class R {
         0x7f03003c
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16499,7 +16809,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:behavior_overlapTop
+     * @attr name archiveasia.jp.co.hakenman:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -16513,19 +16823,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon archiveasia.jp.co.hakenman.debug:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon archiveasia.jp.co.hakenman.debug:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint archiveasia.jp.co.hakenman.debug:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon archiveasia.jp.co.hakenman.debug:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault archiveasia.jp.co.hakenman.debug:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout archiveasia.jp.co.hakenman.debug:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground archiveasia.jp.co.hakenman.debug:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint archiveasia.jp.co.hakenman.debug:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon archiveasia.jp.co.hakenman.debug:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon archiveasia.jp.co.hakenman.debug:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground archiveasia.jp.co.hakenman.debug:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout archiveasia.jp.co.hakenman.debug:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon archiveasia.jp.co.hakenman.debug:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon archiveasia.jp.co.hakenman:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon archiveasia.jp.co.hakenman:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint archiveasia.jp.co.hakenman:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon archiveasia.jp.co.hakenman:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault archiveasia.jp.co.hakenman:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout archiveasia.jp.co.hakenman:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground archiveasia.jp.co.hakenman:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint archiveasia.jp.co.hakenman:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon archiveasia.jp.co.hakenman:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon archiveasia.jp.co.hakenman:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground archiveasia.jp.co.hakenman:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout archiveasia.jp.co.hakenman:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon archiveasia.jp.co.hakenman:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -16547,10 +16857,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f03007a, 0x7f030092, 0x7f0300ab, 0x7f0300e4, 
-        0x7f0300fb, 0x7f030110, 0x7f030181, 0x7f030182, 
-        0x7f03018c, 0x7f03018d, 0x7f0301ae, 0x7f0301b3, 
-        0x7f03020e
+        0x7f03007c, 0x7f030095, 0x7f0300ae, 0x7f0300e7, 
+        0x7f0300fe, 0x7f030115, 0x7f030186, 0x7f030187, 
+        0x7f030192, 0x7f030193, 0x7f0301b4, 0x7f0301b9, 
+        0x7f030214
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -16663,7 +16973,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16671,11 +16981,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:closeIcon
+     * @attr name archiveasia.jp.co.hakenman:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16683,21 +16993,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:commitIcon
+     * @attr name archiveasia.jp.co.hakenman:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:defaultQueryHint
+     * @attr name archiveasia.jp.co.hakenman:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16705,21 +17015,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:goIcon
+     * @attr name archiveasia.jp.co.hakenman:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:iconifiedByDefault
+     * @attr name archiveasia.jp.co.hakenman:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#layout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16727,11 +17037,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:layout
+     * @attr name archiveasia.jp.co.hakenman:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16739,21 +17049,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:queryBackground
+     * @attr name archiveasia.jp.co.hakenman:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:queryHint
+     * @attr name archiveasia.jp.co.hakenman:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16761,11 +17071,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:searchHintIcon
+     * @attr name archiveasia.jp.co.hakenman:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16773,11 +17083,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:searchIcon
+     * @attr name archiveasia.jp.co.hakenman:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16785,11 +17095,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:submitBackground
+     * @attr name archiveasia.jp.co.hakenman:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16797,11 +17107,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:suggestionRowLayout
+     * @attr name archiveasia.jp.co.hakenman:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16809,9 +17119,85 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:voiceIcon
+     * @attr name archiveasia.jp.co.hakenman:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
+    /**
+     * Attributes that can be used with a SignInButton.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize archiveasia.jp.co.hakenman:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme archiveasia.jp.co.hakenman:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris archiveasia.jp.co.hakenman:scopeUris}</code></td><td></td></tr>
+     * </table>
+     * @see #SignInButton_buttonSize
+     * @see #SignInButton_colorScheme
+     * @see #SignInButton_scopeUris
+     */
+    public static final int[] SignInButton={
+        0x7f030056, 0x7f030092, 0x7f03018e
+      };
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonSize}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>icon_only</td><td>2</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * <tr><td>wide</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:buttonSize
+     */
+    public static final int SignInButton_buttonSize=0;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#colorScheme}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>2</td><td></td></tr>
+     * <tr><td>dark</td><td>0</td><td></td></tr>
+     * <tr><td>light</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name archiveasia.jp.co.hakenman:colorScheme
+     */
+    public static final int SignInButton_colorScheme=1;
+    /**
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#scopeUris}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name archiveasia.jp.co.hakenman:scopeUris
+     */
+    public static final int SignInButton_scopeUris=2;
     /**
      * Attributes that can be used with a Snackbar.
      * <p>Includes the following attributes:</p>
@@ -16819,17 +17205,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle archiveasia.jp.co.hakenman.debug:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarStyle archiveasia.jp.co.hakenman.debug:snackbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle archiveasia.jp.co.hakenman:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarStyle archiveasia.jp.co.hakenman:snackbarStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      * @see #Snackbar_snackbarStyle
      */
     public static final int[] Snackbar={
-        0x7f03019b, 0x7f03019c
+        0x7f0301a1, 0x7f0301a2
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16837,11 +17223,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:snackbarButtonStyle
+     * @attr name archiveasia.jp.co.hakenman:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#snackbarStyle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#snackbarStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16849,7 +17235,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:snackbarStyle
+     * @attr name archiveasia.jp.co.hakenman:snackbarStyle
      */
     public static final int Snackbar_snackbarStyle=1;
     /**
@@ -16860,15 +17246,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation archiveasia.jp.co.hakenman.debug:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth archiveasia.jp.co.hakenman.debug:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation archiveasia.jp.co.hakenman:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth archiveasia.jp.co.hakenman:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-        0x0101011f, 0x7f0300bb, 0x7f030160
+        0x0101011f, 0x7f0300be, 0x7f030165
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -16884,7 +17270,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16893,11 +17279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:elevation
+     * @attr name archiveasia.jp.co.hakenman:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16906,7 +17292,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:maxActionInlineWidth
+     * @attr name archiveasia.jp.co.hakenman:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -16920,7 +17306,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme archiveasia.jp.co.hakenman.debug:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme archiveasia.jp.co.hakenman:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -16930,7 +17316,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f03017a
+        0x7f03017f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -16995,7 +17381,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17003,7 +17389,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:popupTheme
+     * @attr name archiveasia.jp.co.hakenman:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -17125,17 +17511,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText archiveasia.jp.co.hakenman.debug:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack archiveasia.jp.co.hakenman.debug:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth archiveasia.jp.co.hakenman.debug:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding archiveasia.jp.co.hakenman.debug:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance archiveasia.jp.co.hakenman.debug:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding archiveasia.jp.co.hakenman.debug:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint archiveasia.jp.co.hakenman.debug:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode archiveasia.jp.co.hakenman.debug:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track archiveasia.jp.co.hakenman.debug:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint archiveasia.jp.co.hakenman.debug:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode archiveasia.jp.co.hakenman.debug:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText archiveasia.jp.co.hakenman:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack archiveasia.jp.co.hakenman:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth archiveasia.jp.co.hakenman:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding archiveasia.jp.co.hakenman:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance archiveasia.jp.co.hakenman:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding archiveasia.jp.co.hakenman:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint archiveasia.jp.co.hakenman:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode archiveasia.jp.co.hakenman:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track archiveasia.jp.co.hakenman:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint archiveasia.jp.co.hakenman:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode archiveasia.jp.co.hakenman:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -17153,10 +17539,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f030195, 
-        0x7f0301a1, 0x7f0301b4, 0x7f0301b5, 0x7f0301b7, 
-        0x7f0301ef, 0x7f0301f0, 0x7f0301f1, 0x7f030208, 
-        0x7f030209, 0x7f03020a
+        0x01010124, 0x01010125, 0x01010142, 0x7f03019b, 
+        0x7f0301a7, 0x7f0301ba, 0x7f0301bb, 0x7f0301bd, 
+        0x7f0301f5, 0x7f0301f6, 0x7f0301f7, 0x7f03020e, 
+        0x7f03020f, 0x7f030210
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -17191,27 +17577,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#showText}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:showText
+     * @attr name archiveasia.jp.co.hakenman:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:splitTrack
+     * @attr name archiveasia.jp.co.hakenman:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17220,11 +17606,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:switchMinWidth
+     * @attr name archiveasia.jp.co.hakenman:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17233,11 +17619,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:switchPadding
+     * @attr name archiveasia.jp.co.hakenman:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17245,11 +17631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:switchTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17258,22 +17644,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:thumbTextPadding
+     * @attr name archiveasia.jp.co.hakenman:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:thumbTint
+     * @attr name archiveasia.jp.co.hakenman:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17290,11 +17676,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:thumbTintMode
+     * @attr name archiveasia.jp.co.hakenman:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#track}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17302,22 +17688,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:track
+     * @attr name archiveasia.jp.co.hakenman:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:trackTint
+     * @attr name archiveasia.jp.co.hakenman:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17334,7 +17720,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:trackTintMode
+     * @attr name archiveasia.jp.co.hakenman:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -17396,31 +17782,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground archiveasia.jp.co.hakenman.debug:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart archiveasia.jp.co.hakenman.debug:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity archiveasia.jp.co.hakenman.debug:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint archiveasia.jp.co.hakenman.debug:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode archiveasia.jp.co.hakenman.debug:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator archiveasia.jp.co.hakenman.debug:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration archiveasia.jp.co.hakenman.debug:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor archiveasia.jp.co.hakenman.debug:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth archiveasia.jp.co.hakenman.debug:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity archiveasia.jp.co.hakenman.debug:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight archiveasia.jp.co.hakenman.debug:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel archiveasia.jp.co.hakenman.debug:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth archiveasia.jp.co.hakenman.debug:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth archiveasia.jp.co.hakenman.debug:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode archiveasia.jp.co.hakenman.debug:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding archiveasia.jp.co.hakenman.debug:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom archiveasia.jp.co.hakenman.debug:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd archiveasia.jp.co.hakenman.debug:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart archiveasia.jp.co.hakenman.debug:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop archiveasia.jp.co.hakenman.debug:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor archiveasia.jp.co.hakenman.debug:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor archiveasia.jp.co.hakenman.debug:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance archiveasia.jp.co.hakenman.debug:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor archiveasia.jp.co.hakenman.debug:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple archiveasia.jp.co.hakenman.debug:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground archiveasia.jp.co.hakenman:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart archiveasia.jp.co.hakenman:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity archiveasia.jp.co.hakenman:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint archiveasia.jp.co.hakenman:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode archiveasia.jp.co.hakenman:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator archiveasia.jp.co.hakenman:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration archiveasia.jp.co.hakenman:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor archiveasia.jp.co.hakenman:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth archiveasia.jp.co.hakenman:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity archiveasia.jp.co.hakenman:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight archiveasia.jp.co.hakenman:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel archiveasia.jp.co.hakenman:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth archiveasia.jp.co.hakenman:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth archiveasia.jp.co.hakenman:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode archiveasia.jp.co.hakenman:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding archiveasia.jp.co.hakenman:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom archiveasia.jp.co.hakenman:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd archiveasia.jp.co.hakenman:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart archiveasia.jp.co.hakenman:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop archiveasia.jp.co.hakenman:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor archiveasia.jp.co.hakenman:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor archiveasia.jp.co.hakenman:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance archiveasia.jp.co.hakenman:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor archiveasia.jp.co.hakenman:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple archiveasia.jp.co.hakenman:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -17449,16 +17835,16 @@ public final class R {
      * @see #TabLayout_tabUnboundedRipple
      */
     public static final int[] TabLayout={
-        0x7f0301b8, 0x7f0301b9, 0x7f0301ba, 0x7f0301bb, 
-        0x7f0301bc, 0x7f0301bd, 0x7f0301be, 0x7f0301bf, 
-        0x7f0301c0, 0x7f0301c1, 0x7f0301c2, 0x7f0301c3, 
-        0x7f0301c4, 0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 
-        0x7f0301c8, 0x7f0301c9, 0x7f0301ca, 0x7f0301cb, 
-        0x7f0301cc, 0x7f0301cd, 0x7f0301cf, 0x7f0301d0, 
-        0x7f0301d1
+        0x7f0301be, 0x7f0301bf, 0x7f0301c0, 0x7f0301c1, 
+        0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 0x7f0301c5, 
+        0x7f0301c6, 0x7f0301c7, 0x7f0301c8, 0x7f0301c9, 
+        0x7f0301ca, 0x7f0301cb, 0x7f0301cc, 0x7f0301cd, 
+        0x7f0301ce, 0x7f0301cf, 0x7f0301d0, 0x7f0301d1, 
+        0x7f0301d2, 0x7f0301d3, 0x7f0301d5, 0x7f0301d6, 
+        0x7f0301d7
       };
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17466,11 +17852,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabBackground
+     * @attr name archiveasia.jp.co.hakenman:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17479,11 +17865,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabContentStart
+     * @attr name archiveasia.jp.co.hakenman:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17496,22 +17882,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabGravity
+     * @attr name archiveasia.jp.co.hakenman:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIconTint
+     * @attr name archiveasia.jp.co.hakenman:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17528,11 +17914,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIconTintMode
+     * @attr name archiveasia.jp.co.hakenman:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17540,41 +17926,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicator
+     * @attr name archiveasia.jp.co.hakenman:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicatorAnimationDuration
+     * @attr name archiveasia.jp.co.hakenman:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicatorColor
+     * @attr name archiveasia.jp.co.hakenman:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicatorFullWidth
+     * @attr name archiveasia.jp.co.hakenman:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17589,11 +17975,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicatorGravity
+     * @attr name archiveasia.jp.co.hakenman:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17602,21 +17988,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabIndicatorHeight
+     * @attr name archiveasia.jp.co.hakenman:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabInlineLabel
+     * @attr name archiveasia.jp.co.hakenman:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17625,11 +18011,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabMaxWidth
+     * @attr name archiveasia.jp.co.hakenman:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17638,11 +18024,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabMinWidth
+     * @attr name archiveasia.jp.co.hakenman:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17655,11 +18041,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabMode
+     * @attr name archiveasia.jp.co.hakenman:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17668,11 +18054,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabPadding
+     * @attr name archiveasia.jp.co.hakenman:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17681,11 +18067,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabPaddingBottom
+     * @attr name archiveasia.jp.co.hakenman:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17694,11 +18080,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabPaddingEnd
+     * @attr name archiveasia.jp.co.hakenman:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17707,11 +18093,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabPaddingStart
+     * @attr name archiveasia.jp.co.hakenman:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17720,33 +18106,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabPaddingTop
+     * @attr name archiveasia.jp.co.hakenman:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabRippleColor
+     * @attr name archiveasia.jp.co.hakenman:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabSelectedTextColor
+     * @attr name archiveasia.jp.co.hakenman:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17754,28 +18140,28 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabTextColor
+     * @attr name archiveasia.jp.co.hakenman:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:tabUnboundedRipple
+     * @attr name archiveasia.jp.co.hakenman:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
     /**
@@ -17796,8 +18182,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily archiveasia.jp.co.hakenman.debug:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps archiveasia.jp.co.hakenman.debug:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily archiveasia.jp.co.hakenman:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps archiveasia.jp.co.hakenman:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -17816,8 +18202,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f0300d8, 
-        0x7f0301d2
+        0x01010163, 0x01010164, 0x010103ac, 0x7f0300db, 
+        0x7f0301d8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -17963,17 +18349,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:fontFamily
+     * @attr name archiveasia.jp.co.hakenman:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17983,7 +18369,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:textAllCaps
+     * @attr name archiveasia.jp.co.hakenman:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -17995,32 +18381,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor archiveasia.jp.co.hakenman.debug:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode archiveasia.jp.co.hakenman.debug:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop archiveasia.jp.co.hakenman.debug:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd archiveasia.jp.co.hakenman.debug:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart archiveasia.jp.co.hakenman.debug:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd archiveasia.jp.co.hakenman.debug:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart archiveasia.jp.co.hakenman.debug:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor archiveasia.jp.co.hakenman.debug:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth archiveasia.jp.co.hakenman.debug:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled archiveasia.jp.co.hakenman.debug:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength archiveasia.jp.co.hakenman.debug:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance archiveasia.jp.co.hakenman.debug:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance archiveasia.jp.co.hakenman.debug:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled archiveasia.jp.co.hakenman.debug:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance archiveasia.jp.co.hakenman.debug:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText archiveasia.jp.co.hakenman.debug:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled archiveasia.jp.co.hakenman.debug:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance archiveasia.jp.co.hakenman.debug:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled archiveasia.jp.co.hakenman.debug:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled archiveasia.jp.co.hakenman.debug:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance archiveasia.jp.co.hakenman.debug:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription archiveasia.jp.co.hakenman.debug:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable archiveasia.jp.co.hakenman.debug:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled archiveasia.jp.co.hakenman.debug:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint archiveasia.jp.co.hakenman.debug:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode archiveasia.jp.co.hakenman.debug:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor archiveasia.jp.co.hakenman:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode archiveasia.jp.co.hakenman:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop archiveasia.jp.co.hakenman:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd archiveasia.jp.co.hakenman:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart archiveasia.jp.co.hakenman:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd archiveasia.jp.co.hakenman:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart archiveasia.jp.co.hakenman:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor archiveasia.jp.co.hakenman:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth archiveasia.jp.co.hakenman:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled archiveasia.jp.co.hakenman:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength archiveasia.jp.co.hakenman:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance archiveasia.jp.co.hakenman:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance archiveasia.jp.co.hakenman:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled archiveasia.jp.co.hakenman:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance archiveasia.jp.co.hakenman:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText archiveasia.jp.co.hakenman:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled archiveasia.jp.co.hakenman:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance archiveasia.jp.co.hakenman:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled archiveasia.jp.co.hakenman:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled archiveasia.jp.co.hakenman:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance archiveasia.jp.co.hakenman:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription archiveasia.jp.co.hakenman:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable archiveasia.jp.co.hakenman:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled archiveasia.jp.co.hakenman:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint archiveasia.jp.co.hakenman:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode archiveasia.jp.co.hakenman:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -18054,11 +18440,11 @@ public final class R {
     public static final int[] TextInputLayout={
         0x0101009a, 0x01010150, 0x7f030045, 0x7f030046, 
         0x7f030047, 0x7f030048, 0x7f030049, 0x7f03004a, 
-        0x7f03004b, 0x7f03004c, 0x7f03004d, 0x7f0300a6, 
-        0x7f0300a7, 0x7f0300a8, 0x7f0300a9, 0x7f0300bf, 
-        0x7f0300c0, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 
-        0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 0x7f030174, 
-        0x7f030175, 0x7f030176, 0x7f030177, 0x7f030178
+        0x7f03004b, 0x7f03004c, 0x7f03004d, 0x7f0300a9, 
+        0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 0x7f0300c2, 
+        0x7f0300c3, 0x7f0300ea, 0x7f0300eb, 0x7f0300ec, 
+        0x7f0300f0, 0x7f0300f1, 0x7f0300f2, 0x7f030179, 
+        0x7f03017a, 0x7f03017b, 0x7f03017c, 0x7f03017d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -18086,18 +18472,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxBackgroundColor
+     * @attr name archiveasia.jp.co.hakenman:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18111,11 +18497,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxBackgroundMode
+     * @attr name archiveasia.jp.co.hakenman:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18124,11 +18510,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxCollapsedPaddingTop
+     * @attr name archiveasia.jp.co.hakenman:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18137,11 +18523,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxCornerRadiusBottomEnd
+     * @attr name archiveasia.jp.co.hakenman:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18150,11 +18536,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxCornerRadiusBottomStart
+     * @attr name archiveasia.jp.co.hakenman:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18163,11 +18549,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxCornerRadiusTopEnd
+     * @attr name archiveasia.jp.co.hakenman:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18176,22 +18562,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxCornerRadiusTopStart
+     * @attr name archiveasia.jp.co.hakenman:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxStrokeColor
+     * @attr name archiveasia.jp.co.hakenman:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18200,30 +18586,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:boxStrokeWidth
+     * @attr name archiveasia.jp.co.hakenman:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:counterEnabled
+     * @attr name archiveasia.jp.co.hakenman:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:counterMaxLength
+     * @attr name archiveasia.jp.co.hakenman:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18231,11 +18617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:counterOverflowTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18243,21 +18629,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:counterTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:errorEnabled
+     * @attr name archiveasia.jp.co.hakenman:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18265,31 +18651,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:errorTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:helperText
+     * @attr name archiveasia.jp.co.hakenman:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:helperTextEnabled
+     * @attr name archiveasia.jp.co.hakenman:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18297,31 +18683,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:helperTextTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hintAnimationEnabled
+     * @attr name archiveasia.jp.co.hakenman:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hintEnabled
+     * @attr name archiveasia.jp.co.hakenman:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18329,21 +18715,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:hintTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:passwordToggleContentDescription
+     * @attr name archiveasia.jp.co.hakenman:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18351,32 +18737,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:passwordToggleDrawable
+     * @attr name archiveasia.jp.co.hakenman:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:passwordToggleEnabled
+     * @attr name archiveasia.jp.co.hakenman:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:passwordToggleTint
+     * @attr name archiveasia.jp.co.hakenman:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18392,7 +18778,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:passwordToggleTintMode
+     * @attr name archiveasia.jp.co.hakenman:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -18403,15 +18789,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme archiveasia.jp.co.hakenman.debug:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance archiveasia.jp.co.hakenman.debug:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme archiveasia.jp.co.hakenman:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance archiveasia.jp.co.hakenman:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
      * @see #ThemeEnforcement_enforceTextAppearance
      */
     public static final int[] ThemeEnforcement={
-        0x01010034, 0x7f0300bd, 0x7f0300be
+        0x01010034, 0x7f0300c0, 0x7f0300c1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -18426,23 +18812,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:enforceMaterialTheme
+     * @attr name archiveasia.jp.co.hakenman:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:enforceTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -18454,33 +18840,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity archiveasia.jp.co.hakenman.debug:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription archiveasia.jp.co.hakenman.debug:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon archiveasia.jp.co.hakenman.debug:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd archiveasia.jp.co.hakenman.debug:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions archiveasia.jp.co.hakenman.debug:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft archiveasia.jp.co.hakenman.debug:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight archiveasia.jp.co.hakenman.debug:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart archiveasia.jp.co.hakenman.debug:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation archiveasia.jp.co.hakenman.debug:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo archiveasia.jp.co.hakenman.debug:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription archiveasia.jp.co.hakenman.debug:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight archiveasia.jp.co.hakenman.debug:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription archiveasia.jp.co.hakenman.debug:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon archiveasia.jp.co.hakenman.debug:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme archiveasia.jp.co.hakenman.debug:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle archiveasia.jp.co.hakenman.debug:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance archiveasia.jp.co.hakenman.debug:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor archiveasia.jp.co.hakenman.debug:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title archiveasia.jp.co.hakenman.debug:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin archiveasia.jp.co.hakenman.debug:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom archiveasia.jp.co.hakenman.debug:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd archiveasia.jp.co.hakenman.debug:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart archiveasia.jp.co.hakenman.debug:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop archiveasia.jp.co.hakenman.debug:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins archiveasia.jp.co.hakenman.debug:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance archiveasia.jp.co.hakenman.debug:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor archiveasia.jp.co.hakenman.debug:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity archiveasia.jp.co.hakenman:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription archiveasia.jp.co.hakenman:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon archiveasia.jp.co.hakenman:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd archiveasia.jp.co.hakenman:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions archiveasia.jp.co.hakenman:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft archiveasia.jp.co.hakenman:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight archiveasia.jp.co.hakenman:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart archiveasia.jp.co.hakenman:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation archiveasia.jp.co.hakenman:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo archiveasia.jp.co.hakenman:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription archiveasia.jp.co.hakenman:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight archiveasia.jp.co.hakenman:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription archiveasia.jp.co.hakenman:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon archiveasia.jp.co.hakenman:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme archiveasia.jp.co.hakenman:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle archiveasia.jp.co.hakenman:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance archiveasia.jp.co.hakenman:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor archiveasia.jp.co.hakenman:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title archiveasia.jp.co.hakenman:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin archiveasia.jp.co.hakenman:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom archiveasia.jp.co.hakenman:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd archiveasia.jp.co.hakenman:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart archiveasia.jp.co.hakenman:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop archiveasia.jp.co.hakenman:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins archiveasia.jp.co.hakenman:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance archiveasia.jp.co.hakenman:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor archiveasia.jp.co.hakenman:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -18513,14 +18899,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-        0x010100af, 0x01010140, 0x7f030053, 0x7f030082, 
-        0x7f030083, 0x7f030097, 0x7f030098, 0x7f030099, 
-        0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03015c, 
-        0x7f03015d, 0x7f030161, 0x7f030167, 0x7f030168, 
-        0x7f03017a, 0x7f0301af, 0x7f0301b0, 0x7f0301b1, 
-        0x7f0301f7, 0x7f0301f9, 0x7f0301fa, 0x7f0301fb, 
-        0x7f0301fc, 0x7f0301fd, 0x7f0301fe, 0x7f0301ff, 
-        0x7f030200
+        0x010100af, 0x01010140, 0x7f030053, 0x7f030084, 
+        0x7f030085, 0x7f03009a, 0x7f03009b, 0x7f03009c, 
+        0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f030161, 
+        0x7f030162, 0x7f030166, 0x7f03016c, 0x7f03016d, 
+        0x7f03017f, 0x7f0301b5, 0x7f0301b6, 0x7f0301b7, 
+        0x7f0301fd, 0x7f0301ff, 0x7f030200, 0x7f030201, 
+        0x7f030202, 0x7f030203, 0x7f030204, 0x7f030205, 
+        0x7f030206
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -18565,7 +18951,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -18578,21 +18964,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:buttonGravity
+     * @attr name archiveasia.jp.co.hakenman:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:collapseContentDescription
+     * @attr name archiveasia.jp.co.hakenman:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18600,11 +18986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:collapseIcon
+     * @attr name archiveasia.jp.co.hakenman:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18613,11 +18999,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetEnd
+     * @attr name archiveasia.jp.co.hakenman:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18626,11 +19012,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetEndWithActions
+     * @attr name archiveasia.jp.co.hakenman:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18639,11 +19025,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetLeft
+     * @attr name archiveasia.jp.co.hakenman:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18652,11 +19038,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetRight
+     * @attr name archiveasia.jp.co.hakenman:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18665,11 +19051,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetStart
+     * @attr name archiveasia.jp.co.hakenman:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18678,11 +19064,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:contentInsetStartWithNavigation
+     * @attr name archiveasia.jp.co.hakenman:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#logo}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18690,21 +19076,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:logo
+     * @attr name archiveasia.jp.co.hakenman:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:logoDescription
+     * @attr name archiveasia.jp.co.hakenman:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18713,21 +19099,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:maxButtonHeight
+     * @attr name archiveasia.jp.co.hakenman:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:navigationContentDescription
+     * @attr name archiveasia.jp.co.hakenman:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18735,11 +19121,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:navigationIcon
+     * @attr name archiveasia.jp.co.hakenman:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18747,21 +19133,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:popupTheme
+     * @attr name archiveasia.jp.co.hakenman:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitle
+     * @attr name archiveasia.jp.co.hakenman:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18769,32 +19155,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitleTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:subtitleTextColor
+     * @attr name archiveasia.jp.co.hakenman:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#title}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:title
+     * @attr name archiveasia.jp.co.hakenman:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18803,11 +19189,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMargin
+     * @attr name archiveasia.jp.co.hakenman:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18816,11 +19202,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMarginBottom
+     * @attr name archiveasia.jp.co.hakenman:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18829,11 +19215,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMarginEnd
+     * @attr name archiveasia.jp.co.hakenman:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18842,11 +19228,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMarginStart
+     * @attr name archiveasia.jp.co.hakenman:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18855,11 +19241,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMarginTop
+     * @attr name archiveasia.jp.co.hakenman:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18868,11 +19254,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleMargins
+     * @attr name archiveasia.jp.co.hakenman:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18880,18 +19266,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleTextAppearance
+     * @attr name archiveasia.jp.co.hakenman:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:titleTextColor
+     * @attr name archiveasia.jp.co.hakenman:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -18903,9 +19289,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd archiveasia.jp.co.hakenman.debug:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart archiveasia.jp.co.hakenman.debug:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme archiveasia.jp.co.hakenman.debug:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd archiveasia.jp.co.hakenman:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart archiveasia.jp.co.hakenman:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme archiveasia.jp.co.hakenman:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -18914,8 +19300,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f03016e, 0x7f03016f, 
-        0x7f0301ed
+        0x01010000, 0x010100da, 0x7f030173, 0x7f030174, 
+        0x7f0301f3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -18948,7 +19334,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18957,11 +19343,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:paddingEnd
+     * @attr name archiveasia.jp.co.hakenman:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18970,11 +19356,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:paddingStart
+     * @attr name archiveasia.jp.co.hakenman:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#theme}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18982,7 +19368,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:theme
+     * @attr name archiveasia.jp.co.hakenman:theme
      */
     public static final int View_theme=4;
     /**
@@ -18993,8 +19379,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint archiveasia.jp.co.hakenman.debug:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode archiveasia.jp.co.hakenman.debug:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint archiveasia.jp.co.hakenman:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode archiveasia.jp.co.hakenman:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -19019,18 +19405,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTint
+     * @attr name archiveasia.jp.co.hakenman:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.debug.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link archiveasia.jp.co.hakenman.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19047,7 +19433,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name archiveasia.jp.co.hakenman.debug:backgroundTintMode
+     * @attr name archiveasia.jp.co.hakenman:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

@@ -1,4 +1,4 @@
-#Mon Sep 10 21:47:04 JST 2018
+#Mon Sep 10 22:41:10 JST 2018
 base.0=/Users/jeonsangjun/Documents/Hakenman_Android/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex
