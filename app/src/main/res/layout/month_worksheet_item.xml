@@ -38,7 +38,7 @@
         android:background="@drawable/worksheet_border_line"/>
 
     <TextView
-        android:id="@+id/startWork_textView"
+        android:id="@+id/beginWork_textView"
         android:layout_width="@dimen/zero_width"
         android:layout_height="match_parent"
         android:layout_weight="3"

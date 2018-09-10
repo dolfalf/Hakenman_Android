@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.TextView
 import archiveasia.jp.co.hakenman.Extension.hourMinuteToDouble
 import archiveasia.jp.co.hakenman.Model.DetailWork
 import archiveasia.jp.co.hakenman.R
@@ -19,40 +20,48 @@ class WorksheetAdapter(private val context: Context,
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
-        val rowView = inflater.inflate(R.layout.month_worksheet_item, parent, false)
         val detailWork = getItem(position) as DetailWork
 
-        val dayTextView = rowView.day_textView
-        dayTextView.text = detailWork.workDay.toString()
-        val weekTextView = rowView.week_textView
-        weekTextView.text = detailWork.workWeek
-        val workFlagTextView = rowView.workFlag_textView
-        workFlagTextView.text =  if (detailWork.workFlag == true) "O" else "X"
+        val view: View
+        val holder: ViewHolder
 
-        val startWorkTextView = rowView.startWork_textView
+        if (convertView == null) {
+            view = inflater.inflate(R.layout.month_worksheet_item, parent, false)
+
+            holder = ViewHolder()
+            holder.dayTextView = view.day_textView
+            holder.weekTextView = view.week_textView
+            holder.workFlagTextView = view.workFlag_textView
+            holder.beginWorkTextView = view.beginWork_textView
+            holder.endWorkTextView = view.endWork_textView
+            holder.breakTimeTextView = view.breakTime_textView
+            holder.workTimeTextView = view.workTime_textView
+            holder.noteTextView = view.note_textView
+
+            view.tag = holder
+        } else {
+            view = convertView
+            holder = convertView.tag as ViewHolder
+        }
+
+        holder.dayTextView.text = detailWork.workDay.toString()
+        holder.weekTextView.text = detailWork.workWeek
+        holder.workFlagTextView.text = if (detailWork.workFlag == true) "O" else "X"
         if (detailWork.beginTime != null) {
-            startWorkTextView.text = SimpleDateFormat("HH:mm").format(detailWork.beginTime)
+            holder.beginWorkTextView.text = SimpleDateFormat("HH:mm").format(detailWork.beginTime)
         }
-
-        val endWorkTextView = rowView.endWork_textView
         if (detailWork.endTime != null) {
-            endWorkTextView.text = SimpleDateFormat("HH:mm").format(detailWork.endTime)
+            holder.endWorkTextView.text = SimpleDateFormat("HH:mm").format(detailWork.endTime)
         }
-
-        val breakTimeTextView = rowView.breakTime_textView
         if (detailWork.breakTime != null) {
-            breakTimeTextView.text = detailWork.breakTime!!.hourMinuteToDouble().toString()
+            holder.breakTimeTextView.text = detailWork.breakTime!!.hourMinuteToDouble().toString()
         }
-
-        val workTimeTextView = rowView.workTime_textView
         if (detailWork.duration != null) {
-            workTimeTextView.text = detailWork.duration.toString()
+            holder.workTimeTextView.text = detailWork.duration.toString()
         }
+        holder.noteTextView.text = detailWork.note
 
-        val noteTextView = rowView.note_textView
-        noteTextView.text = detailWork.note
-
-        return rowView
+        return view
     }
 
     override fun getItem(position: Int): Any {
@@ -65,5 +74,16 @@ class WorksheetAdapter(private val context: Context,
 
     override fun getCount(): Int {
         return detailWorkList.size
+    }
+
+    private class ViewHolder {
+        lateinit var dayTextView: TextView
+        lateinit var weekTextView: TextView
+        lateinit var workFlagTextView: TextView
+        lateinit var beginWorkTextView: TextView
+        lateinit var endWorkTextView: TextView
+        lateinit var breakTimeTextView: TextView
+        lateinit var workTimeTextView: TextView
+        lateinit var noteTextView: TextView
     }
 }
